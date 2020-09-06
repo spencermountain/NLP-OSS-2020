@@ -3,13 +3,14 @@
   let cols = 22
   let content = [
     '',
-    ' in west philidelphia',
+    ' in west philadelphia',
     ' born and raised,',
     ' on the playground',
     ' is where I spent',
     ' most of my days.'
   ]
   content = content.map(str => str.split(''))
+  let letters = 'abcdefghijklmnopqrstuv'.split('')
 </script>
 
 <style>
@@ -24,25 +25,30 @@
     align-content: center;
     align-items: center;
     justify-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
   }
   .cell {
     box-sizing: border-box;
-    border: 1px solid grey;
+    border: 1px solid #d7d5d2;
     width: 50px;
     height: 40px;
-    /* border-radius: 2px; */
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
-    color: #333333;
+    color: #443d3d;
+    line-height: 40px;
     /* font-family: monospace; */
   }
   .top {
     background-color: lightsteelblue;
+    line-height: 20px;
     height: 20px;
+    color: #abb0b3;
+    font-size: 12px;
   }
   .num {
     background-color: lightsteelblue;
-    /* width: 40px; */
+    color: #abb0b3;
     font-size: 12px;
   }
 </style>
@@ -52,7 +58,7 @@
     <!-- top row -->
     <div class="cell num top" />
     {#each Array(cols) as _2, i2}
-      <div class="cell top" />
+      <div class="cell top">{letters[i2] || ''}</div>
     {/each}
 
     {#each Array(rows) as _, i}

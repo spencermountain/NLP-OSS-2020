@@ -6,7 +6,8 @@
   // import Cmp from './00.intro/Resolution-2.svelte'
   // import Cmp from './00.intro/Concepts.svelte'
   // import Cmp from './02.word-wrap/Spreadsheet.svelte'
-  import Cmp from './01.keyboards/Punctuation.2.svelte'
+  import Cmp from './02.word-wrap/Wrap.1.svelte'
+  // import Cmp from './01.keyboards/Punctuation.2.svelte'
   // import Cmp from './01.keyboards/Typewriter.2.svelte'
   let i = 0
 
@@ -28,12 +29,12 @@
     if (e.keyCode === 32 || e.keyCode === 39 || e.keyCode === 40) {
       i += 1
       showPage()
-      e.preventDefault()
+      // e.preventDefault()
     }
     if (e.keyCode === 37 || e.keyCode === 38) {
       i -= 1
       showPage()
-      e.preventDefault()
+      // e.preventDefault()
     }
     return false
   }

@@ -1,0 +1,37 @@
+<script>
+  import { onMount } from 'svelte'
+  export let value = ''
+  let el
+
+  onMount(() => {
+    el.focus()
+  })
+</script>
+
+<style>
+  .input {
+    font-family: 'avenir next', avenir, sans-serif;
+    display: block;
+    padding: 2rem 3rem 2rem 3rem;
+    margin: 0.3em 0.6em 0.3rem 5px;
+    width: 60%;
+    max-width: 50rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    outline: 0;
+    border: 0;
+    border-radius: 0.4rem;
+    font-style: normal;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 100ms;
+    color: #c4cad5;
+    resize: none;
+    border-bottom: 2px solid transparent;
+    border-left: 4px solid lightgrey;
+    color: #577c97;
+    box-shadow: 2px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid lightsteelblue;
+  }
+</style>
+
+<textarea class="input" spellcheck="false" type="text" {value} bind:this={el} />
