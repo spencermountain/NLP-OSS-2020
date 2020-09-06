@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "watch": "snowpack dev",
+    "build": "snowpack build",
+    "test": ""
+  },
+  "dependencies": {
+    "svelte": "^3.24.0"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "^1.8.4",
+    "snowpack": "^2.10.0",
+    "svelte-check": "^1.0.0"
+  }
+}

@@ -1,0 +1,32 @@
+html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px auto;
+  margin-top: 1.2rem;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: #4d4d4d;
+  background-color: #fbfbfb;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 1280px;
+  min-height: 720px;
+  margin: 20px;
+  border: 1px solid grey;
+}
