@@ -2,10 +2,10 @@
   import { setContext } from 'svelte'
   setContext('size', { width: 1280, height: 720 })
   // let Cmp = null
-  // import Cmp from './01.keyboards/Desks.svelte'
   // import Cmp from './00.intro/Resolution-1.svelte'
   // import Cmp from './00.intro/Resolution-2.svelte'
-  import Cmp from './00.intro/Concepts.svelte'
+  // import Cmp from './00.intro/Concepts.svelte'
+  import Cmp from './02.word-wrap/Spreadsheet.svelte'
   let i = 0
 
   const pages = [
