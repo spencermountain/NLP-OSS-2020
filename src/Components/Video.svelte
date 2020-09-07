@@ -37,10 +37,10 @@
   }
 </style>
 
-<div class="box ">
-  <div class="caption">
-    <div class="title">{title}</div>
-    <div class="sub">{sub}</div>
-  </div>
-  <video style="margin-bottom:0px; " {src} autoplay mute loop />
+<div class="caption">
+  <div class="title">{title}</div>
+  <div class="sub">{sub}</div>
 </div>
+<video style="margin-bottom:0px; " {src} autoplay mute>
+  <track kind="captions" />
+</video>

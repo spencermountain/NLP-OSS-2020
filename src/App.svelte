@@ -1,43 +1,25 @@
 <script>
   import { setContext } from 'svelte'
   setContext('size', { width: 1280, height: 720 })
-  // let Cmp = null
-  // import Cmp from './00.intro/Resolution-1.svelte'
-  // import Cmp from './00.intro/Resolution-2.svelte'
-  // import Cmp from './00.intro/Concepts.svelte'
-  // import Cmp from './01.keyboards/Punctuation.2.svelte'
-  // import Cmp from './01.keyboards/Typewriter.2.svelte'
-  // import Cmp from './02.word-wrap/Spreadsheet.svelte'
-  // import Cmp from './02.word-wrap/Wrap.1.svelte'
-  import Cmp from './03.refactoring/Timeline.svelte'
+  import Intro from './00.intro/index.svelte'
+  import Keyboards from './01.keyboards/index.svelte'
+  import Wrapping from './02.word-wrap/index.svelte'
+
   let i = 0
+  let steps = [Intro, Keyboards, Wrapping]
 
-  const pages = [
-    './00.intro/Resolution-1.svelte',
-    './00.intro/Resolution-2.svelte',
-    './01.keyboards/Desks.svelte'
-  ]
-
-  const showPage = function() {
-    import(pages[i]).then(res => {
-      console.log(res)
-      // Cmp = res
-    })
-  }
-
-  const nextPage = function(e) {
-    console.log(e.keyCode)
-    if (e.keyCode === 32 || e.keyCode === 39 || e.keyCode === 40) {
-      i += 1
-      showPage()
-      // e.preventDefault()
-    }
-    if (e.keyCode === 37 || e.keyCode === 38) {
+  function prev() {
+    if (i > 0) {
       i -= 1
-      showPage()
-      // e.preventDefault()
     }
-    return false
+    console.log('prev', i)
+  }
+  function done() {
+    if (steps[i + 1]) {
+      i += 1
+    } else {
+      console.log('done')
+    }
   }
 </script>
 
@@ -45,6 +27,4 @@
 
 </style>
 
-<svelte:window on:keydown={nextPage} />
-
-<Cmp />
+<svelte:component this={steps[i]} {done} {prev} />
