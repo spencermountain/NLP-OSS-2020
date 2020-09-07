@@ -4,9 +4,10 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
+  import Question from './Question.svelte'
+  import OscarsTalk from './OscarsTalk.svelte'
   import Desks from './Desks.svelte'
   import NowCLI from './NowCLI.svelte'
-  import OscarsTalk from './OscarsTalk.svelte'
   import ISSKeyboard from './ISSKeyboard.svelte'
   import Typewriter1 from './Typewriter.1.svelte'
   import Typewriter2 from './Typewriter.2.svelte'
@@ -14,10 +15,11 @@
   import Punctuation2 from './Punctuation.2.svelte'
 
   let steps = [
+    Question,
+    OscarsTalk,
     Desks,
     ISSKeyboard,
     NowCLI,
-    OscarsTalk,
     Typewriter1,
     Typewriter2,
     Punctuation1,
