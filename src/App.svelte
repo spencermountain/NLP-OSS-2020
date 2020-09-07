@@ -31,5 +31,5 @@
 <style>
 </style>
 
-<div>chapter: {i}</div>
+<div>part: {i}</div>
 <svelte:component this={steps[i]} {done} {prev} {doEnd} />

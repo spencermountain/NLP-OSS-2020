@@ -10,3 +10,8 @@
 <div class="box">
   <Image {...image} />
 </div>
+
+<div class="notes">
+  <li>hello</li>
+  <li>hello there too</li>
+</div>

@@ -38,5 +38,4 @@
 </style>
 
 <svelte:window on:keydown={spaceBar} />
-<div>intro: {i}</div>
 <svelte:component this={steps[i]} />

@@ -2,8 +2,10 @@
 </script>
 
 <style>
-  .main {
+  .dark {
     background-color: #333333;
+  }
+  .main {
     color: #fbfbfb;
     font-size: 45px;
     width: 100%;
@@ -16,7 +18,7 @@
   }
 </style>
 
-<div class="box">
+<div class="box dark">
   <div class="main">
     <div class="todo">◻️ - go to germany</div>
     <div class="todo">◻️ - start swimming at the Ymca</div>

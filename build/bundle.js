@@ -696,8 +696,13 @@ var app = (function () {
     const file$1 = "src/00.intro/Splash-page.svelte";
 
     function create_fragment$1(ctx) {
-    	let div;
+    	let div0;
     	let image_1;
+    	let t0;
+    	let div1;
+    	let li0;
+    	let t2;
+    	let li1;
     	let current;
     	const image_1_spread_levels = [/*image*/ ctx[0]];
     	let image_1_props = {};
@@ -710,17 +715,33 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div = element("div");
+    			div0 = element("div");
     			create_component(image_1.$$.fragment);
-    			attr_dev(div, "class", "box");
-    			add_location(div, file$1, 9, 0, 181);
+    			t0 = space();
+    			div1 = element("div");
+    			li0 = element("li");
+    			li0.textContent = "hello";
+    			t2 = space();
+    			li1 = element("li");
+    			li1.textContent = "hello there too";
+    			attr_dev(div0, "class", "box");
+    			add_location(div0, file$1, 9, 0, 181);
+    			add_location(li0, file$1, 14, 2, 252);
+    			add_location(li1, file$1, 15, 2, 269);
+    			attr_dev(div1, "class", "notes");
+    			add_location(div1, file$1, 13, 0, 230);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			mount_component(image_1, div, null);
+    			insert_dev(target, div0, anchor);
+    			mount_component(image_1, div0, null);
+    			insert_dev(target, t0, anchor);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, li0);
+    			append_dev(div1, t2);
+    			append_dev(div1, li1);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
@@ -740,8 +761,10 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div0);
     			destroy_component(image_1);
+    			if (detaching) detach_dev(t0);
+    			if (detaching) detach_dev(div1);
     		}
     	};
 
@@ -838,22 +861,22 @@ var app = (function () {
     			t9 = space();
     			div5 = element("div");
     			div5.textContent = "◻️ - go to Toronto symphony";
-    			attr_dev(div0, "class", "todo svelte-5a3uy9");
-    			add_location(div0, file$2, 20, 4, 303);
-    			attr_dev(div1, "class", "todo svelte-5a3uy9");
-    			add_location(div1, file$2, 21, 4, 350);
-    			attr_dev(div2, "class", "todo svelte-5a3uy9");
-    			add_location(div2, file$2, 22, 4, 410);
-    			attr_dev(div3, "class", "todo svelte-5a3uy9");
-    			add_location(div3, file$2, 23, 4, 477);
-    			attr_dev(div4, "class", "todo svelte-5a3uy9");
-    			add_location(div4, file$2, 24, 4, 537);
-    			attr_dev(div5, "class", "todo svelte-5a3uy9");
-    			add_location(div5, file$2, 25, 4, 585);
-    			attr_dev(div6, "class", "main svelte-5a3uy9");
-    			add_location(div6, file$2, 19, 2, 280);
-    			attr_dev(div7, "class", "box");
-    			add_location(div7, file$2, 18, 0, 260);
+    			attr_dev(div0, "class", "todo svelte-tvmeqn");
+    			add_location(div0, file$2, 22, 4, 322);
+    			attr_dev(div1, "class", "todo svelte-tvmeqn");
+    			add_location(div1, file$2, 23, 4, 369);
+    			attr_dev(div2, "class", "todo svelte-tvmeqn");
+    			add_location(div2, file$2, 24, 4, 429);
+    			attr_dev(div3, "class", "todo svelte-tvmeqn");
+    			add_location(div3, file$2, 25, 4, 496);
+    			attr_dev(div4, "class", "todo svelte-tvmeqn");
+    			add_location(div4, file$2, 26, 4, 556);
+    			attr_dev(div5, "class", "todo svelte-tvmeqn");
+    			add_location(div5, file$2, 27, 4, 604);
+    			attr_dev(div6, "class", "main svelte-tvmeqn");
+    			add_location(div6, file$2, 21, 2, 299);
+    			attr_dev(div7, "class", "box dark svelte-tvmeqn");
+    			add_location(div7, file$2, 20, 0, 274);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -923,6 +946,7 @@ var app = (function () {
     const file$3 = "src/00.intro/Resolution-2.svelte";
 
     function create_fragment$3(ctx) {
+    	let div7;
     	let div6;
     	let div0;
     	let t1;
@@ -938,6 +962,7 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
+    			div7 = element("div");
     			div6 = element("div");
     			div0 = element("div");
     			div0.textContent = "◻️ - go to germany";
@@ -956,26 +981,29 @@ var app = (function () {
     			t9 = space();
     			div5 = element("div");
     			div5.textContent = "◻️ - go to Toronto symphony";
-    			attr_dev(div0, "class", "todo nope svelte-badyux");
-    			add_location(div0, file$3, 25, 2, 384);
-    			attr_dev(div1, "class", "todo nope svelte-badyux");
-    			add_location(div1, file$3, 26, 2, 434);
-    			attr_dev(div2, "class", "todo nope svelte-badyux");
-    			add_location(div2, file$3, 27, 2, 497);
-    			attr_dev(div3, "class", "todo svelte-badyux");
-    			add_location(div3, file$3, 28, 2, 567);
-    			attr_dev(div4, "class", "todo nope svelte-badyux");
-    			add_location(div4, file$3, 29, 2, 625);
-    			attr_dev(div5, "class", "todo nope svelte-badyux");
-    			add_location(div5, file$3, 30, 2, 676);
-    			attr_dev(div6, "class", "box main svelte-badyux");
-    			add_location(div6, file$3, 24, 0, 359);
+    			attr_dev(div0, "class", "todo nope svelte-1opvdga");
+    			add_location(div0, file$3, 27, 4, 413);
+    			attr_dev(div1, "class", "todo nope svelte-1opvdga");
+    			add_location(div1, file$3, 28, 4, 465);
+    			attr_dev(div2, "class", "todo nope svelte-1opvdga");
+    			add_location(div2, file$3, 29, 4, 530);
+    			attr_dev(div3, "class", "todo svelte-1opvdga");
+    			add_location(div3, file$3, 30, 4, 602);
+    			attr_dev(div4, "class", "todo nope svelte-1opvdga");
+    			add_location(div4, file$3, 31, 4, 662);
+    			attr_dev(div5, "class", "todo nope svelte-1opvdga");
+    			add_location(div5, file$3, 32, 4, 715);
+    			attr_dev(div6, "class", "main svelte-1opvdga");
+    			add_location(div6, file$3, 26, 2, 390);
+    			attr_dev(div7, "class", "box dark svelte-1opvdga");
+    			add_location(div7, file$3, 25, 0, 365);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div6, anchor);
+    			insert_dev(target, div7, anchor);
+    			append_dev(div7, div6);
     			append_dev(div6, div0);
     			append_dev(div6, t1);
     			append_dev(div6, div1);
@@ -992,7 +1020,7 @@ var app = (function () {
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div6);
+    			if (detaching) detach_dev(div7);
     		}
     	};
 
@@ -1247,11 +1275,8 @@ var app = (function () {
     }
 
     const wait = async function (time = 1.2, fn) {
-      console.log('set wait');
-      console.log('set wait');
       return new Promise((resolve) =>
         setTimeout(() => {
-          console.log('resolved');
           fn();
           resolve();
         }, time * 1000)
@@ -1726,13 +1751,8 @@ var app = (function () {
     }
 
     /* src/00.intro/index.svelte generated by Svelte v3.24.1 */
-    const file$9 = "src/00.intro/index.svelte";
 
     function create_fragment$9(ctx) {
-    	let div;
-    	let t0;
-    	let t1;
-    	let t2;
     	let switch_instance;
     	let switch_instance_anchor;
     	let current;
@@ -1750,23 +1770,13 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			t0 = text("intro: ");
-    			t1 = text(/*i*/ ctx[0]);
-    			t2 = space();
     			if (switch_instance) create_component(switch_instance.$$.fragment);
     			switch_instance_anchor = empty();
-    			add_location(div, file$9, 40, 0, 876);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, t0);
-    			append_dev(div, t1);
-    			insert_dev(target, t2, anchor);
-
     			if (switch_instance) {
     				mount_component(switch_instance, target, anchor);
     			}
@@ -1780,8 +1790,6 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (!current || dirty & /*i*/ 1) set_data_dev(t1, /*i*/ ctx[0]);
-
     			if (switch_value !== (switch_value = /*steps*/ ctx[1][/*i*/ ctx[0]])) {
     				if (switch_instance) {
     					group_outros();
@@ -1814,8 +1822,6 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
-    			if (detaching) detach_dev(t2);
     			if (detaching) detach_dev(switch_instance_anchor);
     			if (switch_instance) destroy_component(switch_instance, detaching);
     			mounted = false;
@@ -1947,29 +1953,118 @@ var app = (function () {
 
     /* src/01.keyboards/Desks.svelte generated by Svelte v3.24.1 */
 
-    const file$a = "src/01.keyboards/Desks.svelte";
+    const file$9 = "src/01.keyboards/Desks.svelte";
 
     function create_fragment$a(ctx) {
-    	let div;
+    	let div2;
+    	let div0;
+    	let img0;
+    	let img0_src_value;
+    	let t0;
+    	let img1;
+    	let img1_src_value;
+    	let t1;
+    	let img2;
+    	let img2_src_value;
+    	let t2;
+    	let div1;
+    	let img3;
+    	let img3_src_value;
+    	let t3;
+    	let img4;
+    	let img4_src_value;
+    	let t4;
+    	let img5;
+    	let img5_src_value;
+    	let t5;
+    	let div3;
+    	let li0;
+    	let t7;
+    	let li1;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			div.textContent = "desks here";
-    			attr_dev(div, "class", "box");
-    			add_location(div, file$a, 8, 0, 40);
+    			div2 = element("div");
+    			div0 = element("div");
+    			img0 = element("img");
+    			t0 = space();
+    			img1 = element("img");
+    			t1 = space();
+    			img2 = element("img");
+    			t2 = space();
+    			div1 = element("div");
+    			img3 = element("img");
+    			t3 = space();
+    			img4 = element("img");
+    			t4 = space();
+    			img5 = element("img");
+    			t5 = space();
+    			div3 = element("div");
+    			li0 = element("li");
+    			li0.textContent = "mjackson 2019";
+    			t7 = space();
+    			li1 = element("li");
+    			li1.textContent = "most important developers";
+    			if (img0.src !== (img0_src_value = "./src/01.keyboards/assets/desks/one.png")) attr_dev(img0, "src", img0_src_value);
+    			attr_dev(img0, "alt", "");
+    			add_location(img0, file$9, 8, 4, 80);
+    			if (img1.src !== (img1_src_value = "./src/01.keyboards/assets/desks/two.png")) attr_dev(img1, "src", img1_src_value);
+    			attr_dev(img1, "alt", "");
+    			add_location(img1, file$9, 9, 4, 145);
+    			if (img2.src !== (img2_src_value = "./src/01.keyboards/assets/desks/three.png")) attr_dev(img2, "src", img2_src_value);
+    			attr_dev(img2, "alt", "");
+    			add_location(img2, file$9, 10, 4, 210);
+    			attr_dev(div0, "class", "row");
+    			add_location(div0, file$9, 7, 2, 58);
+    			if (img3.src !== (img3_src_value = "./src/01.keyboards/assets/desks/four.png")) attr_dev(img3, "src", img3_src_value);
+    			attr_dev(img3, "alt", "");
+    			add_location(img3, file$9, 13, 4, 306);
+    			if (img4.src !== (img4_src_value = "./src/01.keyboards/assets/desks/five.png")) attr_dev(img4, "src", img4_src_value);
+    			attr_dev(img4, "alt", "");
+    			add_location(img4, file$9, 14, 4, 372);
+    			if (img5.src !== (img5_src_value = "./src/01.keyboards/assets/desks/six.png")) attr_dev(img5, "src", img5_src_value);
+    			attr_dev(img5, "alt", "");
+    			add_location(img5, file$9, 15, 4, 438);
+    			attr_dev(div1, "class", "row");
+    			add_location(div1, file$9, 12, 2, 284);
+    			attr_dev(div2, "class", "box");
+    			add_location(div2, file$9, 6, 0, 38);
+    			add_location(li0, file$9, 20, 2, 538);
+    			add_location(li1, file$9, 21, 2, 563);
+    			attr_dev(div3, "class", "notes");
+    			add_location(div3, file$9, 19, 0, 516);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
+    			insert_dev(target, div2, anchor);
+    			append_dev(div2, div0);
+    			append_dev(div0, img0);
+    			append_dev(div0, t0);
+    			append_dev(div0, img1);
+    			append_dev(div0, t1);
+    			append_dev(div0, img2);
+    			append_dev(div2, t2);
+    			append_dev(div2, div1);
+    			append_dev(div1, img3);
+    			append_dev(div1, t3);
+    			append_dev(div1, img4);
+    			append_dev(div1, t4);
+    			append_dev(div1, img5);
+    			insert_dev(target, t5, anchor);
+    			insert_dev(target, div3, anchor);
+    			append_dev(div3, li0);
+    			append_dev(div3, t7);
+    			append_dev(div3, li1);
     		},
     		p: noop,
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div2);
+    			if (detaching) detach_dev(t5);
+    			if (detaching) detach_dev(div3);
     		}
     	};
 
@@ -2011,7 +2106,7 @@ var app = (function () {
     }
 
     /* src/01.keyboards/NowCLI.svelte generated by Svelte v3.24.1 */
-    const file$b = "src/01.keyboards/NowCLI.svelte";
+    const file$a = "src/01.keyboards/NowCLI.svelte";
 
     function create_fragment$b(ctx) {
     	let div;
@@ -2031,7 +2126,7 @@ var app = (function () {
     			div = element("div");
     			create_component(video_1.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$b, 13, 0, 250);
+    			add_location(div, file$a, 13, 0, 250);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2117,7 +2212,7 @@ var app = (function () {
     }
 
     /* src/01.keyboards/OscarsTalk.svelte generated by Svelte v3.24.1 */
-    const file$c = "src/01.keyboards/OscarsTalk.svelte";
+    const file$b = "src/01.keyboards/OscarsTalk.svelte";
 
     function create_fragment$c(ctx) {
     	let div;
@@ -2137,7 +2232,7 @@ var app = (function () {
     			div = element("div");
     			create_component(video_1.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$c, 14, 0, 277);
+    			add_location(div, file$b, 14, 0, 277);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2224,7 +2319,7 @@ var app = (function () {
     }
 
     /* src/01.keyboards/ISSKeyboard.svelte generated by Svelte v3.24.1 */
-    const file$d = "src/01.keyboards/ISSKeyboard.svelte";
+    const file$c = "src/01.keyboards/ISSKeyboard.svelte";
 
     function create_fragment$d(ctx) {
     	let div;
@@ -2244,7 +2339,7 @@ var app = (function () {
     			div = element("div");
     			create_component(image_1.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$d, 13, 0, 228);
+    			add_location(div, file$c, 13, 0, 228);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2331,7 +2426,7 @@ var app = (function () {
 
     /* src/01.keyboards/Typewriter.1.svelte generated by Svelte v3.24.1 */
 
-    const file$e = "src/01.keyboards/Typewriter.1.svelte";
+    const file$d = "src/01.keyboards/Typewriter.1.svelte";
 
     function create_fragment$e(ctx) {
     	let div66;
@@ -2650,152 +2745,152 @@ var app = (function () {
     			div63.textContent = "⌃";
     			attr_dev(div0, "class", "key svelte-1uh5q9t");
     			set_style(div0, "max-width", "30px");
-    			add_location(div0, file$e, 43, 6, 798);
+    			add_location(div0, file$d, 43, 6, 798);
     			attr_dev(div1, "class", "key svelte-1uh5q9t");
-    			add_location(div1, file$e, 44, 6, 853);
+    			add_location(div1, file$d, 44, 6, 853);
     			attr_dev(div2, "class", "key svelte-1uh5q9t");
-    			add_location(div2, file$e, 45, 6, 884);
+    			add_location(div2, file$d, 45, 6, 884);
     			attr_dev(div3, "class", "key svelte-1uh5q9t");
-    			add_location(div3, file$e, 46, 6, 915);
+    			add_location(div3, file$d, 46, 6, 915);
     			attr_dev(div4, "class", "key svelte-1uh5q9t");
-    			add_location(div4, file$e, 47, 6, 946);
+    			add_location(div4, file$d, 47, 6, 946);
     			attr_dev(div5, "class", "key svelte-1uh5q9t");
-    			add_location(div5, file$e, 48, 6, 977);
+    			add_location(div5, file$d, 48, 6, 977);
     			attr_dev(div6, "class", "key svelte-1uh5q9t");
-    			add_location(div6, file$e, 49, 6, 1008);
+    			add_location(div6, file$d, 49, 6, 1008);
     			attr_dev(div7, "class", "key svelte-1uh5q9t");
-    			add_location(div7, file$e, 50, 6, 1039);
+    			add_location(div7, file$d, 50, 6, 1039);
     			attr_dev(div8, "class", "key svelte-1uh5q9t");
-    			add_location(div8, file$e, 51, 6, 1070);
+    			add_location(div8, file$d, 51, 6, 1070);
     			attr_dev(div9, "class", "key svelte-1uh5q9t");
-    			add_location(div9, file$e, 52, 6, 1101);
+    			add_location(div9, file$d, 52, 6, 1101);
     			attr_dev(div10, "class", "key svelte-1uh5q9t");
-    			add_location(div10, file$e, 53, 6, 1132);
+    			add_location(div10, file$d, 53, 6, 1132);
     			attr_dev(div11, "class", "key svelte-1uh5q9t");
-    			add_location(div11, file$e, 54, 6, 1163);
+    			add_location(div11, file$d, 54, 6, 1163);
     			attr_dev(div12, "class", "key svelte-1uh5q9t");
-    			add_location(div12, file$e, 55, 6, 1194);
+    			add_location(div12, file$d, 55, 6, 1194);
     			attr_dev(div13, "class", "key svelte-1uh5q9t");
     			set_style(div13, "width", "70px");
-    			add_location(div13, file$e, 56, 6, 1225);
+    			add_location(div13, file$d, 56, 6, 1225);
     			attr_dev(div14, "class", "row svelte-1uh5q9t");
-    			add_location(div14, file$e, 42, 4, 774);
+    			add_location(div14, file$d, 42, 4, 774);
     			attr_dev(div15, "class", "key red svelte-1uh5q9t");
     			set_style(div15, "width", "50px");
-    			add_location(div15, file$e, 59, 6, 1308);
+    			add_location(div15, file$d, 59, 6, 1308);
     			attr_dev(div16, "class", "key svelte-1uh5q9t");
-    			add_location(div16, file$e, 60, 6, 1364);
+    			add_location(div16, file$d, 60, 6, 1364);
     			attr_dev(div17, "class", "key svelte-1uh5q9t");
-    			add_location(div17, file$e, 61, 6, 1395);
+    			add_location(div17, file$d, 61, 6, 1395);
     			attr_dev(div18, "class", "key svelte-1uh5q9t");
-    			add_location(div18, file$e, 62, 6, 1426);
+    			add_location(div18, file$d, 62, 6, 1426);
     			attr_dev(div19, "class", "key svelte-1uh5q9t");
-    			add_location(div19, file$e, 63, 6, 1457);
+    			add_location(div19, file$d, 63, 6, 1457);
     			attr_dev(div20, "class", "key svelte-1uh5q9t");
-    			add_location(div20, file$e, 64, 6, 1488);
+    			add_location(div20, file$d, 64, 6, 1488);
     			attr_dev(div21, "class", "key svelte-1uh5q9t");
-    			add_location(div21, file$e, 65, 6, 1519);
+    			add_location(div21, file$d, 65, 6, 1519);
     			attr_dev(div22, "class", "key svelte-1uh5q9t");
-    			add_location(div22, file$e, 66, 6, 1550);
+    			add_location(div22, file$d, 66, 6, 1550);
     			attr_dev(div23, "class", "key svelte-1uh5q9t");
-    			add_location(div23, file$e, 67, 6, 1581);
+    			add_location(div23, file$d, 67, 6, 1581);
     			attr_dev(div24, "class", "key svelte-1uh5q9t");
-    			add_location(div24, file$e, 68, 6, 1612);
+    			add_location(div24, file$d, 68, 6, 1612);
     			attr_dev(div25, "class", "key svelte-1uh5q9t");
-    			add_location(div25, file$e, 69, 6, 1643);
+    			add_location(div25, file$d, 69, 6, 1643);
     			attr_dev(div26, "class", "key svelte-1uh5q9t");
-    			add_location(div26, file$e, 70, 6, 1674);
+    			add_location(div26, file$d, 70, 6, 1674);
     			attr_dev(div27, "class", "key svelte-1uh5q9t");
-    			add_location(div27, file$e, 71, 6, 1705);
+    			add_location(div27, file$d, 71, 6, 1705);
     			attr_dev(div28, "class", "key svelte-1uh5q9t");
-    			add_location(div28, file$e, 72, 6, 1736);
+    			add_location(div28, file$d, 72, 6, 1736);
     			attr_dev(div29, "class", "row svelte-1uh5q9t");
-    			add_location(div29, file$e, 58, 4, 1284);
+    			add_location(div29, file$d, 58, 4, 1284);
     			attr_dev(div30, "class", "key red svelte-1uh5q9t");
     			set_style(div30, "width", "80px");
-    			add_location(div30, file$e, 75, 6, 1800);
+    			add_location(div30, file$d, 75, 6, 1800);
     			attr_dev(div31, "class", "key svelte-1uh5q9t");
-    			add_location(div31, file$e, 76, 6, 1857);
+    			add_location(div31, file$d, 76, 6, 1857);
     			attr_dev(div32, "class", "key svelte-1uh5q9t");
-    			add_location(div32, file$e, 77, 6, 1888);
+    			add_location(div32, file$d, 77, 6, 1888);
     			attr_dev(div33, "class", "key svelte-1uh5q9t");
-    			add_location(div33, file$e, 78, 6, 1919);
+    			add_location(div33, file$d, 78, 6, 1919);
     			attr_dev(div34, "class", "key svelte-1uh5q9t");
-    			add_location(div34, file$e, 79, 6, 1950);
+    			add_location(div34, file$d, 79, 6, 1950);
     			attr_dev(div35, "class", "key svelte-1uh5q9t");
-    			add_location(div35, file$e, 80, 6, 1981);
+    			add_location(div35, file$d, 80, 6, 1981);
     			attr_dev(div36, "class", "key svelte-1uh5q9t");
-    			add_location(div36, file$e, 81, 6, 2012);
+    			add_location(div36, file$d, 81, 6, 2012);
     			attr_dev(div37, "class", "key svelte-1uh5q9t");
-    			add_location(div37, file$e, 82, 6, 2043);
+    			add_location(div37, file$d, 82, 6, 2043);
     			attr_dev(div38, "class", "key svelte-1uh5q9t");
-    			add_location(div38, file$e, 83, 6, 2074);
+    			add_location(div38, file$d, 83, 6, 2074);
     			attr_dev(div39, "class", "key svelte-1uh5q9t");
-    			add_location(div39, file$e, 84, 6, 2105);
+    			add_location(div39, file$d, 84, 6, 2105);
     			attr_dev(div40, "class", "key svelte-1uh5q9t");
-    			add_location(div40, file$e, 85, 6, 2136);
+    			add_location(div40, file$d, 85, 6, 2136);
     			attr_dev(div41, "class", "key svelte-1uh5q9t");
-    			add_location(div41, file$e, 86, 6, 2167);
+    			add_location(div41, file$d, 86, 6, 2167);
     			attr_dev(div42, "class", "key red svelte-1uh5q9t");
     			set_style(div42, "width", "80px");
-    			add_location(div42, file$e, 87, 6, 2198);
+    			add_location(div42, file$d, 87, 6, 2198);
     			attr_dev(div43, "class", "row svelte-1uh5q9t");
-    			add_location(div43, file$e, 74, 4, 1776);
+    			add_location(div43, file$d, 74, 4, 1776);
     			attr_dev(div44, "class", "key red svelte-1uh5q9t");
     			set_style(div44, "width", "110px");
-    			add_location(div44, file$e, 90, 6, 2285);
+    			add_location(div44, file$d, 90, 6, 2285);
     			attr_dev(div45, "class", "key svelte-1uh5q9t");
-    			add_location(div45, file$e, 91, 6, 2340);
+    			add_location(div45, file$d, 91, 6, 2340);
     			attr_dev(div46, "class", "key svelte-1uh5q9t");
-    			add_location(div46, file$e, 92, 6, 2371);
+    			add_location(div46, file$d, 92, 6, 2371);
     			attr_dev(div47, "class", "key svelte-1uh5q9t");
-    			add_location(div47, file$e, 93, 6, 2402);
+    			add_location(div47, file$d, 93, 6, 2402);
     			attr_dev(div48, "class", "key svelte-1uh5q9t");
-    			add_location(div48, file$e, 94, 6, 2433);
+    			add_location(div48, file$d, 94, 6, 2433);
     			attr_dev(div49, "class", "key svelte-1uh5q9t");
-    			add_location(div49, file$e, 95, 6, 2464);
+    			add_location(div49, file$d, 95, 6, 2464);
     			attr_dev(div50, "class", "key svelte-1uh5q9t");
-    			add_location(div50, file$e, 96, 6, 2495);
+    			add_location(div50, file$d, 96, 6, 2495);
     			attr_dev(div51, "class", "key svelte-1uh5q9t");
-    			add_location(div51, file$e, 97, 6, 2526);
+    			add_location(div51, file$d, 97, 6, 2526);
     			attr_dev(div52, "class", "key svelte-1uh5q9t");
-    			add_location(div52, file$e, 98, 6, 2557);
+    			add_location(div52, file$d, 98, 6, 2557);
     			attr_dev(div53, "class", "key svelte-1uh5q9t");
-    			add_location(div53, file$e, 99, 6, 2588);
+    			add_location(div53, file$d, 99, 6, 2588);
     			attr_dev(div54, "class", "key svelte-1uh5q9t");
-    			add_location(div54, file$e, 100, 6, 2619);
+    			add_location(div54, file$d, 100, 6, 2619);
     			attr_dev(div55, "class", "key red svelte-1uh5q9t");
     			set_style(div55, "width", "110px");
-    			add_location(div55, file$e, 101, 6, 2650);
+    			add_location(div55, file$d, 101, 6, 2650);
     			attr_dev(div56, "class", "row svelte-1uh5q9t");
-    			add_location(div56, file$e, 89, 4, 2261);
+    			add_location(div56, file$d, 89, 4, 2261);
     			attr_dev(div57, "class", "key svelte-1uh5q9t");
     			set_style(div57, "width", "70px");
-    			add_location(div57, file$e, 104, 6, 2738);
+    			add_location(div57, file$d, 104, 6, 2738);
     			attr_dev(div58, "class", "key svelte-1uh5q9t");
     			set_style(div58, "width", "70px");
-    			add_location(div58, file$e, 105, 6, 2788);
+    			add_location(div58, file$d, 105, 6, 2788);
     			attr_dev(div59, "class", "key svelte-1uh5q9t");
     			set_style(div59, "width", "70px");
-    			add_location(div59, file$e, 106, 6, 2838);
+    			add_location(div59, file$d, 106, 6, 2838);
     			attr_dev(div60, "class", "key red svelte-1uh5q9t");
     			set_style(div60, "width", "340px");
-    			add_location(div60, file$e, 107, 6, 2888);
+    			add_location(div60, file$d, 107, 6, 2888);
     			attr_dev(div61, "class", "key svelte-1uh5q9t");
     			set_style(div61, "width", "70px");
-    			add_location(div61, file$e, 108, 6, 2938);
+    			add_location(div61, file$d, 108, 6, 2938);
     			attr_dev(div62, "class", "key svelte-1uh5q9t");
     			set_style(div62, "width", "70px");
-    			add_location(div62, file$e, 109, 6, 2988);
+    			add_location(div62, file$d, 109, 6, 2988);
     			attr_dev(div63, "class", "key svelte-1uh5q9t");
     			set_style(div63, "width", "70px");
-    			add_location(div63, file$e, 110, 6, 3038);
+    			add_location(div63, file$d, 110, 6, 3038);
     			attr_dev(div64, "class", "row svelte-1uh5q9t");
-    			add_location(div64, file$e, 103, 4, 2714);
+    			add_location(div64, file$d, 103, 4, 2714);
     			attr_dev(div65, "class", "container svelte-1uh5q9t");
-    			add_location(div65, file$e, 41, 2, 746);
+    			add_location(div65, file$d, 41, 2, 746);
     			attr_dev(div66, "class", "box");
-    			add_location(div66, file$e, 40, 0, 726);
+    			add_location(div66, file$d, 40, 0, 726);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -2975,7 +3070,7 @@ var app = (function () {
 
     /* src/01.keyboards/Typewriter.2.svelte generated by Svelte v3.24.1 */
 
-    const file$f = "src/01.keyboards/Typewriter.2.svelte";
+    const file$e = "src/01.keyboards/Typewriter.2.svelte";
 
     function create_fragment$f(ctx) {
     	let div66;
@@ -3294,152 +3389,152 @@ var app = (function () {
     			div63.textContent = "⌃";
     			attr_dev(div0, "class", "key svelte-1upw8wx");
     			set_style(div0, "max-width", "30px");
-    			add_location(div0, file$f, 48, 6, 894);
+    			add_location(div0, file$e, 48, 6, 894);
     			attr_dev(div1, "class", "key svelte-1upw8wx");
-    			add_location(div1, file$f, 49, 6, 949);
+    			add_location(div1, file$e, 49, 6, 949);
     			attr_dev(div2, "class", "key svelte-1upw8wx");
-    			add_location(div2, file$f, 50, 6, 980);
+    			add_location(div2, file$e, 50, 6, 980);
     			attr_dev(div3, "class", "key svelte-1upw8wx");
-    			add_location(div3, file$f, 51, 6, 1011);
+    			add_location(div3, file$e, 51, 6, 1011);
     			attr_dev(div4, "class", "key svelte-1upw8wx");
-    			add_location(div4, file$f, 52, 6, 1042);
+    			add_location(div4, file$e, 52, 6, 1042);
     			attr_dev(div5, "class", "key svelte-1upw8wx");
-    			add_location(div5, file$f, 53, 6, 1073);
+    			add_location(div5, file$e, 53, 6, 1073);
     			attr_dev(div6, "class", "key svelte-1upw8wx");
-    			add_location(div6, file$f, 54, 6, 1104);
+    			add_location(div6, file$e, 54, 6, 1104);
     			attr_dev(div7, "class", "key svelte-1upw8wx");
-    			add_location(div7, file$f, 55, 6, 1135);
+    			add_location(div7, file$e, 55, 6, 1135);
     			attr_dev(div8, "class", "key svelte-1upw8wx");
-    			add_location(div8, file$f, 56, 6, 1166);
+    			add_location(div8, file$e, 56, 6, 1166);
     			attr_dev(div9, "class", "key svelte-1upw8wx");
-    			add_location(div9, file$f, 57, 6, 1197);
+    			add_location(div9, file$e, 57, 6, 1197);
     			attr_dev(div10, "class", "key svelte-1upw8wx");
-    			add_location(div10, file$f, 58, 6, 1228);
+    			add_location(div10, file$e, 58, 6, 1228);
     			attr_dev(div11, "class", "key svelte-1upw8wx");
-    			add_location(div11, file$f, 59, 6, 1259);
+    			add_location(div11, file$e, 59, 6, 1259);
     			attr_dev(div12, "class", "key svelte-1upw8wx");
-    			add_location(div12, file$f, 60, 6, 1290);
+    			add_location(div12, file$e, 60, 6, 1290);
     			attr_dev(div13, "class", "key svelte-1upw8wx");
     			set_style(div13, "width", "70px");
-    			add_location(div13, file$f, 61, 6, 1321);
+    			add_location(div13, file$e, 61, 6, 1321);
     			attr_dev(div14, "class", "row svelte-1upw8wx");
-    			add_location(div14, file$f, 47, 4, 870);
+    			add_location(div14, file$e, 47, 4, 870);
     			attr_dev(div15, "class", "key red svelte-1upw8wx");
     			set_style(div15, "width", "50px");
-    			add_location(div15, file$f, 64, 6, 1404);
+    			add_location(div15, file$e, 64, 6, 1404);
     			attr_dev(div16, "class", "key svelte-1upw8wx");
-    			add_location(div16, file$f, 65, 6, 1460);
+    			add_location(div16, file$e, 65, 6, 1460);
     			attr_dev(div17, "class", "key svelte-1upw8wx");
-    			add_location(div17, file$f, 66, 6, 1491);
+    			add_location(div17, file$e, 66, 6, 1491);
     			attr_dev(div18, "class", "key svelte-1upw8wx");
-    			add_location(div18, file$f, 67, 6, 1522);
+    			add_location(div18, file$e, 67, 6, 1522);
     			attr_dev(div19, "class", "key svelte-1upw8wx");
-    			add_location(div19, file$f, 68, 6, 1553);
+    			add_location(div19, file$e, 68, 6, 1553);
     			attr_dev(div20, "class", "key svelte-1upw8wx");
-    			add_location(div20, file$f, 69, 6, 1584);
+    			add_location(div20, file$e, 69, 6, 1584);
     			attr_dev(div21, "class", "key svelte-1upw8wx");
-    			add_location(div21, file$f, 70, 6, 1615);
+    			add_location(div21, file$e, 70, 6, 1615);
     			attr_dev(div22, "class", "key svelte-1upw8wx");
-    			add_location(div22, file$f, 71, 6, 1646);
+    			add_location(div22, file$e, 71, 6, 1646);
     			attr_dev(div23, "class", "key svelte-1upw8wx");
-    			add_location(div23, file$f, 72, 6, 1677);
+    			add_location(div23, file$e, 72, 6, 1677);
     			attr_dev(div24, "class", "key svelte-1upw8wx");
-    			add_location(div24, file$f, 73, 6, 1708);
+    			add_location(div24, file$e, 73, 6, 1708);
     			attr_dev(div25, "class", "key svelte-1upw8wx");
-    			add_location(div25, file$f, 74, 6, 1739);
+    			add_location(div25, file$e, 74, 6, 1739);
     			attr_dev(div26, "class", "key svelte-1upw8wx");
-    			add_location(div26, file$f, 75, 6, 1770);
+    			add_location(div26, file$e, 75, 6, 1770);
     			attr_dev(div27, "class", "key svelte-1upw8wx");
-    			add_location(div27, file$f, 76, 6, 1801);
+    			add_location(div27, file$e, 76, 6, 1801);
     			attr_dev(div28, "class", "key svelte-1upw8wx");
-    			add_location(div28, file$f, 77, 6, 1832);
+    			add_location(div28, file$e, 77, 6, 1832);
     			attr_dev(div29, "class", "row svelte-1upw8wx");
-    			add_location(div29, file$f, 63, 4, 1380);
+    			add_location(div29, file$e, 63, 4, 1380);
     			attr_dev(div30, "class", "key red svelte-1upw8wx");
     			set_style(div30, "width", "80px");
-    			add_location(div30, file$f, 80, 6, 1896);
+    			add_location(div30, file$e, 80, 6, 1896);
     			attr_dev(div31, "class", "key svelte-1upw8wx");
-    			add_location(div31, file$f, 81, 6, 1953);
+    			add_location(div31, file$e, 81, 6, 1953);
     			attr_dev(div32, "class", "key svelte-1upw8wx");
-    			add_location(div32, file$f, 82, 6, 1984);
+    			add_location(div32, file$e, 82, 6, 1984);
     			attr_dev(div33, "class", "key svelte-1upw8wx");
-    			add_location(div33, file$f, 83, 6, 2015);
+    			add_location(div33, file$e, 83, 6, 2015);
     			attr_dev(div34, "class", "key svelte-1upw8wx");
-    			add_location(div34, file$f, 84, 6, 2046);
+    			add_location(div34, file$e, 84, 6, 2046);
     			attr_dev(div35, "class", "key svelte-1upw8wx");
-    			add_location(div35, file$f, 85, 6, 2077);
+    			add_location(div35, file$e, 85, 6, 2077);
     			attr_dev(div36, "class", "key svelte-1upw8wx");
-    			add_location(div36, file$f, 86, 6, 2108);
+    			add_location(div36, file$e, 86, 6, 2108);
     			attr_dev(div37, "class", "key svelte-1upw8wx");
-    			add_location(div37, file$f, 87, 6, 2139);
+    			add_location(div37, file$e, 87, 6, 2139);
     			attr_dev(div38, "class", "key svelte-1upw8wx");
-    			add_location(div38, file$f, 88, 6, 2170);
+    			add_location(div38, file$e, 88, 6, 2170);
     			attr_dev(div39, "class", "key svelte-1upw8wx");
-    			add_location(div39, file$f, 89, 6, 2201);
+    			add_location(div39, file$e, 89, 6, 2201);
     			attr_dev(div40, "class", "key svelte-1upw8wx");
-    			add_location(div40, file$f, 90, 6, 2232);
+    			add_location(div40, file$e, 90, 6, 2232);
     			attr_dev(div41, "class", "key svelte-1upw8wx");
-    			add_location(div41, file$f, 91, 6, 2263);
+    			add_location(div41, file$e, 91, 6, 2263);
     			attr_dev(div42, "class", "key blue svelte-1upw8wx");
     			set_style(div42, "width", "80px");
-    			add_location(div42, file$f, 92, 6, 2294);
+    			add_location(div42, file$e, 92, 6, 2294);
     			attr_dev(div43, "class", "row svelte-1upw8wx");
-    			add_location(div43, file$f, 79, 4, 1872);
+    			add_location(div43, file$e, 79, 4, 1872);
     			attr_dev(div44, "class", "key red svelte-1upw8wx");
     			set_style(div44, "width", "110px");
-    			add_location(div44, file$f, 95, 6, 2382);
+    			add_location(div44, file$e, 95, 6, 2382);
     			attr_dev(div45, "class", "key svelte-1upw8wx");
-    			add_location(div45, file$f, 96, 6, 2437);
+    			add_location(div45, file$e, 96, 6, 2437);
     			attr_dev(div46, "class", "key svelte-1upw8wx");
-    			add_location(div46, file$f, 97, 6, 2468);
+    			add_location(div46, file$e, 97, 6, 2468);
     			attr_dev(div47, "class", "key svelte-1upw8wx");
-    			add_location(div47, file$f, 98, 6, 2499);
+    			add_location(div47, file$e, 98, 6, 2499);
     			attr_dev(div48, "class", "key svelte-1upw8wx");
-    			add_location(div48, file$f, 99, 6, 2530);
+    			add_location(div48, file$e, 99, 6, 2530);
     			attr_dev(div49, "class", "key svelte-1upw8wx");
-    			add_location(div49, file$f, 100, 6, 2561);
+    			add_location(div49, file$e, 100, 6, 2561);
     			attr_dev(div50, "class", "key svelte-1upw8wx");
-    			add_location(div50, file$f, 101, 6, 2592);
+    			add_location(div50, file$e, 101, 6, 2592);
     			attr_dev(div51, "class", "key svelte-1upw8wx");
-    			add_location(div51, file$f, 102, 6, 2623);
+    			add_location(div51, file$e, 102, 6, 2623);
     			attr_dev(div52, "class", "key svelte-1upw8wx");
-    			add_location(div52, file$f, 103, 6, 2654);
+    			add_location(div52, file$e, 103, 6, 2654);
     			attr_dev(div53, "class", "key svelte-1upw8wx");
-    			add_location(div53, file$f, 104, 6, 2685);
+    			add_location(div53, file$e, 104, 6, 2685);
     			attr_dev(div54, "class", "key svelte-1upw8wx");
-    			add_location(div54, file$f, 105, 6, 2716);
+    			add_location(div54, file$e, 105, 6, 2716);
     			attr_dev(div55, "class", "key red svelte-1upw8wx");
     			set_style(div55, "width", "110px");
-    			add_location(div55, file$f, 106, 6, 2747);
+    			add_location(div55, file$e, 106, 6, 2747);
     			attr_dev(div56, "class", "row svelte-1upw8wx");
-    			add_location(div56, file$f, 94, 4, 2358);
+    			add_location(div56, file$e, 94, 4, 2358);
     			attr_dev(div57, "class", "key svelte-1upw8wx");
     			set_style(div57, "width", "70px");
-    			add_location(div57, file$f, 109, 6, 2835);
+    			add_location(div57, file$e, 109, 6, 2835);
     			attr_dev(div58, "class", "key svelte-1upw8wx");
     			set_style(div58, "width", "70px");
-    			add_location(div58, file$f, 110, 6, 2885);
+    			add_location(div58, file$e, 110, 6, 2885);
     			attr_dev(div59, "class", "key svelte-1upw8wx");
     			set_style(div59, "width", "70px");
-    			add_location(div59, file$f, 111, 6, 2935);
+    			add_location(div59, file$e, 111, 6, 2935);
     			attr_dev(div60, "class", "key red svelte-1upw8wx");
     			set_style(div60, "width", "340px");
-    			add_location(div60, file$f, 112, 6, 2985);
+    			add_location(div60, file$e, 112, 6, 2985);
     			attr_dev(div61, "class", "key svelte-1upw8wx");
     			set_style(div61, "width", "70px");
-    			add_location(div61, file$f, 113, 6, 3035);
+    			add_location(div61, file$e, 113, 6, 3035);
     			attr_dev(div62, "class", "key svelte-1upw8wx");
     			set_style(div62, "width", "70px");
-    			add_location(div62, file$f, 114, 6, 3085);
+    			add_location(div62, file$e, 114, 6, 3085);
     			attr_dev(div63, "class", "key svelte-1upw8wx");
     			set_style(div63, "width", "70px");
-    			add_location(div63, file$f, 115, 6, 3135);
+    			add_location(div63, file$e, 115, 6, 3135);
     			attr_dev(div64, "class", "row svelte-1upw8wx");
-    			add_location(div64, file$f, 108, 4, 2811);
+    			add_location(div64, file$e, 108, 4, 2811);
     			attr_dev(div65, "class", "container svelte-1upw8wx");
-    			add_location(div65, file$f, 46, 2, 842);
+    			add_location(div65, file$e, 46, 2, 842);
     			attr_dev(div66, "class", "box");
-    			add_location(div66, file$f, 45, 0, 822);
+    			add_location(div66, file$e, 45, 0, 822);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -3619,7 +3714,7 @@ var app = (function () {
 
     /* src/01.keyboards/Punctuation.1.svelte generated by Svelte v3.24.1 */
 
-    const file$g = "src/01.keyboards/Punctuation.1.svelte";
+    const file$f = "src/01.keyboards/Punctuation.1.svelte";
 
     function create_fragment$g(ctx) {
     	let div66;
@@ -3938,152 +4033,152 @@ var app = (function () {
     			div63.textContent = "⌃";
     			attr_dev(div0, "class", "key show svelte-scstui");
     			set_style(div0, "max-width", "30px");
-    			add_location(div0, file$g, 45, 6, 813);
+    			add_location(div0, file$f, 45, 6, 813);
     			attr_dev(div1, "class", "key show svelte-scstui");
-    			add_location(div1, file$g, 46, 6, 873);
+    			add_location(div1, file$f, 46, 6, 873);
     			attr_dev(div2, "class", "key show svelte-scstui");
-    			add_location(div2, file$g, 47, 6, 909);
+    			add_location(div2, file$f, 47, 6, 909);
     			attr_dev(div3, "class", "key show svelte-scstui");
-    			add_location(div3, file$g, 48, 6, 945);
+    			add_location(div3, file$f, 48, 6, 945);
     			attr_dev(div4, "class", "key show svelte-scstui");
-    			add_location(div4, file$g, 49, 6, 981);
+    			add_location(div4, file$f, 49, 6, 981);
     			attr_dev(div5, "class", "key show svelte-scstui");
-    			add_location(div5, file$g, 50, 6, 1017);
+    			add_location(div5, file$f, 50, 6, 1017);
     			attr_dev(div6, "class", "key show svelte-scstui");
-    			add_location(div6, file$g, 51, 6, 1053);
+    			add_location(div6, file$f, 51, 6, 1053);
     			attr_dev(div7, "class", "key show svelte-scstui");
-    			add_location(div7, file$g, 52, 6, 1089);
+    			add_location(div7, file$f, 52, 6, 1089);
     			attr_dev(div8, "class", "key show svelte-scstui");
-    			add_location(div8, file$g, 53, 6, 1125);
+    			add_location(div8, file$f, 53, 6, 1125);
     			attr_dev(div9, "class", "key show svelte-scstui");
-    			add_location(div9, file$g, 54, 6, 1161);
+    			add_location(div9, file$f, 54, 6, 1161);
     			attr_dev(div10, "class", "key show svelte-scstui");
-    			add_location(div10, file$g, 55, 6, 1197);
+    			add_location(div10, file$f, 55, 6, 1197);
     			attr_dev(div11, "class", "key show svelte-scstui");
-    			add_location(div11, file$g, 56, 6, 1233);
+    			add_location(div11, file$f, 56, 6, 1233);
     			attr_dev(div12, "class", "key show svelte-scstui");
-    			add_location(div12, file$g, 57, 6, 1269);
+    			add_location(div12, file$f, 57, 6, 1269);
     			attr_dev(div13, "class", "key pink svelte-scstui");
     			set_style(div13, "width", "70px");
-    			add_location(div13, file$g, 58, 6, 1305);
+    			add_location(div13, file$f, 58, 6, 1305);
     			attr_dev(div14, "class", "row svelte-scstui");
-    			add_location(div14, file$g, 44, 4, 789);
+    			add_location(div14, file$f, 44, 4, 789);
     			attr_dev(div15, "class", "key pink svelte-scstui");
     			set_style(div15, "width", "50px");
-    			add_location(div15, file$g, 61, 6, 1393);
+    			add_location(div15, file$f, 61, 6, 1393);
     			attr_dev(div16, "class", "key svelte-scstui");
-    			add_location(div16, file$g, 62, 6, 1450);
+    			add_location(div16, file$f, 62, 6, 1450);
     			attr_dev(div17, "class", "key svelte-scstui");
-    			add_location(div17, file$g, 63, 6, 1481);
+    			add_location(div17, file$f, 63, 6, 1481);
     			attr_dev(div18, "class", "key svelte-scstui");
-    			add_location(div18, file$g, 64, 6, 1512);
+    			add_location(div18, file$f, 64, 6, 1512);
     			attr_dev(div19, "class", "key svelte-scstui");
-    			add_location(div19, file$g, 65, 6, 1543);
+    			add_location(div19, file$f, 65, 6, 1543);
     			attr_dev(div20, "class", "key svelte-scstui");
-    			add_location(div20, file$g, 66, 6, 1574);
+    			add_location(div20, file$f, 66, 6, 1574);
     			attr_dev(div21, "class", "key svelte-scstui");
-    			add_location(div21, file$g, 67, 6, 1605);
+    			add_location(div21, file$f, 67, 6, 1605);
     			attr_dev(div22, "class", "key svelte-scstui");
-    			add_location(div22, file$g, 68, 6, 1636);
+    			add_location(div22, file$f, 68, 6, 1636);
     			attr_dev(div23, "class", "key svelte-scstui");
-    			add_location(div23, file$g, 69, 6, 1667);
+    			add_location(div23, file$f, 69, 6, 1667);
     			attr_dev(div24, "class", "key svelte-scstui");
-    			add_location(div24, file$g, 70, 6, 1698);
+    			add_location(div24, file$f, 70, 6, 1698);
     			attr_dev(div25, "class", "key svelte-scstui");
-    			add_location(div25, file$g, 71, 6, 1729);
+    			add_location(div25, file$f, 71, 6, 1729);
     			attr_dev(div26, "class", "key show svelte-scstui");
-    			add_location(div26, file$g, 72, 6, 1760);
+    			add_location(div26, file$f, 72, 6, 1760);
     			attr_dev(div27, "class", "key show svelte-scstui");
-    			add_location(div27, file$g, 73, 6, 1796);
+    			add_location(div27, file$f, 73, 6, 1796);
     			attr_dev(div28, "class", "key show svelte-scstui");
-    			add_location(div28, file$g, 74, 6, 1832);
+    			add_location(div28, file$f, 74, 6, 1832);
     			attr_dev(div29, "class", "row svelte-scstui");
-    			add_location(div29, file$g, 60, 4, 1369);
+    			add_location(div29, file$f, 60, 4, 1369);
     			attr_dev(div30, "class", "key pink svelte-scstui");
     			set_style(div30, "width", "80px");
-    			add_location(div30, file$g, 77, 6, 1901);
+    			add_location(div30, file$f, 77, 6, 1901);
     			attr_dev(div31, "class", "key svelte-scstui");
-    			add_location(div31, file$g, 78, 6, 1959);
+    			add_location(div31, file$f, 78, 6, 1959);
     			attr_dev(div32, "class", "key svelte-scstui");
-    			add_location(div32, file$g, 79, 6, 1990);
+    			add_location(div32, file$f, 79, 6, 1990);
     			attr_dev(div33, "class", "key svelte-scstui");
-    			add_location(div33, file$g, 80, 6, 2021);
+    			add_location(div33, file$f, 80, 6, 2021);
     			attr_dev(div34, "class", "key svelte-scstui");
-    			add_location(div34, file$g, 81, 6, 2052);
+    			add_location(div34, file$f, 81, 6, 2052);
     			attr_dev(div35, "class", "key svelte-scstui");
-    			add_location(div35, file$g, 82, 6, 2083);
+    			add_location(div35, file$f, 82, 6, 2083);
     			attr_dev(div36, "class", "key svelte-scstui");
-    			add_location(div36, file$g, 83, 6, 2114);
+    			add_location(div36, file$f, 83, 6, 2114);
     			attr_dev(div37, "class", "key svelte-scstui");
-    			add_location(div37, file$g, 84, 6, 2145);
+    			add_location(div37, file$f, 84, 6, 2145);
     			attr_dev(div38, "class", "key svelte-scstui");
-    			add_location(div38, file$g, 85, 6, 2176);
+    			add_location(div38, file$f, 85, 6, 2176);
     			attr_dev(div39, "class", "key svelte-scstui");
-    			add_location(div39, file$g, 86, 6, 2207);
+    			add_location(div39, file$f, 86, 6, 2207);
     			attr_dev(div40, "class", "key show svelte-scstui");
-    			add_location(div40, file$g, 87, 6, 2238);
+    			add_location(div40, file$f, 87, 6, 2238);
     			attr_dev(div41, "class", "key show svelte-scstui");
-    			add_location(div41, file$g, 88, 6, 2274);
+    			add_location(div41, file$f, 88, 6, 2274);
     			attr_dev(div42, "class", "key pink svelte-scstui");
     			set_style(div42, "width", "80px");
-    			add_location(div42, file$g, 89, 6, 2310);
+    			add_location(div42, file$f, 89, 6, 2310);
     			attr_dev(div43, "class", "row svelte-scstui");
-    			add_location(div43, file$g, 76, 4, 1877);
+    			add_location(div43, file$f, 76, 4, 1877);
     			attr_dev(div44, "class", "key pink svelte-scstui");
     			set_style(div44, "width", "110px");
-    			add_location(div44, file$g, 92, 6, 2398);
+    			add_location(div44, file$f, 92, 6, 2398);
     			attr_dev(div45, "class", "key svelte-scstui");
-    			add_location(div45, file$g, 93, 6, 2454);
+    			add_location(div45, file$f, 93, 6, 2454);
     			attr_dev(div46, "class", "key svelte-scstui");
-    			add_location(div46, file$g, 94, 6, 2485);
+    			add_location(div46, file$f, 94, 6, 2485);
     			attr_dev(div47, "class", "key svelte-scstui");
-    			add_location(div47, file$g, 95, 6, 2516);
+    			add_location(div47, file$f, 95, 6, 2516);
     			attr_dev(div48, "class", "key svelte-scstui");
-    			add_location(div48, file$g, 96, 6, 2547);
+    			add_location(div48, file$f, 96, 6, 2547);
     			attr_dev(div49, "class", "key svelte-scstui");
-    			add_location(div49, file$g, 97, 6, 2578);
+    			add_location(div49, file$f, 97, 6, 2578);
     			attr_dev(div50, "class", "key svelte-scstui");
-    			add_location(div50, file$g, 98, 6, 2609);
+    			add_location(div50, file$f, 98, 6, 2609);
     			attr_dev(div51, "class", "key svelte-scstui");
-    			add_location(div51, file$g, 99, 6, 2640);
+    			add_location(div51, file$f, 99, 6, 2640);
     			attr_dev(div52, "class", "key show svelte-scstui");
-    			add_location(div52, file$g, 100, 6, 2671);
+    			add_location(div52, file$f, 100, 6, 2671);
     			attr_dev(div53, "class", "key show svelte-scstui");
-    			add_location(div53, file$g, 101, 6, 2707);
+    			add_location(div53, file$f, 101, 6, 2707);
     			attr_dev(div54, "class", "key show svelte-scstui");
-    			add_location(div54, file$g, 102, 6, 2743);
+    			add_location(div54, file$f, 102, 6, 2743);
     			attr_dev(div55, "class", "key pink svelte-scstui");
     			set_style(div55, "width", "110px");
-    			add_location(div55, file$g, 103, 6, 2779);
+    			add_location(div55, file$f, 103, 6, 2779);
     			attr_dev(div56, "class", "row svelte-scstui");
-    			add_location(div56, file$g, 91, 4, 2374);
+    			add_location(div56, file$f, 91, 4, 2374);
     			attr_dev(div57, "class", "key pink svelte-scstui");
     			set_style(div57, "width", "70px");
-    			add_location(div57, file$g, 106, 6, 2868);
+    			add_location(div57, file$f, 106, 6, 2868);
     			attr_dev(div58, "class", "key pink svelte-scstui");
     			set_style(div58, "width", "70px");
-    			add_location(div58, file$g, 107, 6, 2923);
+    			add_location(div58, file$f, 107, 6, 2923);
     			attr_dev(div59, "class", "key pink svelte-scstui");
     			set_style(div59, "width", "70px");
-    			add_location(div59, file$g, 108, 6, 2978);
+    			add_location(div59, file$f, 108, 6, 2978);
     			attr_dev(div60, "class", "key  svelte-scstui");
     			set_style(div60, "width", "340px");
-    			add_location(div60, file$g, 109, 6, 3033);
+    			add_location(div60, file$f, 109, 6, 3033);
     			attr_dev(div61, "class", "key pink svelte-scstui");
     			set_style(div61, "width", "70px");
-    			add_location(div61, file$g, 110, 6, 3080);
+    			add_location(div61, file$f, 110, 6, 3080);
     			attr_dev(div62, "class", "key pink svelte-scstui");
     			set_style(div62, "width", "70px");
-    			add_location(div62, file$g, 111, 6, 3135);
+    			add_location(div62, file$f, 111, 6, 3135);
     			attr_dev(div63, "class", "key pink svelte-scstui");
     			set_style(div63, "width", "70px");
-    			add_location(div63, file$g, 112, 6, 3190);
+    			add_location(div63, file$f, 112, 6, 3190);
     			attr_dev(div64, "class", "row svelte-scstui");
-    			add_location(div64, file$g, 105, 4, 2844);
+    			add_location(div64, file$f, 105, 4, 2844);
     			attr_dev(div65, "class", "container svelte-scstui");
-    			add_location(div65, file$g, 43, 2, 761);
+    			add_location(div65, file$f, 43, 2, 761);
     			attr_dev(div66, "class", "box");
-    			add_location(div66, file$g, 42, 0, 741);
+    			add_location(div66, file$f, 42, 0, 741);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -4263,7 +4358,7 @@ var app = (function () {
 
     /* src/01.keyboards/Punctuation.2.svelte generated by Svelte v3.24.1 */
 
-    const file$h = "src/01.keyboards/Punctuation.2.svelte";
+    const file$g = "src/01.keyboards/Punctuation.2.svelte";
 
     function create_fragment$h(ctx) {
     	let div66;
@@ -4582,152 +4677,152 @@ var app = (function () {
     			div63.textContent = "⌃";
     			attr_dev(div0, "class", "key show svelte-4wi716");
     			set_style(div0, "max-width", "30px");
-    			add_location(div0, file$h, 48, 6, 845);
+    			add_location(div0, file$g, 48, 6, 845);
     			attr_dev(div1, "class", "key show nope svelte-4wi716");
-    			add_location(div1, file$h, 49, 6, 905);
+    			add_location(div1, file$g, 49, 6, 905);
     			attr_dev(div2, "class", "key show svelte-4wi716");
-    			add_location(div2, file$h, 50, 6, 946);
+    			add_location(div2, file$g, 50, 6, 946);
     			attr_dev(div3, "class", "key show svelte-4wi716");
-    			add_location(div3, file$h, 51, 6, 982);
+    			add_location(div3, file$g, 51, 6, 982);
     			attr_dev(div4, "class", "key show nope svelte-4wi716");
-    			add_location(div4, file$h, 52, 6, 1018);
+    			add_location(div4, file$g, 52, 6, 1018);
     			attr_dev(div5, "class", "key show nope svelte-4wi716");
-    			add_location(div5, file$h, 53, 6, 1059);
+    			add_location(div5, file$g, 53, 6, 1059);
     			attr_dev(div6, "class", "key show svelte-4wi716");
-    			add_location(div6, file$h, 54, 6, 1100);
+    			add_location(div6, file$g, 54, 6, 1100);
     			attr_dev(div7, "class", "key show svelte-4wi716");
-    			add_location(div7, file$h, 55, 6, 1136);
+    			add_location(div7, file$g, 55, 6, 1136);
     			attr_dev(div8, "class", "key show svelte-4wi716");
-    			add_location(div8, file$h, 56, 6, 1172);
+    			add_location(div8, file$g, 56, 6, 1172);
     			attr_dev(div9, "class", "key show nope svelte-4wi716");
-    			add_location(div9, file$h, 57, 6, 1208);
+    			add_location(div9, file$g, 57, 6, 1208);
     			attr_dev(div10, "class", "key show nope svelte-4wi716");
-    			add_location(div10, file$h, 58, 6, 1249);
+    			add_location(div10, file$g, 58, 6, 1249);
     			attr_dev(div11, "class", "key show nope svelte-4wi716");
-    			add_location(div11, file$h, 59, 6, 1290);
+    			add_location(div11, file$g, 59, 6, 1290);
     			attr_dev(div12, "class", "key show nope svelte-4wi716");
-    			add_location(div12, file$h, 60, 6, 1331);
+    			add_location(div12, file$g, 60, 6, 1331);
     			attr_dev(div13, "class", "key nope pink svelte-4wi716");
     			set_style(div13, "width", "70px");
-    			add_location(div13, file$h, 61, 6, 1372);
+    			add_location(div13, file$g, 61, 6, 1372);
     			attr_dev(div14, "class", "row svelte-4wi716");
-    			add_location(div14, file$h, 47, 4, 821);
+    			add_location(div14, file$g, 47, 4, 821);
     			attr_dev(div15, "class", "key nope pink svelte-4wi716");
     			set_style(div15, "width", "50px");
-    			add_location(div15, file$h, 64, 6, 1465);
+    			add_location(div15, file$g, 64, 6, 1465);
     			attr_dev(div16, "class", "key nope svelte-4wi716");
-    			add_location(div16, file$h, 65, 6, 1527);
+    			add_location(div16, file$g, 65, 6, 1527);
     			attr_dev(div17, "class", "key nope svelte-4wi716");
-    			add_location(div17, file$h, 66, 6, 1563);
+    			add_location(div17, file$g, 66, 6, 1563);
     			attr_dev(div18, "class", "key nope svelte-4wi716");
-    			add_location(div18, file$h, 67, 6, 1599);
+    			add_location(div18, file$g, 67, 6, 1599);
     			attr_dev(div19, "class", "key nope svelte-4wi716");
-    			add_location(div19, file$h, 68, 6, 1635);
+    			add_location(div19, file$g, 68, 6, 1635);
     			attr_dev(div20, "class", "key nope svelte-4wi716");
-    			add_location(div20, file$h, 69, 6, 1671);
+    			add_location(div20, file$g, 69, 6, 1671);
     			attr_dev(div21, "class", "key nope svelte-4wi716");
-    			add_location(div21, file$h, 70, 6, 1707);
+    			add_location(div21, file$g, 70, 6, 1707);
     			attr_dev(div22, "class", "key nope svelte-4wi716");
-    			add_location(div22, file$h, 71, 6, 1743);
+    			add_location(div22, file$g, 71, 6, 1743);
     			attr_dev(div23, "class", "key nope svelte-4wi716");
-    			add_location(div23, file$h, 72, 6, 1779);
+    			add_location(div23, file$g, 72, 6, 1779);
     			attr_dev(div24, "class", "key nope svelte-4wi716");
-    			add_location(div24, file$h, 73, 6, 1815);
+    			add_location(div24, file$g, 73, 6, 1815);
     			attr_dev(div25, "class", "key nope svelte-4wi716");
-    			add_location(div25, file$h, 74, 6, 1851);
+    			add_location(div25, file$g, 74, 6, 1851);
     			attr_dev(div26, "class", "key show svelte-4wi716");
-    			add_location(div26, file$h, 75, 6, 1887);
+    			add_location(div26, file$g, 75, 6, 1887);
     			attr_dev(div27, "class", "key show svelte-4wi716");
-    			add_location(div27, file$h, 76, 6, 1923);
+    			add_location(div27, file$g, 76, 6, 1923);
     			attr_dev(div28, "class", "key show svelte-4wi716");
-    			add_location(div28, file$h, 77, 6, 1959);
+    			add_location(div28, file$g, 77, 6, 1959);
     			attr_dev(div29, "class", "row svelte-4wi716");
-    			add_location(div29, file$h, 63, 4, 1441);
+    			add_location(div29, file$g, 63, 4, 1441);
     			attr_dev(div30, "class", "key nope pink svelte-4wi716");
     			set_style(div30, "width", "80px");
-    			add_location(div30, file$h, 80, 6, 2028);
+    			add_location(div30, file$g, 80, 6, 2028);
     			attr_dev(div31, "class", "key nope svelte-4wi716");
-    			add_location(div31, file$h, 81, 6, 2091);
+    			add_location(div31, file$g, 81, 6, 2091);
     			attr_dev(div32, "class", "key nope svelte-4wi716");
-    			add_location(div32, file$h, 82, 6, 2127);
+    			add_location(div32, file$g, 82, 6, 2127);
     			attr_dev(div33, "class", "key nope svelte-4wi716");
-    			add_location(div33, file$h, 83, 6, 2163);
+    			add_location(div33, file$g, 83, 6, 2163);
     			attr_dev(div34, "class", "key nope svelte-4wi716");
-    			add_location(div34, file$h, 84, 6, 2199);
+    			add_location(div34, file$g, 84, 6, 2199);
     			attr_dev(div35, "class", "key nope svelte-4wi716");
-    			add_location(div35, file$h, 85, 6, 2235);
+    			add_location(div35, file$g, 85, 6, 2235);
     			attr_dev(div36, "class", "key nope svelte-4wi716");
-    			add_location(div36, file$h, 86, 6, 2271);
+    			add_location(div36, file$g, 86, 6, 2271);
     			attr_dev(div37, "class", "key nope svelte-4wi716");
-    			add_location(div37, file$h, 87, 6, 2307);
+    			add_location(div37, file$g, 87, 6, 2307);
     			attr_dev(div38, "class", "key nope svelte-4wi716");
-    			add_location(div38, file$h, 88, 6, 2343);
+    			add_location(div38, file$g, 88, 6, 2343);
     			attr_dev(div39, "class", "key nope svelte-4wi716");
-    			add_location(div39, file$h, 89, 6, 2379);
+    			add_location(div39, file$g, 89, 6, 2379);
     			attr_dev(div40, "class", "key nope show svelte-4wi716");
-    			add_location(div40, file$h, 90, 6, 2415);
+    			add_location(div40, file$g, 90, 6, 2415);
     			attr_dev(div41, "class", "key nope show svelte-4wi716");
-    			add_location(div41, file$h, 91, 6, 2456);
+    			add_location(div41, file$g, 91, 6, 2456);
     			attr_dev(div42, "class", "key nope pink svelte-4wi716");
     			set_style(div42, "width", "80px");
-    			add_location(div42, file$h, 92, 6, 2497);
+    			add_location(div42, file$g, 92, 6, 2497);
     			attr_dev(div43, "class", "row svelte-4wi716");
-    			add_location(div43, file$h, 79, 4, 2004);
+    			add_location(div43, file$g, 79, 4, 2004);
     			attr_dev(div44, "class", "key nope pink svelte-4wi716");
     			set_style(div44, "width", "110px");
-    			add_location(div44, file$h, 95, 6, 2590);
+    			add_location(div44, file$g, 95, 6, 2590);
     			attr_dev(div45, "class", "key nope svelte-4wi716");
-    			add_location(div45, file$h, 96, 6, 2651);
+    			add_location(div45, file$g, 96, 6, 2651);
     			attr_dev(div46, "class", "key nope svelte-4wi716");
-    			add_location(div46, file$h, 97, 6, 2687);
+    			add_location(div46, file$g, 97, 6, 2687);
     			attr_dev(div47, "class", "key nope svelte-4wi716");
-    			add_location(div47, file$h, 98, 6, 2723);
+    			add_location(div47, file$g, 98, 6, 2723);
     			attr_dev(div48, "class", "key nope svelte-4wi716");
-    			add_location(div48, file$h, 99, 6, 2759);
+    			add_location(div48, file$g, 99, 6, 2759);
     			attr_dev(div49, "class", "key nope svelte-4wi716");
-    			add_location(div49, file$h, 100, 6, 2795);
+    			add_location(div49, file$g, 100, 6, 2795);
     			attr_dev(div50, "class", "key nope svelte-4wi716");
-    			add_location(div50, file$h, 101, 6, 2831);
+    			add_location(div50, file$g, 101, 6, 2831);
     			attr_dev(div51, "class", "key nope svelte-4wi716");
-    			add_location(div51, file$h, 102, 6, 2867);
+    			add_location(div51, file$g, 102, 6, 2867);
     			attr_dev(div52, "class", "key nope show svelte-4wi716");
-    			add_location(div52, file$h, 103, 6, 2903);
+    			add_location(div52, file$g, 103, 6, 2903);
     			attr_dev(div53, "class", "key nope show svelte-4wi716");
-    			add_location(div53, file$h, 104, 6, 2944);
+    			add_location(div53, file$g, 104, 6, 2944);
     			attr_dev(div54, "class", "key nope show svelte-4wi716");
-    			add_location(div54, file$h, 105, 6, 2985);
+    			add_location(div54, file$g, 105, 6, 2985);
     			attr_dev(div55, "class", "key nope pink svelte-4wi716");
     			set_style(div55, "width", "110px");
-    			add_location(div55, file$h, 106, 6, 3026);
+    			add_location(div55, file$g, 106, 6, 3026);
     			attr_dev(div56, "class", "row svelte-4wi716");
-    			add_location(div56, file$h, 94, 4, 2566);
+    			add_location(div56, file$g, 94, 4, 2566);
     			attr_dev(div57, "class", "key nope pink svelte-4wi716");
     			set_style(div57, "width", "70px");
-    			add_location(div57, file$h, 109, 6, 3120);
+    			add_location(div57, file$g, 109, 6, 3120);
     			attr_dev(div58, "class", "key nope pink svelte-4wi716");
     			set_style(div58, "width", "70px");
-    			add_location(div58, file$h, 110, 6, 3180);
+    			add_location(div58, file$g, 110, 6, 3180);
     			attr_dev(div59, "class", "key nope pink svelte-4wi716");
     			set_style(div59, "width", "70px");
-    			add_location(div59, file$h, 111, 6, 3240);
+    			add_location(div59, file$g, 111, 6, 3240);
     			attr_dev(div60, "class", "key nope  svelte-4wi716");
     			set_style(div60, "width", "340px");
-    			add_location(div60, file$h, 112, 6, 3300);
+    			add_location(div60, file$g, 112, 6, 3300);
     			attr_dev(div61, "class", "key nope pink svelte-4wi716");
     			set_style(div61, "width", "70px");
-    			add_location(div61, file$h, 113, 6, 3352);
+    			add_location(div61, file$g, 113, 6, 3352);
     			attr_dev(div62, "class", "key nope pink svelte-4wi716");
     			set_style(div62, "width", "70px");
-    			add_location(div62, file$h, 114, 6, 3412);
+    			add_location(div62, file$g, 114, 6, 3412);
     			attr_dev(div63, "class", "key nope pink svelte-4wi716");
     			set_style(div63, "width", "70px");
-    			add_location(div63, file$h, 115, 6, 3472);
+    			add_location(div63, file$g, 115, 6, 3472);
     			attr_dev(div64, "class", "row svelte-4wi716");
-    			add_location(div64, file$h, 108, 4, 3096);
+    			add_location(div64, file$g, 108, 4, 3096);
     			attr_dev(div65, "class", "container svelte-4wi716");
-    			add_location(div65, file$h, 46, 2, 793);
+    			add_location(div65, file$g, 46, 2, 793);
     			attr_dev(div66, "class", "box");
-    			add_location(div66, file$h, 45, 0, 773);
+    			add_location(div66, file$g, 45, 0, 773);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5120,7 +5215,7 @@ var app = (function () {
 
     /* src/02.word-wrap/Spreadsheet.svelte generated by Svelte v3.24.1 */
 
-    const file$i = "src/02.word-wrap/Spreadsheet.svelte";
+    const file$h = "src/02.word-wrap/Spreadsheet.svelte";
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
@@ -5154,7 +5249,7 @@ var app = (function () {
     			div = element("div");
     			t = text(t_value);
     			attr_dev(div, "class", "cell top svelte-10qh3b4");
-    			add_location(div, file$i, 60, 6, 1276);
+    			add_location(div, file$h, 60, 6, 1276);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5185,7 +5280,7 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			attr_dev(div, "class", "cell svelte-10qh3b4");
-    			add_location(div, file$i, 69, 10, 1563);
+    			add_location(div, file$h, 69, 10, 1563);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5218,7 +5313,7 @@ var app = (function () {
     			div = element("div");
     			t = text(t_value);
     			attr_dev(div, "class", "cell svelte-10qh3b4");
-    			add_location(div, file$i, 67, 10, 1496);
+    			add_location(div, file$h, 67, 10, 1496);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5320,7 +5415,7 @@ var app = (function () {
 
     			each_1_anchor = empty();
     			attr_dev(div, "class", "cell num svelte-10qh3b4");
-    			add_location(div, file$i, 64, 6, 1375);
+    			add_location(div, file$h, 64, 6, 1375);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5417,11 +5512,11 @@ var app = (function () {
     			}
 
     			attr_dev(div0, "class", "cell num top svelte-10qh3b4");
-    			add_location(div0, file$i, 58, 4, 1207);
+    			add_location(div0, file$h, 58, 4, 1207);
     			attr_dev(div1, "class", "container svelte-10qh3b4");
-    			add_location(div1, file$i, 56, 2, 1158);
+    			add_location(div1, file$h, 56, 2, 1158);
     			attr_dev(div2, "class", "box");
-    			add_location(div2, file$i, 55, 0, 1138);
+    			add_location(div2, file$h, 55, 0, 1138);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5565,7 +5660,7 @@ var app = (function () {
     }
 
     /* src/02.word-wrap/Wrap.svelte generated by Svelte v3.24.1 */
-    const file$j = "src/02.word-wrap/Wrap.svelte";
+    const file$i = "src/02.word-wrap/Wrap.svelte";
 
     function create_fragment$k(ctx) {
     	let div;
@@ -5585,7 +5680,7 @@ var app = (function () {
     			div = element("div");
     			create_component(video_1.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$j, 12, 0, 215);
+    			add_location(div, file$i, 12, 0, 215);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5670,7 +5765,7 @@ var app = (function () {
     }
 
     /* src/02.word-wrap/Insert.svelte generated by Svelte v3.24.1 */
-    const file$k = "src/02.word-wrap/Insert.svelte";
+    const file$j = "src/02.word-wrap/Insert.svelte";
 
     function create_fragment$l(ctx) {
     	let div;
@@ -5690,7 +5785,7 @@ var app = (function () {
     			div = element("div");
     			create_component(image.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$k, 20, 0, 326);
+    			add_location(div, file$j, 20, 0, 326);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10167,7 +10262,7 @@ var app = (function () {
     var scale = scaleLinear;
 
     /* Users/spencer/mountain/somehow-timeline/src/Timeline.svelte generated by Svelte v3.24.1 */
-    const file$l = "Users/spencer/mountain/somehow-timeline/src/Timeline.svelte";
+    const file$k = "Users/spencer/mountain/somehow-timeline/src/Timeline.svelte";
 
     function create_fragment$n(ctx) {
     	let div1;
@@ -10183,9 +10278,9 @@ var app = (function () {
     			if (default_slot) default_slot.c();
     			attr_dev(div0, "class", "slot svelte-1t26m4d");
     			set_style(div0, "min-height", /*height*/ ctx[0] + "px");
-    			add_location(div0, file$l, 49, 2, 996);
+    			add_location(div0, file$k, 49, 2, 996);
     			attr_dev(div1, "class", "container svelte-1t26m4d");
-    			add_location(div1, file$l, 48, 0, 970);
+    			add_location(div1, file$k, 48, 0, 970);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10337,7 +10432,7 @@ var app = (function () {
 
     /* Users/spencer/mountain/somehow-timeline/src/shapes/Dots.svelte generated by Svelte v3.24.1 */
 
-    const file$m = "Users/spencer/mountain/somehow-timeline/src/shapes/Dots.svelte";
+    const file$l = "Users/spencer/mountain/somehow-timeline/src/shapes/Dots.svelte";
 
     function create_fragment$o(ctx) {
     	let svg;
@@ -10358,24 +10453,24 @@ var app = (function () {
     			attr_dev(circle, "cx", "3");
     			attr_dev(circle, "cy", "3");
     			attr_dev(circle, "r", "1.5");
-    			add_location(circle, file$m, 19, 6, 413);
+    			add_location(circle, file$l, 19, 6, 413);
     			attr_dev(pattern, "id", /*id*/ ctx[1]);
     			attr_dev(pattern, "x", "0");
     			attr_dev(pattern, "y", "0");
     			attr_dev(pattern, "width", "5");
     			attr_dev(pattern, "height", "5");
     			attr_dev(pattern, "patternUnits", "userSpaceOnUse");
-    			add_location(pattern, file$m, 18, 4, 329);
-    			add_location(defs, file$m, 17, 2, 318);
+    			add_location(pattern, file$l, 18, 4, 329);
+    			add_location(defs, file$l, 17, 2, 318);
     			attr_dev(rect, "x", "0");
     			attr_dev(rect, "y", "0");
     			attr_dev(rect, "width", "100%");
     			attr_dev(rect, "height", "100%");
     			attr_dev(rect, "fill", rect_fill_value = "url(#" + /*id*/ ctx[1] + ")");
-    			add_location(rect, file$m, 23, 2, 487);
+    			add_location(rect, file$l, 23, 2, 487);
     			attr_dev(svg, "width", "100%");
     			attr_dev(svg, "height", "100%");
-    			add_location(svg, file$m, 16, 0, 283);
+    			add_location(svg, file$l, 16, 0, 283);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -10488,7 +10583,7 @@ var app = (function () {
     });
 
     /* Users/spencer/mountain/somehow-timeline/src/shapes/Line.svelte generated by Svelte v3.24.1 */
-    const file$n = "Users/spencer/mountain/somehow-timeline/src/shapes/Line.svelte";
+    const file$m = "Users/spencer/mountain/somehow-timeline/src/shapes/Line.svelte";
 
     // (90:2) {#if dotted === true}
     function create_if_block$3(ctx) {
@@ -10507,7 +10602,7 @@ var app = (function () {
     			create_component(dots.$$.fragment);
     			attr_dev(div, "class", "dots svelte-ar7nvv");
     			set_style(div, "background-color", "white");
-    			add_location(div, file$n, 90, 4, 2049);
+    			add_location(div, file$m, 90, 4, 2049);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -10565,7 +10660,7 @@ var app = (function () {
     			attr_dev(div0, "class", "line svelte-ar7nvv");
     			set_style(div0, "width", /*width*/ ctx[1]);
     			set_style(div0, "background-color", /*color*/ ctx[0]);
-    			add_location(div0, file$n, 87, 2, 1950);
+    			add_location(div0, file$m, 87, 2, 1950);
     			attr_dev(div1, "class", "label svelte-ar7nvv");
     			set_style(div1, "top", "37%");
     			set_style(div1, "left", /*width*/ ctx[1]);
@@ -10573,14 +10668,14 @@ var app = (function () {
     			set_style(div1, "font-size", /*size*/ ctx[5]);
     			set_style(div1, "text-decoration", /*underline*/ ctx[8] === true ? "underline" : "none");
     			toggle_class(div1, "rotate", /*rotate*/ ctx[10]);
-    			add_location(div1, file$n, 95, 2, 2150);
+    			add_location(div1, file$m, 95, 2, 2150);
     			attr_dev(div2, "class", "container svelte-ar7nvv");
     			set_style(div2, "min-width", /*space*/ ctx[3]);
     			set_style(div2, "opacity", /*opacity*/ ctx[6]);
     			set_style(div2, "top", /*top*/ ctx[11] + /*margin*/ ctx[4] + "px");
     			set_style(div2, "height", /*height*/ ctx[12] - /*margin*/ ctx[4] * 2 + "px");
     			attr_dev(div2, "title", /*title*/ ctx[2]);
-    			add_location(div2, file$n, 83, 0, 1809);
+    			add_location(div2, file$m, 83, 0, 1809);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -11289,7 +11384,7 @@ var app = (function () {
     });
 
     /* Users/spencer/mountain/somehow-timeline/src/shapes/Label.svelte generated by Svelte v3.24.1 */
-    const file$o = "Users/spencer/mountain/somehow-timeline/src/shapes/Label.svelte";
+    const file$n = "Users/spencer/mountain/somehow-timeline/src/shapes/Label.svelte";
 
     // (81:2) {:else}
     function create_else_block$1(ctx) {
@@ -11306,10 +11401,10 @@ var app = (function () {
     			set_style(div0, "top", "20%");
     			set_style(div0, "color", /*color*/ ctx[1]);
     			set_style(div0, "font-size", /*size*/ ctx[5]);
-    			add_location(div0, file$o, 81, 4, 1774);
+    			add_location(div0, file$n, 81, 4, 1774);
     			attr_dev(div1, "class", "line svelte-1pa4pjr");
     			set_style(div1, "border-right", /*width*/ ctx[2] + " solid " + /*color*/ ctx[1]);
-    			add_location(div1, file$o, 84, 4, 1879);
+    			add_location(div1, file$n, 84, 4, 1879);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
@@ -11362,12 +11457,12 @@ var app = (function () {
     			div1 = element("div");
     			attr_dev(div0, "class", "line svelte-1pa4pjr");
     			set_style(div0, "border-left", /*width*/ ctx[2] + " solid " + /*color*/ ctx[1]);
-    			add_location(div0, file$o, 76, 4, 1590);
+    			add_location(div0, file$n, 76, 4, 1590);
     			attr_dev(div1, "class", "label svelte-1pa4pjr");
     			set_style(div1, "top", "20%");
     			set_style(div1, "color", /*color*/ ctx[1]);
     			set_style(div1, "font-size", /*size*/ ctx[5]);
-    			add_location(div1, file$o, 77, 4, 1659);
+    			add_location(div1, file$n, 77, 4, 1659);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div0, anchor);
@@ -11428,7 +11523,7 @@ var app = (function () {
     			set_style(div, "top", /*top*/ ctx[8] + /*margin*/ ctx[4] + "px");
     			set_style(div, "height", /*height*/ ctx[9] - /*margin*/ ctx[4] * 2 + "px");
     			attr_dev(div, "title", /*title*/ ctx[7]);
-    			add_location(div, file$o, 70, 0, 1429);
+    			add_location(div, file$n, 70, 0, 1429);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -11776,7 +11871,7 @@ var app = (function () {
 
     /* Users/spencer/mountain/somehow-timeline/src/shapes/Column.svelte generated by Svelte v3.24.1 */
 
-    const file$p = "Users/spencer/mountain/somehow-timeline/src/shapes/Column.svelte";
+    const file$o = "Users/spencer/mountain/somehow-timeline/src/shapes/Column.svelte";
 
     function create_fragment$r(ctx) {
     	let div1;
@@ -11795,10 +11890,10 @@ var app = (function () {
     			t1 = space();
     			if (default_slot) default_slot.c();
     			attr_dev(div0, "class", "label svelte-zuei5e");
-    			add_location(div0, file$p, 24, 2, 460);
+    			add_location(div0, file$o, 24, 2, 460);
     			attr_dev(div1, "class", "part column svelte-zuei5e");
     			set_style(div1, "width", /*width*/ ctx[1]);
-    			add_location(div1, file$p, 23, 0, 409);
+    			add_location(div1, file$o, 23, 0, 409);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -11929,7 +12024,7 @@ var app = (function () {
     }
 
     /* src/Components/TextArea.svelte generated by Svelte v3.24.1 */
-    const file$q = "src/Components/TextArea.svelte";
+    const file$p = "src/Components/TextArea.svelte";
 
     function create_fragment$s(ctx) {
     	let textarea;
@@ -11944,7 +12039,7 @@ var app = (function () {
     			attr_dev(textarea, "spellcheck", "false");
     			attr_dev(textarea, "type", "text");
     			textarea.value = /*value*/ ctx[0];
-    			add_location(textarea, file$q, 41, 0, 923);
+    			add_location(textarea, file$p, 41, 0, 923);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -12087,7 +12182,7 @@ var app = (function () {
     }
 
     /* src/03.refactoring/Timeline.svelte generated by Svelte v3.24.1 */
-    const file$r = "src/03.refactoring/Timeline.svelte";
+    const file$q = "src/03.refactoring/Timeline.svelte";
 
     // (37:6) <Column width="15px">
     function create_default_slot_2(ctx) {
@@ -12392,9 +12487,9 @@ var app = (function () {
     			t = space();
     			create_component(timeline.$$.fragment);
     			attr_dev(div0, "class", "middle svelte-yixigh");
-    			add_location(div0, file$r, 33, 2, 786);
+    			add_location(div0, file$q, 33, 2, 786);
     			attr_dev(div1, "class", "box ");
-    			add_location(div1, file$r, 32, 0, 765);
+    			add_location(div1, file$q, 32, 0, 765);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -12691,7 +12786,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     }
 
     /* src/04.focus/Zelda.svelte generated by Svelte v3.24.1 */
-    const file$s = "src/04.focus/Zelda.svelte";
+    const file$r = "src/04.focus/Zelda.svelte";
 
     function create_fragment$v(ctx) {
     	let div;
@@ -12711,7 +12806,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     			div = element("div");
     			create_component(video_1.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$s, 11, 0, 193);
+    			add_location(div, file$r, 11, 0, 193);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -12792,7 +12887,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     }
 
     /* src/04.focus/Canon-cat.svelte generated by Svelte v3.24.1 */
-    const file$t = "src/04.focus/Canon-cat.svelte";
+    const file$s = "src/04.focus/Canon-cat.svelte";
 
     function create_fragment$w(ctx) {
     	let div;
@@ -12812,7 +12907,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     			div = element("div");
     			create_component(image_1.$$.fragment);
     			attr_dev(div, "class", "box");
-    			add_location(div, file$t, 9, 0, 187);
+    			add_location(div, file$s, 9, 0, 187);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -12996,6 +13091,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     		
     	} } = $$props;
 
+    	let { doEnd = false } = $$props;
     	let steps = [Zelda, Canon_cat];
     	let i = 0;
 
@@ -13012,7 +13108,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     		}
     	}
 
-    	const writable_props = ["done", "prev"];
+    	const writable_props = ["done", "prev", "doEnd"];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<_04_focus> was created with unknown prop '${key}'`);
@@ -13024,12 +13120,14 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     	$$self.$$set = $$props => {
     		if ("done" in $$props) $$invalidate(3, done = $$props.done);
     		if ("prev" in $$props) $$invalidate(4, prev = $$props.prev);
+    		if ("doEnd" in $$props) $$invalidate(5, doEnd = $$props.doEnd);
     	};
 
     	$$self.$capture_state = () => ({
     		keyPress: keypress,
     		done,
     		prev,
+    		doEnd,
     		Zelda,
     		CanonCat: Canon_cat,
     		steps,
@@ -13040,6 +13138,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     	$$self.$inject_state = $$props => {
     		if ("done" in $$props) $$invalidate(3, done = $$props.done);
     		if ("prev" in $$props) $$invalidate(4, prev = $$props.prev);
+    		if ("doEnd" in $$props) $$invalidate(5, doEnd = $$props.doEnd);
     		if ("steps" in $$props) $$invalidate(1, steps = $$props.steps);
     		if ("i" in $$props) $$invalidate(0, i = $$props.i);
     	};
@@ -13048,13 +13147,13 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [i, steps, spaceBar, done, prev];
+    	return [i, steps, spaceBar, done, prev, doEnd];
     }
 
     class _04_focus extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		init(this, options, instance$x, create_fragment$x, safe_not_equal, { done: 3, prev: 4 });
+    		init(this, options, instance$x, create_fragment$x, safe_not_equal, { done: 3, prev: 4, doEnd: 5 });
 
     		dispatch_dev("SvelteRegisterComponent", {
     			component: this,
@@ -13079,15 +13178,26 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     	set prev(value) {
     		throw new Error("<_04_focus>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
+
+    	get doEnd() {
+    		throw new Error("<_04_focus>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
+
+    	set doEnd(value) {
+    		throw new Error("<_04_focus>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
+    	}
     }
 
     /* src/App.svelte generated by Svelte v3.24.1 */
 
     const { console: console_1 } = globals;
+    const file$t = "src/App.svelte";
 
     function create_fragment$y(ctx) {
+    	let div;
     	let t0;
     	let t1;
+    	let t2;
     	let switch_instance;
     	let switch_instance_anchor;
     	let current;
@@ -13110,17 +13220,22 @@ When a couple of guys, who were up to no good, started making trouble in my neig
 
     	const block = {
     		c: function create() {
-    			t0 = text(/*i*/ ctx[0]);
-    			t1 = space();
+    			div = element("div");
+    			t0 = text("part: ");
+    			t1 = text(/*i*/ ctx[0]);
+    			t2 = space();
     			if (switch_instance) create_component(switch_instance.$$.fragment);
     			switch_instance_anchor = empty();
+    			add_location(div, file$t, 33, 0, 749);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, t0, anchor);
-    			insert_dev(target, t1, anchor);
+    			insert_dev(target, div, anchor);
+    			append_dev(div, t0);
+    			append_dev(div, t1);
+    			insert_dev(target, t2, anchor);
 
     			if (switch_instance) {
     				mount_component(switch_instance, target, anchor);
@@ -13130,7 +13245,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
-    			if (!current || dirty & /*i*/ 1) set_data_dev(t0, /*i*/ ctx[0]);
+    			if (!current || dirty & /*i*/ 1) set_data_dev(t1, /*i*/ ctx[0]);
     			const switch_instance_changes = {};
     			if (dirty & /*doEnd*/ 2) switch_instance_changes.doEnd = /*doEnd*/ ctx[1];
 
@@ -13168,8 +13283,8 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(t0);
-    			if (detaching) detach_dev(t1);
+    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(t2);
     			if (detaching) detach_dev(switch_instance_anchor);
     			if (switch_instance) destroy_component(switch_instance, detaching);
     		}

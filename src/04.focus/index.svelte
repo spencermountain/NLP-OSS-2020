@@ -2,6 +2,7 @@
   import keyPress from '../Components/keyboard'
   export let done = () => {}
   export let prev = () => {}
+  export let doEnd = false
   // pages
   import Zelda from './Zelda.svelte'
   import CanonCat from './Canon-cat.svelte'
