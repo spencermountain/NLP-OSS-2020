@@ -37,10 +37,12 @@
   }
 </style>
 
-<div class="caption">
-  <div class="title">{title}</div>
-  <div class="sub">{sub}</div>
-</div>
+{#if title}
+  <div class="caption">
+    <div class="title">{title}</div>
+    <div class="sub">{sub}</div>
+  </div>
+{/if}
 <video style="margin-bottom:0px; " {src} autoplay mute>
   <track kind="captions" />
 </video>

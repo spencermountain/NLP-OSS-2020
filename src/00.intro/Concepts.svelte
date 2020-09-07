@@ -5,18 +5,18 @@
     {
       src: './src/00.intro/assets/mercury-os.mp4',
       title: 'MercuryOs',
-      sub: 'by Jason Yuan'
+      sub: 'by Jason Yuan',
     },
     {
       src: './src/00.intro/assets/desktop-neo.mp4',
       title: 'Desktop Neo',
-      sub: 'by Lennart Ziburski'
+      sub: 'by Lennart Ziburski',
     },
     {
       src: './src/00.intro/assets/vr-os.mp4',
       title: 'VR-OS',
-      sub: 'by Matthaeus Krenn'
-    }
+      sub: 'by Matthaeus Krenn',
+    },
   ]
   let i = 0
   wait(9, () => {
@@ -28,7 +28,6 @@
 </script>
 
 <style>
-
 </style>
 
 <div class="box">

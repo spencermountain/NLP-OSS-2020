@@ -5,8 +5,9 @@
   // pages
   import Spreadsheet from './Spreadsheet.svelte'
   import Wrap1 from './Wrap.1.svelte'
+  import Insert from './Insert.svelte'
 
-  let steps = [Spreadsheet, Wrap1]
+  let steps = [Spreadsheet, Wrap1, Insert]
   let i = 0
   function spaceBar(e) {
     i = keyPress(e, i)
@@ -20,7 +21,6 @@
 </script>
 
 <style>
-
 </style>
 
 <svelte:window on:keydown={spaceBar} />

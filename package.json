@@ -1,16 +1,14 @@
 {
   "scripts": {
-    "start": "snowpack dev",
+    "start": "rollup -c -w",
     "watch": "rollup -c -w",
-    "build": "snowpack build",
+    "build": "rollup -c",
     "test": ""
   },
   "dependencies": {
     "svelte": "^3.24.0"
   },
   "devDependencies": {
-    "@snowpack/app-scripts-svelte": "^1.8.4",
-    "snowpack": "^2.10.0",
     "svelte-check": "^1.0.0",
     "@rollup/plugin-commonjs": "13.0.0",
     "@rollup/plugin-node-resolve": "8.1.0",

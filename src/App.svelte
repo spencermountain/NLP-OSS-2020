@@ -4,9 +4,10 @@
   import Intro from './00.intro/index.svelte'
   import Keyboards from './01.keyboards/index.svelte'
   import Wrapping from './02.word-wrap/index.svelte'
+  import Refactoring from './03.refactoring/index.svelte'
 
   let i = 0
-  let steps = [Intro, Keyboards, Wrapping]
+  let steps = [Intro, Keyboards, Wrapping, Refactoring]
 
   function prev() {
     if (i > 0) {
