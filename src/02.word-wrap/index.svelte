@@ -4,7 +4,7 @@
   export let prev = () => {}
   // pages
   import Spreadsheet from './Spreadsheet.svelte'
-  import Wrap1 from './Wrap.1.svelte'
+  import Wrap1 from './Wrap.svelte'
   import Insert from './Insert.svelte'
 
   let steps = [Spreadsheet, Wrap1, Insert]

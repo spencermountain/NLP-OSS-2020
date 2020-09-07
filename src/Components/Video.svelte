@@ -2,6 +2,7 @@
   export let src = ''
   export let title = ''
   export let sub = ''
+  export let loop = false
 </script>
 
 <style>
@@ -43,6 +44,6 @@
     <div class="sub">{sub}</div>
   </div>
 {/if}
-<video style="margin-bottom:0px; " {src} autoplay mute>
+<video style="margin-bottom:0px; " {src} {loop} autoplay muted>
   <track kind="captions" />
 </video>

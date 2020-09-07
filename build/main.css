@@ -22,11 +22,13 @@ body {
 }
 .box {
   position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 1280px;
   min-height: 720px;
+  max-height: 720px;
   margin: 20px;
   border: 1px solid grey;
 }

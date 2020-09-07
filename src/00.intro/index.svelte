@@ -8,9 +8,19 @@
   import Resolution2 from './Resolution-2.svelte'
   import Concepts from './Concepts.svelte'
   import Shoulders from './Shoulders.svelte'
+  import Bear from './Bear.svelte'
+  import FigureSkating from './FigureSkating.svelte'
 
-  let steps = [Splash, Resolution1, Resolution2, Concepts, Shoulders]
-  let i = 4
+  let steps = [
+    Splash,
+    Resolution1,
+    Resolution2,
+    Concepts,
+    Shoulders,
+    Bear,
+    FigureSkating,
+  ]
+  let i = 0
   function spaceBar(e) {
     i = keyPress(e, i)
     if (i < 0) {
