@@ -31,10 +31,6 @@
     color: #fbfbfb;
     box-sizing: border-box;
   }
-  .show {
-    color: steelblue;
-    border: 2px solid steelblue;
-  }
   .red {
     border: 2px solid #d68881;
     background-color: #d68881;
@@ -44,9 +40,6 @@
     border: 2px solid #6699cc;
     background-color: #6699cc;
     color: #6699cc;
-  }
-  .pink {
-    border: 2px solid #f2c0bb;
   }
 </style>
 

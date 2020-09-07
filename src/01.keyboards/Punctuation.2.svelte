@@ -38,9 +38,6 @@
   .nope {
     opacity: 0.2;
   }
-  .red {
-    border: 2px solid #d68881;
-  }
   .pink {
     border: 2px solid #f2c0bb;
   }

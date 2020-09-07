@@ -6,6 +6,9 @@
   onMount(() => {
     el.focus()
   })
+  export let width = '60%'
+  export let height = '162px'
+  export let size = '2rem'
 </script>
 
 <style>
@@ -31,7 +34,15 @@
     color: #577c97;
     box-shadow: 2px 1px 5px 0 rgba(0, 0, 0, 0.2);
     border-bottom: 2px solid lightsteelblue;
+    /* white-space: nowrap; */
+    /* overflow: auto; */
   }
 </style>
 
-<textarea class="input" spellcheck="false" type="text" {value} bind:this={el} />
+<textarea
+  class="input"
+  style="width:{width}; height:{height}; font-size:{size};"
+  spellcheck="false"
+  type="text"
+  {value}
+  bind:this={el} />

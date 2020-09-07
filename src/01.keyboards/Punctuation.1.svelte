@@ -35,9 +35,6 @@
     color: #6699cc;
     border: 2px solid #6699cc;
   }
-  .red {
-    border: 2px solid #d68881;
-  }
   .pink {
     border: 2px solid #f2c0bb;
   }

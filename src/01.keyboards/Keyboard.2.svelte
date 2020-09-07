@@ -31,17 +31,10 @@
     color: #fbfbfb;
     box-sizing: border-box;
   }
-  .show {
-    color: steelblue;
-    border: 2px solid steelblue;
-  }
   .red {
     border: 2px solid #d68881;
     background-color: #d68881;
     color: #d68881;
-  }
-  .pink {
-    border: 2px solid #f2c0bb;
   }
 </style>
 
