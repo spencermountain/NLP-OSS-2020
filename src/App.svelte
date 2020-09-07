@@ -5,14 +5,17 @@
   import Keyboards from './01.keyboards/index.svelte'
   import Wrapping from './02.word-wrap/index.svelte'
   import Refactoring from './03.refactoring/index.svelte'
+  import Focus from './04.focus/index.svelte'
 
   let i = 0
-  let steps = [Intro, Keyboards, Wrapping, Refactoring]
-
+  let steps = [Intro, Keyboards, Wrapping, Refactoring, Focus]
+  let doEnd = false
   function prev() {
     if (i > 0) {
       i -= 1
     }
+    i = i < 0 ? 0 : i // dont go under 0
+    doEnd = true
     console.log('prev', i)
   }
   function done() {
@@ -21,11 +24,12 @@
     } else {
       console.log('done')
     }
+    doEnd = false
   }
 </script>
 
 <style>
-
 </style>
 
-<svelte:component this={steps[i]} {done} {prev} />
+<div>chapter: {i}</div>
+<svelte:component this={steps[i]} {done} {prev} {doEnd} />

@@ -2,11 +2,11 @@
   import keyPress from '../Components/keyboard'
   export let done = () => {}
   export let prev = () => {}
-  export let doEnd = false
   // pages
-  import Timeline from './Timeline.svelte'
+  import Zelda from './Zelda.svelte'
+  import CanonCat from './Canon-cat.svelte'
 
-  let steps = [Timeline]
+  let steps = [Zelda, CanonCat]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

@@ -2,6 +2,7 @@
   import keyPress from '../Components/keyboard'
   export let done = () => {}
   export let prev = () => {}
+  export let doEnd = false
   // pages
   import Splash from './Splash-page.svelte'
   import Resolution1 from './Resolution-1.svelte'
@@ -21,12 +22,13 @@
     FigureSkating,
   ]
   let i = 0
+  // come from backward
+  i = doEnd === true ? steps.length - 1 : i
   function spaceBar(e) {
     i = keyPress(e, i)
     if (i < 0) {
       prev()
-    }
-    if (!steps[i]) {
+    } else if (!steps[i]) {
       done()
     }
   }
@@ -36,5 +38,5 @@
 </style>
 
 <svelte:window on:keydown={spaceBar} />
-
+<div>intro: {i}</div>
 <svelte:component this={steps[i]} />

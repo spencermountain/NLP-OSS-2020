@@ -2,6 +2,7 @@
   import keyPress from '../Components/keyboard'
   export let done = () => {}
   export let prev = () => {}
+  export let doEnd = false
   // pages
   import Desks from './Desks.svelte'
   import NowCLI from './NowCLI.svelte'
@@ -23,12 +24,13 @@
     Punctuation2,
   ]
   let i = 0
+  // come from backward
+  i = doEnd === true ? steps.length - 1 : i
   function spaceBar(e) {
     i = keyPress(e, i)
     if (i < 0) {
       prev()
-    }
-    if (!steps[i]) {
+    } else if (!steps[i]) {
       done()
     }
   }
