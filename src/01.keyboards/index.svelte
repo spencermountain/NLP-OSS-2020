@@ -9,6 +9,8 @@
   import Desks from './Desks.svelte'
   import NowCLI from './NowCLI.svelte'
   import ISSKeyboard from './ISSKeyboard.svelte'
+  import TonyAbra from './TonyAbra.svelte'
+  import ZoeSmith from './ZoeSmith.svelte'
   import Typewriter1 from './Typewriter.1.svelte'
   import Typewriter2 from './Typewriter.2.svelte'
   import Punctuation1 from './Punctuation.1.svelte'
@@ -19,6 +21,8 @@
     Mjackson,
     Desks,
     ISSKeyboard,
+    TonyAbra,
+    ZoeSmith,
     NowCLI,
     Typewriter1,
     Typewriter2,

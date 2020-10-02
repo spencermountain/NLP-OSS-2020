@@ -1,7 +1,9 @@
 <script>
+
 </script>
 
 <style>
+
 </style>
 
 <div class="box">
@@ -18,6 +20,6 @@
 </div>
 
 <div class="notes">
-  <li>mjackson 2019</li>
   <li>most important developers</li>
+  <li>wobbling aruond on pizza cartons</li>
 </div>

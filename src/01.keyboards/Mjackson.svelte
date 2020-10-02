@@ -1,7 +1,7 @@
 <script>
   import Image from '../Components/Image.svelte'
   let image = {
-    src: './src/00.intro/assets/mjackson.png'
+    src: './src/01.keyboards/assets/mjackson.png'
   }
 </script>
 
@@ -9,5 +9,5 @@
   <Image {...image} />
 </div>
 <div class="notes">
-  <li />
+  <li>2019</li>
 </div>
