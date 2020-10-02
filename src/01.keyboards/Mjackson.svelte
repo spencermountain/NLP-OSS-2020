@@ -1,14 +1,13 @@
 <script>
   import Image from '../Components/Image.svelte'
   let image = {
-    src: './src/00.intro/assets/coffee.jpg',
-    title: 'On Typing',
-    sub: 'EMNLP 2020'
+    src: './src/00.intro/assets/mjackson.png'
   }
 </script>
 
 <div class="box">
   <Image {...image} />
 </div>
-
-<div class="notes" />
+<div class="notes">
+  <li />
+</div>

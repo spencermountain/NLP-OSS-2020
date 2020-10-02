@@ -23,12 +23,12 @@
     Typewriter1,
     Typewriter2,
     Punctuation1,
-    Punctuation2,
+    Punctuation2
   ]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i
-  function spaceBar(e) {
+  const spaceBar = function(e) {
     i = keyPress(e, i)
     if (i < 0) {
       prev()
@@ -36,11 +36,18 @@
       done()
     }
   }
+  const onClick = function() {
+    i += 1
+    if (!steps[i]) {
+      done()
+    }
+  }
 </script>
 
 <style>
+
 </style>
 
-<svelte:window on:keydown={spaceBar} />
+<svelte:window on:keydown={spaceBar} on:click={onClick} />
 
 <svelte:component this={steps[i]} />

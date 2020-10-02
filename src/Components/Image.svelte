@@ -21,13 +21,23 @@
     font-size: 4rem;
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
   }
   .title {
-    top: 25px;
-    left: 40px;
-    position: absolute;
+    position: relative;
+    font-family: times new roman;
+    left: -40px;
+    top: -5px;
+    /* top: 25px; */
+    /* left: 40px; */
+    /* position: absolute; */
   }
   .sub {
+    color: #c4c3c0;
     bottom: 5px;
     position: absolute;
     right: 10px;
