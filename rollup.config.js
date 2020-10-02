@@ -37,6 +37,13 @@ export default {
       css: (css) => {
         css.write('build/bundle.css', false)
       },
+      onwarn: (warning, handler) => {
+        // e.g. don't warn on a11y-autofocus
+        if (warning.code === 'a11y-autofocus') return
+
+        // let Rollup handle all other warnings normally
+        handler(warning)
+      },
     }),
     resolve({
       browser: true,

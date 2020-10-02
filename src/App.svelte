@@ -27,6 +27,10 @@
     }
     doEnd = false
   }
+  function changeIt(e) {
+    i = parseInt(e.target.value, 10)
+    e.preventDefault()
+  }
 </script>
 
 <style>
@@ -34,4 +38,17 @@
 </style>
 
 <div>part: {i}</div>
+<div>
+  <select
+    bind:value={i}
+    on:click={e => e.preventDefault()}
+    on:change={changeIt}>
+    <option value="0">intro</option>
+    <option value="1">keyboards</option>
+    <option value="2">markup</option>
+    <option value="3">text-editor</option>
+    <option value="4">wrapping</option>
+    <option value="5">focus</option>
+  </select>
+</div>
 <svelte:component this={steps[i]} {done} {prev} {doEnd} />

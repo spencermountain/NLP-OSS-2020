@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <style>
@@ -30,6 +31,10 @@
     <div class="todo nope">◻️ - hang-out at the reference library</div>
     <div class="todo">◻️ - describe my ideal computer</div>
     <div class="todo nope">◻️ - play badminton</div>
-    <div class="todo nope">◻️ - go to Toronto symphony</div>
+    <div class="todo nope">◻️ - go to the symphony</div>
   </div>
+</div>
+
+<div class="notes">
+  <li>covid</li>
 </div>

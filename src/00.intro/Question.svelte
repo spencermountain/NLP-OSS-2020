@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <style>
@@ -21,7 +22,13 @@
 <div class="box big">
   <div>
     <div>what if a computer</div>
-    <div class="med">was just a <span class="red i">really good</span></div>
+    <div class="med">
+      was just a
+      <span class="red i">really good</span>
+    </div>
     <div class="blue med goright">text editor?</div>
   </div>
+</div>
+<div class="notes">
+  <li>no interface is ever gonna beat it</li>
 </div>

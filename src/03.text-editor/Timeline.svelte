@@ -32,43 +32,23 @@ When a couple of guys, who were up to no good, started making trouble in my neig
 <div class="box ">
   <div class="middle">
     <TextArea width="300px" height="400px" value={txt} size="1.3rem" />
-    <Timeline start="Jan 1 2020" end="Dec 30 2020" height="500">
-      <Column width="15px">
-        <Line
-          start="January 1 2020"
-          width="20px"
-          end="Feb 20 2020"
-          color="pink" />
-        <Line
-          start="Feb 20 2020"
-          width="20px"
-          end="November 11 2020"
-          color="#6699cc" />
-        <Line
-          start="November 11 2020"
-          width="20px"
-          end="December 20 2020"
-          color="fire" />
-      </Column>
-      <Column width="75">
+    <Timeline start="Jan 1 2020" end="Dec 30 2020" height="470">
+      <Column>
         <Line
           start="January 1 2020"
           end="Feb 20 2020"
           color="pink"
-          width="15px"
           dotted={true}
           label="Typing" />
         <Line
           start="Feb 20 2020"
           end="November 11 2020"
-          width="15px"
           dotted={true}
           color="#6699cc"
           label="Refactoring" />
         <Line
           start="November 11 2020"
           end="December 20 2020"
-          width="15px"
           dotted={true}
           color="fire"
           label="Proof-reading" />
@@ -76,3 +56,6 @@ When a couple of guys, who were up to no good, started making trouble in my neig
     </Timeline>
   </div>
 </div>
+
+<div class="notes" />
+<li />

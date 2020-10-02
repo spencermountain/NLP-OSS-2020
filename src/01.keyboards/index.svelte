@@ -4,8 +4,8 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import Question from './Question.svelte'
   import OscarsTalk from './OscarsTalk.svelte'
+  import Mjackson from './Mjackson.svelte'
   import Desks from './Desks.svelte'
   import NowCLI from './NowCLI.svelte'
   import ISSKeyboard from './ISSKeyboard.svelte'
@@ -15,8 +15,8 @@
   import Punctuation2 from './Punctuation.2.svelte'
 
   let steps = [
-    Question,
     OscarsTalk,
+    Mjackson,
     Desks,
     ISSKeyboard,
     NowCLI,
@@ -48,6 +48,6 @@
 
 </style>
 
-<svelte:window on:keydown={spaceBar} on:click={onClick} />
+<svelte:body on:keydown={spaceBar} on:click={onClick} />
 
 <svelte:component this={steps[i]} />

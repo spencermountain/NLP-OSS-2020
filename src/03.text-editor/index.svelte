@@ -5,8 +5,9 @@
   export let doEnd = false
   // pages
   import Timeline from './Timeline.svelte'
+  import Drake from './Timeline.svelte'
 
-  let steps = [Timeline]
+  let steps = [Drake, Timeline]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i
@@ -30,6 +31,6 @@
 
 </style>
 
-<svelte:window on:keydown={spaceBar} on:click={onClick} />
+<svelte:body on:keydown={spaceBar} on:click={onClick} />
 
 <svelte:component this={steps[i]} />

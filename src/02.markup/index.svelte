@@ -30,6 +30,6 @@
 
 </style>
 
-<svelte:window on:keydown={spaceBar} on:click={onClick} />
+<svelte:body on:keydown={spaceBar} on:click={onClick} />
 
 <svelte:component this={steps[i]} />

@@ -5,21 +5,29 @@
   export let doEnd = false
   // pages
   import Splash from './Splash-page.svelte'
+  import Compromise from './Compromise.svelte'
   import Resolution1 from './Resolution-1.svelte'
   import Resolution2 from './Resolution-2.svelte'
-  import Concepts from './Concepts.svelte'
+  import Concept1 from './Concept.1.svelte'
+  import Concept2 from './Concept.2.svelte'
+  import Concept3 from './Concept.3.svelte'
   import Shoulders from './Shoulders.svelte'
   import Bear from './Bear.svelte'
   import FigureSkating from './FigureSkating.svelte'
+  import Question from './Question.svelte'
 
   let steps = [
     Splash,
+    Compromise,
     Resolution1,
     Resolution2,
-    Concepts,
+    Concept1,
+    Concept2,
+    Concept3,
     Shoulders,
     Bear,
-    FigureSkating
+    FigureSkating,
+    Question
   ]
   let i = 0
   // come from backward
@@ -44,5 +52,5 @@
 
 </style>
 
-<svelte:window on:keydown={spaceBar} on:click={onClick} />
+<svelte:body on:keydown={spaceBar} on:click={onClick} />
 <svelte:component this={steps[i]} />
