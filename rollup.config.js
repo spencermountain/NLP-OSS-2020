@@ -3,6 +3,11 @@ import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import livereload from 'rollup-plugin-livereload'
 
+let input = `./src/index.js`
+if (process.argv[4] === 'one') {
+  input = `./src/one.js`
+}
+
 function serve() {
   let started = false
   return {
@@ -19,7 +24,7 @@ function serve() {
 }
 
 export default {
-  input: `./src/index.js`,
+  input: input,
   output: {
     sourcemap: false,
     format: 'iife',

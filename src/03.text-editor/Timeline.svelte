@@ -2,8 +2,7 @@
   import {
     Timeline,
     Column,
-    Line,
-    Label
+    Line
   } from '/Users/spencer/mountain/somehow-timeline/src'
 
   import TextArea from '../Components/TextArea.svelte'
