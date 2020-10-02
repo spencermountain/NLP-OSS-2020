@@ -15,6 +15,8 @@
   import Bear from './Bear.svelte'
   import FigureSkating from './FigureSkating.svelte'
   import Question from './Question.svelte'
+  import LoveTyping from './Question.svelte'
+  import Menu from './Menu.svelte'
 
   let steps = [
     Splash,
@@ -27,7 +29,9 @@
     Shoulders,
     Bear,
     FigureSkating,
-    Question
+    Question,
+    LoveTyping,
+    Menu
   ]
   let i = 0
   // come from backward

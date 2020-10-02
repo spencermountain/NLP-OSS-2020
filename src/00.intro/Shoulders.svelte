@@ -1,10 +1,10 @@
 <script>
   import Image from '../Components/Image.svelte'
   let commits = {
-    src: './src/00.intro/assets/commit-graph.png',
+    src: './src/00.intro/assets/commit-graph.png'
   }
   let arms = {
-    src: './src/00.intro/assets/arms.png',
+    src: './src/00.intro/assets/arms.png'
   }
 </script>
 
@@ -31,4 +31,10 @@
   <div class="mid">
     <Image {...commits} />
   </div>
+</div>
+
+<div class="notes">
+  <li>thinking abt my posture</li>
+  <li>what would it mean to be good at a computer?</li>
+  <li>even if I had a good O/s, still have problems</li>
 </div>
