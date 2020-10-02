@@ -4,8 +4,8 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
+  import Drake from './Drake.svelte'
   import Timeline from './Timeline.svelte'
-  import Drake from './Timeline.svelte'
 
   let steps = [Drake, Timeline]
   let i = 0

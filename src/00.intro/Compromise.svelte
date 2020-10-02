@@ -14,9 +14,11 @@
   }
 </style>
 
-<div class="box row">
-  <!-- <img style="width:250px;" src="./src/00.intro/assets/cn-tower.png" alt="" /> -->
-  <img class="img" src="./src/00.intro/assets/compromise.png" alt="" />
+<div class="box">
+  <div class="row">
+    <!-- <img style="width:250px;" src="./src/00.intro/assets/cn-tower.png" alt="" /> -->
+    <img class="img" src="./src/00.intro/assets/compromise.png" alt="" />
+  </div>
 </div>
 <div class="notes">
   <li>8 years - compromise</li>

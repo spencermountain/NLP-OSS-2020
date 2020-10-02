@@ -4,9 +4,12 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  // import Zelda from './Zelda.svelte'
+  import Escaping from './Escaping.svelte'
+  import Newline from './Newline.svelte'
+  import Wikipedia from './Wikipedia.svelte'
+  import Question from './Question.svelte'
 
-  let steps = []
+  let steps = [Newline, Escaping, Question, Wikipedia]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

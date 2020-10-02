@@ -17,7 +17,6 @@
     }
     i = i < 0 ? 0 : i // dont go under 0
     doEnd = true
-    console.log('prev', i)
   }
   function done() {
     if (steps[i + 1]) {
@@ -39,10 +38,7 @@
 
 <div>part: {i}</div>
 <div>
-  <select
-    bind:value={i}
-    on:click={e => e.preventDefault()}
-    on:change={changeIt}>
+  <select bind:value={i} on:click={e => e.preventDefault()} on:blur={changeIt}>
     <option value="0">intro</option>
     <option value="1">keyboards</option>
     <option value="2">markup</option>

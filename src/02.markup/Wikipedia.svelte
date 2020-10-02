@@ -1,7 +1,7 @@
 <script>
   import Image from '../Components/Image.svelte'
   let image = {
-    src: './src/02.markup/assets/einstein.jpg'
+    src: './src/02.markup/assets/einstein.png'
   }
 </script>
 

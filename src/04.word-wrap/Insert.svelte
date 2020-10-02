@@ -3,11 +3,11 @@
   import wait from '../Components/wait'
   let images = [
     {
-      src: './src/02.word-wrap/assets/insert-1.png',
+      src: './src/04.word-wrap/assets/insert-1.png'
     },
     {
-      src: './src/02.word-wrap/assets/insert-2.png',
-    },
+      src: './src/04.word-wrap/assets/insert-2.png'
+    }
   ]
   let i = 0
   wait(1, () => {
@@ -16,6 +16,7 @@
 </script>
 
 <style>
+
 </style>
 
 <div class="box">

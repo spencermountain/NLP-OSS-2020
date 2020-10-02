@@ -2,6 +2,7 @@
   export let src = ''
   export let title = ''
   export let sub = ''
+  export let width = '100%'
 </script>
 
 <style>
