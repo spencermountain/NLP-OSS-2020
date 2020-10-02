@@ -12,5 +12,8 @@ people hate them
 
 - **tony abraham**
   portland
+- **zoe smith**
+  britain
 
-- **steno**
+- no reason to have hands on desk
+  from morse-code clicker?
