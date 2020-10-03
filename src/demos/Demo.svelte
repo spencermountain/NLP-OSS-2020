@@ -1,7 +1,7 @@
 <script>
   import nlp from '/Users/spencer/mountain/compromise'
   import TextArea from '../Components/TextArea.svelte'
-  let txt = `sometimes I feel I've got to`
+  let txt = `don't speak -  I know just what you're saying.`
   let result = []
   const change = function(str) {
     result = []
