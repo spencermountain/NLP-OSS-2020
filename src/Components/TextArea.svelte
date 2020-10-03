@@ -2,6 +2,7 @@
   import { onMount } from 'svelte'
   export let value = ''
   let el
+  export let cb = () => {}
 
   onMount(() => {
     el.focus()
@@ -9,6 +10,9 @@
   export let width = '60%'
   export let height = '162px'
   export let size = '2rem'
+  const callback = function(e) {
+    cb(e.target.value)
+  }
 </script>
 
 <style>
@@ -41,8 +45,9 @@
 
 <textarea
   class="input"
+  on:input={callback}
   style="width:{width}; height:{height}; font-size:{size};"
   spellcheck="false"
   type="text"
-  {value}
+  bind:value
   bind:this={el} />

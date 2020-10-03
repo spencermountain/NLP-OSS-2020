@@ -23,7 +23,7 @@
   import Menu from './Menu.svelte'
 
   let steps = [
-    Splash,
+    // Splash,
     Compromise,
     History,
     Accuracy,

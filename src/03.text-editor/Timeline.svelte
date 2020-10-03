@@ -1,16 +1,16 @@
 <script>
-  import {
-    Timeline,
-    Column,
-    Line
-  } from '/Users/spencer/mountain/somehow-timeline/src'
+  //   import {
+  //     Timeline,
+  //     Column,
+  //     Line
+  //   } from '/Users/spencer/mountain/somehow-timeline/src'
 
-  import TextArea from '../Components/TextArea.svelte'
-  let txt = `In West Philadelphia born and raised, on the playground is where I spent most of my days.
+  //   import TextArea from '../Components/TextArea.svelte'
+  //   let txt = `In West Philadelphia born and raised, on the playground is where I spent most of my days.
 
-Chilling out, maxing, relaxing all cool, and all shooting some b-ball outside of the school.
+  // Chilling out, maxing, relaxing all cool, and all shooting some b-ball outside of the school.
 
-When a couple of guys, who were up to no good, started making trouble in my neighborhood.`
+  // When a couple of guys, who were up to no good, started making trouble in my neighborhood.`
 </script>
 
 <style>
@@ -31,8 +31,9 @@ When a couple of guys, who were up to no good, started making trouble in my neig
 
 <div class="box ">
   <div class="middle">
+    <img src="./src/03.text-editor/assets/refactoring-timeline.png" alt="" />
     <!-- <TextArea width="300px" height="400px" value={txt} size="1.3rem" /> -->
-    <Timeline start="Jan 1 2020" end="Dec 30 2020" height="600">
+    <!-- <Timeline start="Jan 1 2020" end="Dec 30 2020" height="600">
       <Line
         start="January 1 2020"
         end="Feb 20 2020"
@@ -51,7 +52,7 @@ When a couple of guys, who were up to no good, started making trouble in my neig
         dotted={true}
         color="fire"
         label="Proof-reading" />
-    </Timeline>
+    </Timeline> -->
   </div>
 </div>
 
