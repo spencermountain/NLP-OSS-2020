@@ -6,6 +6,10 @@
   // pages
   import Splash from './Splash-page.svelte'
   import Compromise from './Compromise.svelte'
+  import History from './Compromise-history.svelte'
+  import Size from './Compromise-size.svelte'
+  import Latency from './Compromise-latency.svelte'
+  import Accuracy from './Compromise-accuracy.svelte'
   import Resolution1 from './Resolution-1.svelte'
   import Resolution2 from './Resolution-2.svelte'
   import Concept1 from './Concept.1.svelte'
@@ -21,6 +25,10 @@
   let steps = [
     Splash,
     Compromise,
+    History,
+    Accuracy,
+    Size,
+    Latency,
     Resolution1,
     Resolution2,
     Concept1,

@@ -31,28 +31,26 @@ When a couple of guys, who were up to no good, started making trouble in my neig
 
 <div class="box ">
   <div class="middle">
-    <TextArea width="300px" height="400px" value={txt} size="1.3rem" />
-    <Timeline start="Jan 1 2020" end="Dec 30 2020" height="470">
-      <Column>
-        <Line
-          start="January 1 2020"
-          end="Feb 20 2020"
-          color="pink"
-          dotted={true}
-          label="Typing" />
-        <Line
-          start="Feb 20 2020"
-          end="November 11 2020"
-          dotted={true}
-          color="#6699cc"
-          label="Refactoring" />
-        <Line
-          start="November 11 2020"
-          end="December 20 2020"
-          dotted={true}
-          color="fire"
-          label="Proof-reading" />
-      </Column>
+    <!-- <TextArea width="300px" height="400px" value={txt} size="1.3rem" /> -->
+    <Timeline start="Jan 1 2020" end="Dec 30 2020" height="600">
+      <Line
+        start="January 1 2020"
+        end="Feb 20 2020"
+        color="pink"
+        dotted={true}
+        label="Typing" />
+      <Line
+        start="Feb 20 2020"
+        end="November 11 2020"
+        dotted={true}
+        color="#6699cc"
+        label="Refactoring" />
+      <Line
+        start="November 11 2020"
+        end="December 20 2020"
+        dotted={true}
+        color="fire"
+        label="Proof-reading" />
     </Timeline>
   </div>
 </div>
