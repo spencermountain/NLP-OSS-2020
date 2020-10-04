@@ -21,6 +21,7 @@
   import Question from './Question.svelte'
   import LoveTyping from './Question.svelte'
   import Menu from './Menu.svelte'
+  import So2020 from './2020.svelte'
 
   let steps = [
     // Splash,
@@ -29,6 +30,7 @@
     Accuracy,
     Size,
     Latency,
+    So2020,
     Resolution1,
     Resolution2,
     Concept1,
