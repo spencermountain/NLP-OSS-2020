@@ -4,13 +4,14 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import Typewriter1 from './Typewriter.1.svelte'
+  import Keyboard1 from './Keyboard.1.svelte'
+  import Keyboard2 from './Keyboard.2.svelte'
   import Tilde from './Tilde.svelte'
   import Typewriter2 from './Typewriter.2.svelte'
-  import Punctuation1 from './Punctuation.1.svelte'
+  // import Punctuation1 from './Punctuation.1.svelte'
   import Punctuation2 from './Punctuation.2.svelte'
 
-  let steps = [Typewriter1, Tilde, Typewriter2, Punctuation1, Punctuation2]
+  let steps = [Keyboard1, Keyboard2, Tilde, Typewriter2, Punctuation2]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i
