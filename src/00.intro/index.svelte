@@ -18,7 +18,6 @@
   import Bear from './Bear.svelte'
   import FigureSkating from './FigureSkating.svelte'
   import Question from './Question.svelte'
-  import LoveTyping from './Question.svelte'
   import Menu from './Menu.svelte'
   import So2020 from './2020.svelte'
 
@@ -39,7 +38,7 @@
     Bear,
     FigureSkating,
     Question,
-    LoveTyping,
+    // LoveTyping,
     Menu
   ]
   let i = 0

@@ -33,19 +33,19 @@
     <div>
       <div style="text-align:left;" class="ml3">
         <div class="f2">
-          <span class="num">1)</span>
-          Keyboard interface
+          <span class="num red">1)</span>
+          Keyboards
         </div>
         <div class="f2">
-          <span class="num">2)</span>
+          <span class="num pink">2)</span>
           Markup languages
         </div>
         <div class="f2">
-          <span class="num">3)</span>
+          <span class="num rose">3)</span>
           Text-editors
         </div>
         <!-- <div class="f2">4) Data structure</div> -->
-        <div class="f2">
+        <div class="f2 rouge">
           <span class="num">4)</span>
           Novel interactions
         </div>

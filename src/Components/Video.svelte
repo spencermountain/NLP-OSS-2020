@@ -17,10 +17,10 @@
     z-index: 4;
     height: 5.8rem;
     width: 500px;
-    background-color: #914045;
+    background-color: #2d85a8;
     color: #d7d5d2;
     font-size: 4rem;
-    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 8px 0px rgba(45, 133, 168, 0.2);
     border-radius: 5px;
   }
   .title {

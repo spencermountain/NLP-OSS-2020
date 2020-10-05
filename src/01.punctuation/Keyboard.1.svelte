@@ -39,6 +39,7 @@
 </div>
 
 <div class="notes">
-  <li>we're maxed for keys (dexterity of hands)</li>
   <li>we're stuck with this</li>
+  <li>we're maxed for keys (dexterity of hands)</li>
+  <li>english is lucky</li>
 </div>

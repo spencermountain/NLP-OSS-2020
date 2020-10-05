@@ -7,11 +7,14 @@
   import OscarsTalk from './OscarsTalk.svelte'
   import Mjackson from './Mjackson.svelte'
   import Desks from './Desks.svelte'
-  import NowCLI from './NowCLI.svelte'
   import ISSKeyboard from './ISSKeyboard.svelte'
   import TonyAbra from './TonyAbra.svelte'
   import ZoeSmith from './ZoeSmith.svelte'
   import HandKeyboards from './HandKeyboards.svelte'
+  import NowCLI from './NowCLI.svelte'
+  import LoveTyping from './LoveTyping.svelte'
+  import Typewriter from './Typewriter.svelte'
+  import TypewriterMag from './TypewriterMag.svelte'
 
   let steps = [
     OscarsTalk,
@@ -21,7 +24,10 @@
     TonyAbra,
     ZoeSmith,
     HandKeyboards,
-    NowCLI
+    LoveTyping,
+    NowCLI,
+    Typewriter,
+    TypewriterMag
   ]
   let i = 0
   // come from backward
