@@ -29,5 +29,5 @@
   </div>
 </div>
 <div class="notes">
-  <li />
+  <li>everybody knows freehand text can't be parsed</li>
 </div>

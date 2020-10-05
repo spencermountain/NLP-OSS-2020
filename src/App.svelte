@@ -9,7 +9,7 @@
   import Wrapping from './04.word-wrap/index.svelte'
   import Focus from './05.focus/index.svelte'
 
-  let i = 0
+  let i = 2
   let steps = [
     Intro,
     Keyboards,

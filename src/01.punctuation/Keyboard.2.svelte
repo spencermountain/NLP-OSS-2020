@@ -62,5 +62,7 @@
 </div>
 
 <div class="notes">
-  <li>we're maxed for keys'</li>
+  <li>want to talk about punctuation</li>
+  <li>there's 10k misc unicode characters</li>
+  <li>tension between cultural-use and control-characters</li>
 </div>
