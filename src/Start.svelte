@@ -1,5 +1,7 @@
 <script>
-  import Image from './Components/Image.svelte'
+  export let done = () => {}
+  export let doEnd
+  export let prev
 </script>
 
 <style>
@@ -19,6 +21,8 @@
     flex: 1;
   }
 </style>
+
+<svelte:body on:keydown={done} on:click={done} />
 
 <div class="box">
   <div class="container">

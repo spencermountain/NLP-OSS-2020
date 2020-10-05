@@ -27,11 +27,17 @@
     align-items: center;
     justify-content: center;
   }
+  .img {
+    box-shadow: none;
+  }
 </style>
 
 <div class="box ">
   <div class="middle">
-    <img src="./src/03.text-editor/assets/refactoring-timeline.png" alt="" />
+    <img
+      class="img"
+      src="./src/04.text-editor/assets/refactoring-timeline.png"
+      alt="" />
     <!-- <TextArea width="300px" height="400px" value={txt} size="1.3rem" /> -->
     <!-- <Timeline start="Jan 1 2020" end="Dec 30 2020" height="600">
       <Line

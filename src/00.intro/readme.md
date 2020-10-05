@@ -1,2 +1,0 @@
-- **compromise**
-  - chat bots, question answering, classification
