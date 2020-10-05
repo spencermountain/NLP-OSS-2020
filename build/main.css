@@ -32,6 +32,7 @@ body {
   max-width: 1280px;
   min-height: 720px;
   max-height: 720px;
+  overflow: none;
   margin: 20px;
   border: 1px solid grey;
 }

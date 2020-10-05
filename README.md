@@ -9,7 +9,7 @@ presentation for [the open-source track](https://nlposs.github.io/2020/index.htm
   - **accuracy**
   - **filesize**
   - **latency**
-  - [past-tense example]
+  - [add past-tense example]
 - **ok2020**
   - **resolutions**
   - **resolutions2**
@@ -26,12 +26,17 @@ presentation for [the open-source track](https://nlposs.github.io/2020/index.htm
 
 - **oscars talk** - this is the most-prestiguous stage in western-world
 - **mjackson**
+
   - **desks**
   - **ISS pic**
   - **tony abraham**
   - **zoe smith**
   - **steve mann**
+  - [add wolfram]
     [needs work]
+    there are now a few trillion-dollar computer companies
+    but a \$12 strap around your neck
+
 - **kids typing**
 - **now CLI** - people love typing.
   [awkward]
@@ -44,8 +49,10 @@ they can wait.
 - **typewriter** - nobody liked using typewriters for fun.
 - **magnetic typewriter** - 1969
 - [add engelbart]
-
-- **insert key**
+  we remark at how many features it has,
+  but not at how little things have changed in 50 years since.
+  - apollo 8
+  - herman miller
 
 ### Punctuation
 
@@ -76,7 +83,7 @@ they can wait.
 ### Word-wrap
 
 - **word-wrap demo**
-<!-- - **insert key** -->
+- **insert key**
 
 ### text editors
 

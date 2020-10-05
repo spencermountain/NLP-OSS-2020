@@ -4,24 +4,20 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import OscarsTalk from './OscarsTalk.svelte'
-  import Mjackson from './Mjackson.svelte'
-  import Desks from './Desks.svelte'
-  import ISSKeyboard from './ISSKeyboard.svelte'
-  import TonyAbra from './TonyAbra.svelte'
-  import ZoeSmith from './ZoeSmith.svelte'
-  import HandKeyboards from './HandKeyboards.svelte'
-  import Wolfram from './Wolfram.svelte'
+  import LoveTyping from './LoveTyping.svelte'
+  import NowCLI from './NowCLI.svelte'
+  import Typewriter from './Typewriter.svelte'
+  import TypewriterMag from './TypewriterMag.svelte'
+  import Engelbart from './Engelbart.svelte'
+  import Apollo8 from './Apollo8.svelte'
 
   let steps = [
-    OscarsTalk,
-    Mjackson,
-    Desks,
-    ISSKeyboard,
-    TonyAbra,
-    ZoeSmith,
-    HandKeyboards,
-    Wolfram
+    LoveTyping,
+    NowCLI,
+    Typewriter,
+    TypewriterMag,
+    Engelbart,
+    Apollo8
   ]
   let i = 0
   // come from backward

@@ -1,7 +1,7 @@
 <script>
   import Image from '../Components/Image.svelte'
   let image = {
-    src: './src/01.keyboards/assets/kids-typing.jpg'
+    src: './src/01.typing/assets/kids-typing.jpg'
   }
 </script>
 

@@ -4,6 +4,7 @@
   import Start from './Start.svelte'
   import Intro from './00.intro/index.svelte'
   import Keyboards from './01.keyboards/index.svelte'
+  import Typing from './01.typing/index.svelte'
   import Punctuation from './01.punctuation/index.svelte'
   import Markup from './02.markup/index.svelte'
   import Wrapping from './03.word-wrap/index.svelte'
@@ -16,6 +17,7 @@
     Start,
     Intro,
     Keyboards,
+    Typing,
     Punctuation,
     Markup,
     Wrapping,
@@ -41,6 +43,7 @@
   }
   function changeIt(e) {
     i = parseInt(e.target.value, 10)
+
     e.preventDefault()
   }
 </script>
@@ -51,14 +54,19 @@
 
 <div>part: {i}</div>
 <div>
-  <select bind:value={i} on:click={e => e.preventDefault()} on:blur={changeIt}>
+  <select
+    bind:value={i}
+    on:click={e => e.preventDefault()}
+    on:change={changeIt}
+    on:blur={() => {}}>
     <option value="0">intro</option>
     <option value="1">keyboards</option>
-    <option value="2">punctuation</option>
-    <option value="3">markup</option>
-    <option value="4">wrapping</option>
-    <option value="5">text-editor</option>
-    <option value="6">focus</option>
+    <option value="2">typing</option>
+    <option value="3">punctuation</option>
+    <option value="4">markup</option>
+    <option value="5">wrapping</option>
+    <option value="6">text-editor</option>
+    <option value="7">focus</option>
   </select>
 </div>
 <svelte:component this={steps[i]} {done} {prev} {doEnd} />
