@@ -4,7 +4,6 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import Splash from './Splash-page.svelte'
   import Compromise from './Compromise.svelte'
   import History from './Compromise-history.svelte'
   import Size from './Compromise-size.svelte'

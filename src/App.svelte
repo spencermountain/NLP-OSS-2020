@@ -1,6 +1,7 @@
 <script>
   import { setContext } from 'svelte'
   setContext('size', { width: 1280, height: 720 })
+  import Start from './Start.svelte'
   import Intro from './00.intro/index.svelte'
   import Keyboards from './01.keyboards/index.svelte'
   import Punctuation from './01.punctuation/index.svelte'
@@ -8,16 +9,19 @@
   import Wrapping from './03.word-wrap/index.svelte'
   import TextEditor from './04.text-editor/index.svelte'
   import Focus from './05.focus/index.svelte'
+  import End from './End.svelte'
 
-  let i = 3
+  let i = 0
   let steps = [
+    Start,
     Intro,
     Keyboards,
     Punctuation,
     Markup,
     Wrapping,
     TextEditor,
-    Focus
+    Focus,
+    End
   ]
   let doEnd = false
   function prev() {
