@@ -18,5 +18,6 @@
     - AA 'after all'
   </li>
   <li>punchcards had an overflow character</li>
-  <li>typewriters</li>
+  <li>typewriter RUNOFF</li>
+  <li>there is no plaintext.</li>
 </div>

@@ -5,18 +5,18 @@
   import Keyboards from './01.keyboards/index.svelte'
   import Punctuation from './01.punctuation/index.svelte'
   import Markup from './02.markup/index.svelte'
-  import TextEditor from './03.text-editor/index.svelte'
-  import Wrapping from './04.word-wrap/index.svelte'
+  import Wrapping from './03.word-wrap/index.svelte'
+  import TextEditor from './04.text-editor/index.svelte'
   import Focus from './05.focus/index.svelte'
 
-  let i = 2
+  let i = 3
   let steps = [
     Intro,
     Keyboards,
     Punctuation,
     Markup,
-    TextEditor,
     Wrapping,
+    TextEditor,
     Focus
   ]
   let doEnd = false
@@ -52,8 +52,8 @@
     <option value="1">keyboards</option>
     <option value="2">punctuation</option>
     <option value="3">markup</option>
-    <option value="4">text-editor</option>
-    <option value="5">wrapping</option>
+    <option value="4">wrapping</option>
+    <option value="5">text-editor</option>
     <option value="6">focus</option>
   </select>
 </div>

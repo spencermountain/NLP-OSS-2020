@@ -9,11 +9,24 @@
   import Keyboard3 from './Keyboard.3.svelte'
   import KeyTilde from './KeyTilde.svelte'
   import Tilde from './Tilde.svelte'
-  // import Typewriter2 from './Typewriter.2.svelte'
-  // import Punctuation1 from './Punctuation.1.svelte'
-  // import Punctuation2 from './Punctuation.2.svelte'
+  import KeyHash from './KeyHash.svelte'
+  import KeyAt from './KeyAt.svelte'
+  import KeyAsterix from './KeyAsterix.svelte'
+  import KeyBrackets from './KeyBrackets.svelte'
+  import Tomlinson from './Tomlinson.svelte'
 
-  let steps = [Keyboard1, Keyboard2, Keyboard3, KeyTilde, Tilde]
+  let steps = [
+    Keyboard1,
+    Keyboard2,
+    Keyboard3,
+    KeyTilde,
+    // Tilde,
+    KeyAt,
+    KeyHash,
+    KeyAsterix,
+    KeyBrackets,
+    Tomlinson
+  ]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

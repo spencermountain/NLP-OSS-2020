@@ -21,11 +21,11 @@
 
 <div class="box big">
   <div>
-    <div>how can you</div>
+    <div class="f2 i">how can a user</div>
     <div class="med">
       <span class="red i">write</span>
+      <span class="blue med ">clear data?</span>
     </div>
-    <div class="blue med goright">data?</div>
   </div>
 </div>
 <div class="notes">

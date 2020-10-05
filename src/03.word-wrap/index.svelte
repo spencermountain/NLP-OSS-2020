@@ -4,6 +4,7 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
+  // import Newline from './Newline.svelte'
   import Spreadsheet from './Spreadsheet.svelte'
   import Wrap1 from './Wrap.svelte'
   import Insert from './Insert.svelte'
