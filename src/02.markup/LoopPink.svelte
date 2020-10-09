@@ -27,15 +27,36 @@
     line-height: 30px;
     opacity: 0.7;
   }
+  .onleft {
+    position: absolute;
+    left: 7%;
+    top: 33%;
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    color: #735873;
+  }
 </style>
 
-<div class="box" style="position:relative; with:100%;">
-  <div class="label blue" style="top:40%; left:24%;">
-    <span class="sub i">deeply arcane</span>
-    <div class="f2">CLI</div>
+<div class="box" style="position:relative; width:100%;">
+
+  <div class="onleft">
+    <div>• ubiquity</div>
+    <div>• spotlight</div>
+    <div>• sublime</div>
+    <div>• medium</div>
+    <div>• linear.app</div>
   </div>
+  <div class="label pink" style="top:40%; left:34%;">
+    <!-- <span class="sub i">text-driven</span> -->
+    <div class="" style="line-height:3rem;">text-based interfaces</div>
+  </div>
+  <!-- <div class="label red" style="top:40%; left:24%;">
+    <div style="opacity:0;">{' -'}</div>
+    <div style="font-size:1.2rem;">CLI</div>
+  </div> -->
   <div class="label red" style="top:40%; left:57%;">
-    <span class="sub i">deeply patronizing</span>
+    <!-- <span class="sub i">deeply patronizing</span> -->
     <br />
     <div class="f2">GUI</div>
   </div>
@@ -102,7 +123,7 @@
         marker-end="url(#triangle)" />
 
       <!-- pink parts -->
-      <g transform="scale(0.82)">
+      <g transform="scale(0.8)">
         <path
           class="link svelte-1lnhtnf"
           d="M8.799847533485712,-32.84147809382832A34,34,0,0,1,32.84147809382832,-8.79984753348571L30.909626441250182,-8.282209443280669A32,32,0,0,0,8.28220944328067,-30.909626441250182Z"
@@ -116,22 +137,12 @@
           fill="#F2C0BB"
           stroke-width="1" />
       </g>
-      <!-- <g transform="translate(60)">
-        <path
-          class="link svelte-1lnhtnf"
-          d="M2.9632952534203763,33.87061973511935A34,34,0,0,0,33.87061973511935,2.9632952534203745L31.878230338935857,2.788983767925058A32,32,0,0,1,2.78898376792506,31.878230338935857Z"
-          stroke="none"
-          transform="scaleX(1)"
-          fill="#6accb2"
-          stroke-width="1"
-          marker-end="url(#triangle)" />
-      </g> -->
+
     </svg>
   </div>
 
 </div>
 
 <div class="notes">
-  <li>people hate our UIs, especially if they're beautiful</li>
-  <li>i've been both the blue and red arrows in my career</li>
+  <li>sweet spot</li>
 </div>
