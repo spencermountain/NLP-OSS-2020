@@ -23,8 +23,9 @@
   <div>
     <div class="f2 i">how can a user</div>
     <div class="med">
-      <span class="red i">write</span>
-      <span class="blue med ">clear data?</span>
+      <span class="blue med ">make</span>
+      <span class="red i">data</span>
+      <div class="blue med ">with their keyboard?</div>
     </div>
   </div>
 </div>

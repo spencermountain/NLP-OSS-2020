@@ -7,8 +7,6 @@
 
 <style>
   video {
-    border-radius: 4px;
-    z-index: 1;
   }
   .caption {
     position: absolute;
@@ -36,6 +34,12 @@
     margin-top: 20px;
     font-style: italic;
   }
+  .vid {
+    margin-bottom: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    width: 80%;
+  }
 </style>
 
 {#if title}
@@ -44,6 +48,8 @@
     <div class="sub">{sub}</div>
   </div>
 {/if}
-<video style="margin-bottom:0px; " {src} {loop} autoplay muted>
-  <track kind="captions" />
-</video>
+<div class="m3">
+  <video class="vid" {src} {loop} autoplay muted>
+    <track kind="captions" />
+  </video>
+</div>

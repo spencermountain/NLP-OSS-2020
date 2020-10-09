@@ -12,7 +12,9 @@
 </style>
 
 <div class="box">
-  <Video {...video} />
+  <div class="m3">
+    <Video {...video} />
+  </div>
 </div>
 <div class="notes">
   <li>bicyle for the mind</li>

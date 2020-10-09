@@ -47,6 +47,7 @@
     <div>• blekko tags</div>
     <div>• Apple spotlight</div>
     <div>• FB graph-search</div>
+    <div>• Wolfram Language</div>
     <div>• linear.app</div>
   </div>
   <div class="label pink" style="top:40%; left:34%;" />
