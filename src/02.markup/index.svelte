@@ -13,6 +13,8 @@
   import Glimpse from './Glimpse.svelte'
   import Timeline from './Timeline.svelte'
   import Loop from './Loop.svelte'
+  import LoopPink from './LoopPink.svelte'
+  import LoopNLP from './LoopNLP.svelte'
 
   let steps = [
     Question,
@@ -23,7 +25,9 @@
     Margin,
     Glimpse,
     Timeline,
-    Loop
+    Loop,
+    LoopPink,
+    LoopNLP
   ]
   let i = 0
   // come from backward

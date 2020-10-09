@@ -30,11 +30,11 @@
   .onleft {
     position: absolute;
     left: 7%;
-    top: 33%;
+    top: 25%;
     text-align: left;
     font-size: 1.8rem;
     line-height: 3.5rem;
-    color: #735873;
+    color: #e6b3bc;
   }
 </style>
 
@@ -42,19 +42,18 @@
 
   <div class="onleft">
     <div>• ubiquity</div>
-    <div>• spotlight</div>
-    <div>• sublime</div>
+    <div>• sublime cmds</div>
     <div>• medium</div>
+    <div>• blekko tags</div>
+    <div>• Apple spotlight</div>
+    <div>• FB graph-search</div>
     <div>• linear.app</div>
   </div>
-  <div class="label pink" style="top:40%; left:34%;">
-    <!-- <span class="sub i">text-driven</span> -->
-    <div class="" style="line-height:3rem;">text-based interfaces</div>
-  </div>
-  <!-- <div class="label red" style="top:40%; left:24%;">
+  <div class="label pink" style="top:40%; left:34%;" />
+  <div class="label red" style="top:40%; left:24%;">
     <div style="opacity:0;">{' -'}</div>
-    <div style="font-size:1.2rem;">CLI</div>
-  </div> -->
+    <div class="f2 blue">CLI</div>
+  </div>
   <div class="label red" style="top:40%; left:57%;">
     <!-- <span class="sub i">deeply patronizing</span> -->
     <br />

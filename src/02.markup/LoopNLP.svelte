@@ -24,29 +24,36 @@
   .sub {
     font-size: 0.9rem;
     min-width: 200px;
-    line-height: 30px;
+    line-height: 35px;
     opacity: 0.7;
+  }
+  .onleft {
+    position: absolute;
+    left: 7%;
+    top: 25%;
+    text-align: left;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    color: #e6b3bc;
   }
 </style>
 
-<div class="box" style="position:relative; with:100%;">
-  <div class="label blue" style="top:40%; left:24%;">
-    <span class="sub i">deeply arcane</span>
-    <div class="f2">CLI</div>
+<div class="box" style="position:relative; width:100%;">
+
+  <div class="label red" style="top:40%; left:24%;">
+    <div style="opacity:0;">{' -'}</div>
+    <div class="f2 blue">CLI</div>
   </div>
   <div class="label red" style="top:40%; left:57%;">
-    <span class="sub i">deeply patronizing</span>
-    <br />
+    <div style="opacity:0;">{' -'}</div>
     <div class="f2">GUI</div>
   </div>
-  <div class="label blue" style="top:50px;">
-    <span class="sub i " style="font-size:1.2rem;">add commands</span>
-    <div>create a markup</div>
+  <div class="label green" style="top:58%; left:7%;">
+    <span class="sub i " style="font-size:1.2rem;">a somehow-good</span>
+    <div class="f2">NLP</div>
+    <span class="sub i " style="font-size:1.2rem;">interface</span>
   </div>
-  <div class="label red" style="bottom:50px;">
-    <span class="sub i " style="font-size:1.2rem;">"wysiwyg"</span>
-    <div>build a UI</div>
-  </div>
+
   <div class="col" style="transform:scaleX(-1); height:600px;">
 
     <svg
@@ -85,6 +92,21 @@
             transform="rotate(23)"
             class="svelte-1lnhtnf" />
         </marker>
+        <marker
+          id="triangle3"
+          viewBox="0 0 10 10"
+          refX="4"
+          refY="6"
+          markerUnits="strokeWidth"
+          markerWidth="9"
+          markerHeight="9"
+          orient="auto">
+          <path
+            d="M 0 0 L 10 4 L 0 10 z"
+            fill="#6accb2"
+            transform="rotate(23)"
+            class="svelte-1lnhtnf" />
+        </marker>
       </defs>
       <path
         class="link svelte-1lnhtnf"
@@ -102,7 +124,7 @@
         marker-end="url(#triangle)" />
 
       <!-- pink parts -->
-      <g transform="scale(0.82)">
+      <!-- <g transform="scale(0.8)">
         <path
           class="link svelte-1lnhtnf"
           d="M8.799847533485712,-32.84147809382832A34,34,0,0,1,32.84147809382832,-8.79984753348571L30.909626441250182,-8.282209443280669A32,32,0,0,0,8.28220944328067,-30.909626441250182Z"
@@ -115,14 +137,23 @@
           stroke="none"
           fill="#F2C0BB"
           stroke-width="1" />
+      </g> -->
+      <g style="scale: -1 1; transform: translate(-70px, 5px);">
+        <path
+          class="link svelte-1lnhtnf"
+          d="M2.9632952534203763,33.87061973511935A34,34,0,0,0,33.87061973511935,2.9632952534203745L31.878230338935857,2.788983767925058A32,32,0,0,1,2.78898376792506,31.878230338935857Z"
+          stroke="none"
+          fill="#6accb2"
+          stroke-width="1"
+          marker-end="url(#triangle3)" />
       </g>
-
     </svg>
   </div>
 
 </div>
 
 <div class="notes">
-  <li>people hate our UIs, especially if they're beautiful</li>
-  <li>i've been both the blue and red arrows in my career</li>
+  <li>never happened</li>
+  <li>throw text at</li>
+  <li>not question-answering!</li>
 </div>
