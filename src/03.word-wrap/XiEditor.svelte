@@ -1,10 +1,9 @@
 <script>
   import Image from '../Components/Image.svelte'
-  import wait from '../Components/wait'
   let images = {
-    src: './src/03.word-wrap/assets/jared-crdt.gif',
-    title: 'text-crdt',
-    sub: 'Jared Forsyth'
+    src: './src/03.word-wrap/assets/xi-editor.png',
+    title: 'Xi-editor',
+    sub: 'Raph Levien'
   }
 </script>
 

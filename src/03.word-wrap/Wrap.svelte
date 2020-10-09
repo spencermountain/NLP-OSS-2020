@@ -12,5 +12,7 @@
 </style>
 
 <div class="box">
-  <Video {...video} />
+  <video class="vid" src={video.src} loop autoplay muted>
+    <track kind="captions" />
+  </video>
 </div>

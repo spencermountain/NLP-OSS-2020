@@ -11,15 +11,17 @@
   import VariableWidth from './VariableWidth.svelte'
   import Insert from './Insert.svelte'
   import Crdt from './Crdt.svelte'
+  import XiEditor from './XiEditor.svelte'
 
   let steps = [
-    Newline,
     Spreadsheet,
     Wrap,
     Insert,
     VariableWidth,
     Spreadsheet2,
-    Crdt
+    Newline,
+    Crdt,
+    XiEditor
   ]
   let i = 0
   // come from backward

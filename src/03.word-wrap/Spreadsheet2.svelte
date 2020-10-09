@@ -57,7 +57,7 @@
     width: 80%;
     height: 80%;
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
-    font-size: 4rem;
+    font-size: 3.5rem;
     border-radius: 5px;
   }
   .diff {
@@ -65,9 +65,9 @@
     color: #d68881;
     position: absolute;
     text-align: left;
-    width: 40%;
-    left: 30%;
-    top: 30%;
+    width: 65%;
+    left: 20%;
+    top: 20%;
   }
 </style>
 
@@ -75,9 +75,9 @@
   <div class="container">
     <div class="overlay">
       <div class="diff i">
-        <li>append-mode</li>
-        <li>word-wrap</li>
-        <li>variable-width fonts</li>
+        <div>✗ append-mode</div>
+        <div>✗ word-wrap</div>
+        <div>✗ variable-width fonts</div>
       </div>
     </div>
     <!-- top row -->
