@@ -11,11 +11,6 @@
     line-height: 7rem;
     color: #8c8c88;
   }
-  .goright {
-    align-self: flex-end;
-    text-align: right;
-    line-height: 8rem;
-  }
   .f3 {
     font-size: 4rem;
   }

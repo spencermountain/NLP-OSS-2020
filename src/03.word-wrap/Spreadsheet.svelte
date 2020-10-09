@@ -74,3 +74,6 @@
 
   </div>
 </div>
+<div class="notes">
+  <li>typewriter was 2D (carriage+scroll)</li>
+</div>

@@ -97,6 +97,9 @@ they can wait.
 - **insert key**
   [ralf xi, forsith demo]
 
+the problem with text has always been there
+we can't turn text into data.
+
 ### text editors
 
 - **refactoring - drake**

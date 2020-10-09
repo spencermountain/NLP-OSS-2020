@@ -7,19 +7,21 @@
   import Question from './Question.svelte'
   import Wikipedia from './Wikipedia.svelte'
   import Escaping from './Escaping.svelte'
-  import Newline from './Newline.svelte'
+  // import Newline from './Newline.svelte'
   import MarkupQuestion from './MarkupQuestion.svelte'
   import Margin from './Margin.svelte'
   import Glimpse from './Glimpse.svelte'
+  import Timeline from './Timeline.svelte'
 
   let steps = [
     Question,
     Wikipedia,
     MarkupQuestion,
     Escaping,
-    Newline,
+    // Newline,
     Margin,
-    Glimpse
+    Glimpse,
+    Timeline
   ]
   let i = 0
   // come from backward
