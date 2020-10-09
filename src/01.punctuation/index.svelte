@@ -14,6 +14,7 @@
   import KeyAsterix from './KeyAsterix.svelte'
   import KeyBrackets from './KeyBrackets.svelte'
   import Tomlinson from './Tomlinson.svelte'
+  import Timeline from './Timeline.svelte'
 
   let steps = [
     Keyboard1,
@@ -25,6 +26,7 @@
     KeyHash,
     KeyAsterix,
     KeyBrackets,
+    Timeline,
     Tomlinson
   ]
   let i = 0

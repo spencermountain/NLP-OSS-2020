@@ -1,5 +1,13 @@
 presentation for [the open-source track](https://nlposs.github.io/2020/index.html) of [EMNLP 2020](https://2020.emnlp.org/).
 
+### todo:
+
+- [compromise pastTense demo]
+- [forsinth, xi editor slide]
+- keyboard focus illustration
+- browser focus illustration
+- code->prose timeline
+
 ---
 
 ### Intro
@@ -54,6 +62,8 @@ they can wait.
   - apollo 8
   - herman miller
 
+-we still don't have chorded, cockpit desk, or sub-document linking.
+
 ### Punctuation
 
 - **keyboard 1**
@@ -64,6 +74,7 @@ they can wait.
   - **hash**
   - **astrix**
   - **brackets**
+    [code->prose timeline]
 - **ray tomlinson**
 
 ### Markup
@@ -77,13 +88,13 @@ they can wait.
 
   [needs work]
 
-- **spreadsheet -> text**
-  a 2d grid of characters
-
 ### Word-wrap
 
+- **spreadsheet -> text**
+  a 2d grid of characters
 - **word-wrap demo**
 - **insert key**
+  [ralf xi, forsith demo]
 
 ### text editors
 
@@ -94,11 +105,13 @@ they can wait.
 
 ### keyboard focus
 
+- [keyboard focus illustration]
+- [browser focus illustration]
+- **spicer**
 - **zelda**- we can't find what's interactable in a computer
 - **cannon-cat**
-
-- **spicer**
   it's never clear what you're typing into
+  [focus-demo]
 
 - **end**
 
