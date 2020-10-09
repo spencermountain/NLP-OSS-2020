@@ -17,6 +17,7 @@
     <i>'prosign'</i>
     - AA 'after all'
   </li>
+  <li>(Samuel Morse)</li>
   <li>punchcards had an overflow character</li>
   <li>typewriter RUNOFF</li>
   <li>there is no plaintext.</li>

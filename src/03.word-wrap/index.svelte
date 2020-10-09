@@ -6,7 +6,8 @@
   // pages
   import Newline from './Newline.svelte'
   import Spreadsheet from './Spreadsheet.svelte'
-  import Spreadsheet2 from './Spreadsheet2.svelte'
+  import SpreadsheetSelect from './SpreadsheetSelect.svelte'
+  import SpreadsheetNo from './SpreadsheetNo.svelte'
   import Wrap from './Wrap.svelte'
   import VariableWidth from './VariableWidth.svelte'
   import Insert from './Insert.svelte'
@@ -16,9 +17,10 @@
   let steps = [
     Spreadsheet,
     Wrap,
+    SpreadsheetSelect,
     Insert,
     VariableWidth,
-    Spreadsheet2,
+    SpreadsheetNo,
     Newline,
     Crdt,
     XiEditor

@@ -6,7 +6,8 @@
 </script>
 
 <div class="box">
-  <Image {...image} />
+  <!-- <Image {...image} /> -->
+  <img src={image.src} alt="" />
 </div>
 
 <div class="notes">
