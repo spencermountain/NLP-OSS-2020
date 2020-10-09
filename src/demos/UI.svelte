@@ -6,7 +6,7 @@
   .screen {
     width: 100%;
     height: 100%;
-    background-image: url('../src/demos/assets/background.png');
+    background-image: url('../src/05.focus/assets/background.png');
     border-top: 20px solid black;
   }
   .row {
@@ -20,35 +20,85 @@
   }
   .window {
     position: relative;
-    height: 70%;
+    height: 90%;
     top: 2%;
+    width: 530px;
+    padding: 10px;
     background-color: white;
     border: 1px solid grey;
     border-top: 22px solid grey;
     border-radius: 5px;
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
     text-align: left;
+    overflow: hidden;
   }
   .text {
-    margin: 20px;
-    margin-top: 5px;
-  }
-  .label {
+    margin: 15px;
     color: grey;
-    margin-top: 3rem;
-    margin-left: 3rem;
+  }
+  .bottom {
+    background-color: #333333;
+    color: #fbfbfb;
+    width: 90%;
+    height: 250px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    align-items: flex-start !important;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
+  .textside {
+    flex: 1;
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px;
+    height: 190px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  .button {
+    background-color: #978ba3;
+    color: white;
+    font-size: 23px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    align-self: flex-end;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2);
   }
 </style>
 
 <div class="box">
-  <div class="screen row">
-    <div class="window">
-      <div class="label i">window A</div>
-      <textarea class="text" />
+  <div class="screen col">
+    <div class="row mt2">
+      <div class="window">
+        <div class="text i">window A</div>
+        <textarea class="area" />
+      </div>
+      <div class="window">
+        <div class="text i">window B</div>
+        <textarea class="area" />
+      </div>
     </div>
-    <div class="window">
-      <div class="label i">window B</div>
-      <textarea class="text" />
+
+    <div class="bottom row">
+      <div class="textside">
+        in west philidelphia born and raised, on the playground is
+      </div>
+      <div style="width:150px;">
+        <div class="button">keep</div>
+      </div>
     </div>
   </div>
 </div>
