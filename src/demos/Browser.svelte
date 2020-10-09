@@ -22,6 +22,7 @@
     position: relative;
     height: 70%;
     top: 2%;
+    width: 600px;
     background-color: white;
     border: 1px solid grey;
     border-top: 22px solid grey;
@@ -38,17 +39,25 @@
     margin-top: 3rem;
     margin-left: 3rem;
   }
+  .address {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    margin: 3px;
+  }
 </style>
 
 <div class="box">
   <div class="screen row">
     <div class="window">
-      <div class="label i">window A</div>
-      <textarea class="text" />
-    </div>
-    <div class="window">
-      <div class="label i">window B</div>
-      <textarea class="text" />
+      <input class="address" value="google.com?q=asdf" />
+      <img
+        src="./src/demos/assets/asdf.png"
+        style="width:700px; margin:0px; box-shadow:none; border-top:3px solid
+        grey;"
+        alt="" />
+      <!-- <div class="label i">window B</div> -->
+      <!-- <textarea class="text" /> -->
     </div>
   </div>
 </div>

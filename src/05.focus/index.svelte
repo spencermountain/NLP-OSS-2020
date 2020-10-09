@@ -4,12 +4,13 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
+  import Focus from './Focus.svelte'
   import Zelda from './Zelda.svelte'
   import CanonCat from './Canon-cat.svelte'
   import Spicer from './Spicer.svelte'
   import Quake from './Quake.svelte'
 
-  let steps = [Spicer, Zelda, CanonCat, Quake]
+  let steps = [Focus, Spicer, Zelda, CanonCat, Quake]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i
