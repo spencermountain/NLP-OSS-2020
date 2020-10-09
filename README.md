@@ -93,8 +93,11 @@ they can wait.
 
 - **spreadsheet -> text**
   a 2d grid of characters
-- **word-wrap demo**
 - **insert key**
+- **word-wrap**
+
+  a text-editor is not a 2D grid of characters
+
   [ralf xi, forsith demo]
 
 the problem with text has always been there

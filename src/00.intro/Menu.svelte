@@ -42,7 +42,7 @@
         </div>
         <div class="f2">
           <span class="num rose">3)</span>
-          Text-editors
+          Word Processing
         </div>
         <!-- <div class="f2">4) Data structure</div> -->
         <div class="f2 rouge">
@@ -53,4 +53,9 @@
     </div>
   </div>
 </div>
-<div class="notes" />
+<div class="notes">
+  <li>1 - actual act of typing</li>
+  <li>2 - punctuation and markup</li>
+  <li>3 - word-wrap & datastructures</li>
+  <li>4 - refactoring sentences, keyboard focus</li>
+</div>
