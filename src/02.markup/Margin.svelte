@@ -2,7 +2,7 @@
   import Image from '../Components/Image.svelte'
   let image = {
     src: './src/02.markup/assets/margin.png',
-    title: 'Margin.love',
+    title: 'Margin',
     sub: 'Alex Gamburg'
   }
 </script>

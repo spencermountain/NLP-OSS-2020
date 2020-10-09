@@ -9,7 +9,8 @@
   import Typewriter from './Typewriter.svelte'
   import TypewriterMag from './TypewriterMag.svelte'
   import Engelbart from './Engelbart.svelte'
-  import Apollo8 from './Apollo8.svelte'
+  import EngelbartApollo from './EngelbartApollo.svelte'
+  import EngelbartMiller from './EngelbartMiller.svelte'
 
   let steps = [
     LoveTyping,
@@ -17,7 +18,8 @@
     Typewriter,
     TypewriterMag,
     Engelbart,
-    Apollo8
+    EngelbartApollo,
+    EngelbartMiller
   ]
   let i = 0
   // come from backward
