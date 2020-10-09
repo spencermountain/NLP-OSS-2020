@@ -9,9 +9,18 @@
   import Escaping from './Escaping.svelte'
   import Newline from './Newline.svelte'
   import MarkupQuestion from './MarkupQuestion.svelte'
+  import Margin from './Margin.svelte'
   import Glimpse from './Glimpse.svelte'
 
-  let steps = [Question, Wikipedia, MarkupQuestion, Escaping, Newline, Glimpse]
+  let steps = [
+    Question,
+    Wikipedia,
+    MarkupQuestion,
+    Escaping,
+    Newline,
+    Margin,
+    Glimpse
+  ]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

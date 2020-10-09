@@ -6867,7 +6867,7 @@ var app = (function () {
 
     const file$6 = "src/01.punctuation/Timeline.svelte";
 
-    // (27:8) <Column>
+    // (36:8) <Column>
     function create_default_slot_2(ctx) {
     	let axis;
     	let current;
@@ -6899,14 +6899,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(27:8) <Column>",
+    		source: "(36:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (30:8) <Column>
+    // (39:8) <Column>
     function create_default_slot_1(ctx) {
     	let label0;
     	let t0;
@@ -6988,14 +6988,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(30:8) <Column>",
+    		source: "(39:8) <Column>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (26:6) <Timeline start="Jan 1 1900" end="Dec 30 2020" height="600">
+    // (35:6) <Timeline start="Jan 1 1900" end="Dec 30 2020" height="600">
     function create_default_slot(ctx) {
     	let column0;
     	let t;
@@ -7068,7 +7068,7 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(26:6) <Timeline start=\\\"Jan 1 1900\\\" end=\\\"Dec 30 2020\\\" height=\\\"600\\\">",
+    		source: "(35:6) <Timeline start=\\\"Jan 1 1900\\\" end=\\\"Dec 30 2020\\\" height=\\\"600\\\">",
     		ctx
     	});
 
@@ -7087,6 +7087,8 @@ var app = (function () {
     	let li1;
     	let t4;
     	let li2;
+    	let t6;
+    	let li3;
     	let current;
 
     	timeline = new Timeline({
@@ -7112,21 +7114,25 @@ var app = (function () {
     			li0.textContent = "the command-line came before prose-editor";
     			t2 = space();
     			li1 = element("li");
-    			li1.textContent = "computer programmers determined the keyboard";
+    			li1.textContent = "20 years of commands-only.";
     			t4 = space();
     			li2 = element("li");
-    			li2.textContent = "now people are writing novels with < key";
+    			li2.textContent = "computer programmers determined the keyboard";
+    			t6 = space();
+    			li3 = element("li");
+    			li3.textContent = "now people are writing novels with < key";
     			set_style(div0, "width", "400px");
-    			add_location(div0, file$6, 24, 4, 393);
-    			attr_dev(div1, "class", "col svelte-1hg4czq");
-    			add_location(div1, file$6, 23, 2, 371);
+    			add_location(div0, file$6, 33, 4, 580);
+    			attr_dev(div1, "class", "row svelte-u9qx7l");
+    			add_location(div1, file$6, 32, 2, 558);
     			attr_dev(div2, "class", "box");
-    			add_location(div2, file$6, 22, 0, 351);
-    			add_location(li0, file$6, 51, 2, 1061);
-    			add_location(li1, file$6, 52, 2, 1114);
-    			add_location(li2, file$6, 53, 2, 1170);
+    			add_location(div2, file$6, 31, 0, 538);
+    			add_location(li0, file$6, 60, 2, 1248);
+    			add_location(li1, file$6, 61, 2, 1301);
+    			add_location(li2, file$6, 62, 2, 1339);
+    			add_location(li3, file$6, 63, 2, 1395);
     			attr_dev(div3, "class", "notes");
-    			add_location(div3, file$6, 50, 0, 1039);
+    			add_location(div3, file$6, 59, 0, 1226);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7143,6 +7149,8 @@ var app = (function () {
     			append_dev(div3, li1);
     			append_dev(div3, t4);
     			append_dev(div3, li2);
+    			append_dev(div3, t6);
+    			append_dev(div3, li3);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {

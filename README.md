@@ -74,16 +74,17 @@ they can wait.
   - **hash**
   - **astrix**
   - **brackets**
-    [code->prose timeline]
 - **ray tomlinson**
+- **code-prose timeline**
 
 ### Markup
 
 - **Question - write data**
 - **wikipedia**
-- **Question 2 - markup lang**
+- **Question 2 - markup lang** - how can a user write data?
 - **Escaping**
 - **Newline morse**
+- **margin-love**
 - **glimpse**
 
   [needs work]

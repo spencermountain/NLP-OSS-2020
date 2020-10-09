@@ -18,10 +18,19 @@
     flex-wrap: wrap;
     align-self: stretch;
   }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+  }
 </style>
 
 <div class="box">
-  <div class="col">
+  <div class="row">
     <div style="width:400px">
       <Timeline start="Jan 1 1900" end="Dec 30 2020" height="600">
         <Column>
@@ -50,6 +59,7 @@
 </div>
 <div class="notes">
   <li>the command-line came before prose-editor</li>
+  <li>20 years of commands-only.</li>
   <li>computer programmers determined the keyboard</li>
   <li>now people are writing novels with &lt; key</li>
 </div>

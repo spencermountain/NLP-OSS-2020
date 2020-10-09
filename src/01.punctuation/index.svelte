@@ -26,8 +26,8 @@
     KeyHash,
     KeyAsterix,
     KeyBrackets,
-    Timeline,
-    Tomlinson
+    Tomlinson,
+    Timeline
   ]
   let i = 0
   // come from backward
