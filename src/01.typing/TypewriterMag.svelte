@@ -17,7 +17,7 @@
 <div class="box">
   <div class="row">
     <div class="">
-      <img src="./src/01.typing/assets/mag-type.png" alt="" width="300px;" />
+      <img src="./src/01.typing/assets/mag-type.png" alt="" width="450px;" />
     </div>
     <div style="width:300px; font-size:1.4rem;" class="">
       “i used to get nervous at the end of the page”

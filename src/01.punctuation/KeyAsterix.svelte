@@ -57,7 +57,7 @@
 
 <div class="box">
   <div class="topWord">
-    <div>*1949</div>
+    <div class="pink">*1949</div>
     <div class="desc">original</div>
   </div>
   <div class="container">
@@ -102,11 +102,11 @@
   </div>
   <div class="bottom">
     <div>
-      <div class="orange" style="font-family: monospace;">x = y * 2</div>
+      <div class="blue" style="font-family: monospace;">x = y * 2</div>
       <div class="desc">engineering</div>
     </div>
     <div>
-      <div class="mud">*gulp*</div>
+      <div class="red">*gulp*</div>
       <div class="desc">adopted</div>
     </div>
   </div>

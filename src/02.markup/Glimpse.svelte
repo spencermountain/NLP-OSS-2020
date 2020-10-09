@@ -16,6 +16,6 @@
   <Video {...video} loop="true" />
 </div>
 <div class="notes">
-  <li>2011</li>
+  <li>ACM conference in 2011</li>
   <li>giving-up on wysiwyg</li>
 </div>

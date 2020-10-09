@@ -27,21 +27,6 @@
   <div class="row">
     <div class="square">
       <img
-        src="./src/01.typing/assets/engelbart/engelbart-1.png"
-        alt=""
-        style="width:450px" />
-    </div>
-    <div class="square">
-      <img
-        src="./src/01.typing/assets/engelbart/engelbart-2.png"
-        alt=""
-        style="width:450px" />
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="square">
-      <img
         src="./src/01.typing/assets/engelbart/engelbart-3.png"
         alt=""
         style="width:450px" />
@@ -50,11 +35,12 @@
       <img
         src="./src/01.typing/assets/herman-miller.jpg"
         alt=""
-        style="width:440px" />
+        style="width:360px" />
     </div>
   </div>
 </div>
 <div class="notes">
   <li>Herman miller</li>
   <li>"walls, desks, surfaces, everything"</li>
+  <li>6 years</li>
 </div>

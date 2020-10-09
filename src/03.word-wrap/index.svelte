@@ -8,8 +8,9 @@
   import Spreadsheet from './Spreadsheet.svelte'
   import Wrap1 from './Wrap.svelte'
   import Insert from './Insert.svelte'
+  import Crdt from './Crdt.svelte'
 
-  let steps = [Newline, Spreadsheet, Wrap1, Insert]
+  let steps = [Newline, Spreadsheet, Wrap1, Insert, Crdt]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

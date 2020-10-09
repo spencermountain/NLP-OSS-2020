@@ -8,7 +8,7 @@
   import Keyboard2 from './Keyboard.2.svelte'
   import Keyboard3 from './Keyboard.3.svelte'
   import KeyTilde from './KeyTilde.svelte'
-  import Tilde from './Tilde.svelte'
+  import KeyTilde2 from './KeyTilde2.svelte'
   import KeyHash from './KeyHash.svelte'
   import KeyAt from './KeyAt.svelte'
   import KeyAsterix from './KeyAsterix.svelte'
@@ -21,13 +21,13 @@
     Keyboard2,
     Keyboard3,
     KeyTilde,
-    // Tilde,
+    KeyTilde2,
     KeyAt,
     KeyHash,
     KeyAsterix,
     KeyBrackets,
-    Tomlinson,
-    Timeline
+    Timeline,
+    Tomlinson
   ]
   let i = 0
   // come from backward

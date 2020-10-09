@@ -51,7 +51,7 @@
             start="March 1 1984"
             end="June 20 2020"
             color="red"
-            label="Awkward relationships with markup + UI" />
+            label="Awkward relationships with markup" />
         </Column>
       </Timeline>
     </div>

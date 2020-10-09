@@ -57,7 +57,7 @@
 
 <div class="box">
   <div class="topWord">
-    <div>El Niño</div>
+    <div class="pink">El Niño</div>
     <div class="desc">original</div>
   </div>
   <div class="container">
@@ -102,11 +102,11 @@
   </div>
   <div class="bottom">
     <div>
-      <div class="orange">~/desktop</div>
+      <div class="blue">~/desktop</div>
       <div class="desc">engineering</div>
     </div>
     <div>
-      <div class="mud">~$250</div>
+      <div class="red">~$250</div>
       <div class="desc">adopted</div>
     </div>
   </div>

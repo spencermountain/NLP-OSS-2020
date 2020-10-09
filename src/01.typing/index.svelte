@@ -18,8 +18,8 @@
     Typewriter,
     TypewriterMag,
     Engelbart,
-    EngelbartApollo,
-    EngelbartMiller
+    EngelbartMiller,
+    EngelbartApollo
   ]
   let i = 0
   // come from backward

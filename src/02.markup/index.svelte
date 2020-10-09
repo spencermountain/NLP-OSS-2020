@@ -10,6 +10,7 @@
   // import Newline from './Newline.svelte'
   import MarkupQuestion from './MarkupQuestion.svelte'
   import Margin from './Margin.svelte'
+  import ArchieML from './ArchieML.svelte'
   import Glimpse from './Glimpse.svelte'
   import Timeline from './Timeline.svelte'
   import Loop from './Loop.svelte'
@@ -23,6 +24,7 @@
     Escaping,
     // Newline,
     Margin,
+    ArchieML,
     Glimpse,
     Timeline,
     Loop,

@@ -57,7 +57,7 @@
 
 <div class="box">
   <div class="topWord">
-    <div>5 shares @ $3</div>
+    <div class="pink">5 shares @ $3</div>
     <div class="desc">original</div>
   </div>
   <div class="container">
@@ -102,11 +102,11 @@
   </div>
   <div class="bottom">
     <div>
-      <div class="orange">ray@arpa.net</div>
+      <div class="blue">ray@arpa.net</div>
       <div class="desc">engineering</div>
     </div>
     <div>
-      <div class="mud">@mention</div>
+      <div class="red">@mention</div>
       <div class="desc">adopted</div>
     </div>
   </div>

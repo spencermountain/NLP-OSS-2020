@@ -57,7 +57,7 @@
 
 <div class="box">
   <div class="topWord">
-    <div>D# Maj</div>
+    <div class="pink">D# Maj</div>
     <div class="desc">original</div>
   </div>
   <div class="container">
@@ -102,11 +102,11 @@
   </div>
   <div class="bottom">
     <div>
-      <div class="orange">#fixme</div>
+      <div class="blue">#fixme</div>
       <div class="desc">engineering</div>
     </div>
     <div>
-      <div class="mud">#blessed</div>
+      <div class="red">#blessed</div>
       <div class="desc">adopted</div>
     </div>
   </div>
