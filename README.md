@@ -74,7 +74,12 @@ they can wait.
   - **hash**
   - **astrix**
   - **brackets**
+    - particularly worried about backslash symbol
 - **ray tomlinson**
+
+  - symbol collision is a real problem
+  - DNA sequences were renamed to avoid being classified as a date in ms excel.
+
 - **code-prose timeline**
 
 ### Markup
@@ -121,6 +126,8 @@ we can't turn text into data.
   [focus-demo]
 
 - **end**
+  - Compromise.cool
+  - Theres also money coming in - from time to time.
 
 ---
 
