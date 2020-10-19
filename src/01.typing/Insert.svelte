@@ -3,10 +3,10 @@
   import wait from '../Components/wait'
   let images = [
     {
-      src: './src/03.word-wrap/assets/insert-1.png'
+      src: './src/01.typing/assets/insert-1.png'
     },
     {
-      src: './src/03.word-wrap/assets/insert-2.png'
+      src: './src/01.typing/assets/insert-2.png'
     }
   ]
   let i = 0

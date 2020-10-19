@@ -32,7 +32,7 @@ presentation for [the open-source track](https://nlposs.github.io/2020/index.htm
 
 ### Keyboards
 
-- **oscars talk** - this is the most-prestiguous stage in western-world
+- **oscars talk** - (JoJo Rabbit) this is the most-prestiguous stage in western-world
 - **mjackson**
 
   - **desks**
@@ -40,13 +40,14 @@ presentation for [the open-source track](https://nlposs.github.io/2020/index.htm
   - **tony abraham**
   - **zoe smith**
   - **steve mann**
-  - [add wolfram]
-    [needs work]
+  - **add wolfram**
     there are now a few trillion-dollar computer companies
     but a \$12 strap around your neck
-
+    summarize new-os thinking
 - **kids typing**
 - **now CLI** - people love typing.
+  - zeit - now vercel
+  - more clear and immediate than web
   [awkward]
 
 ### Typing
@@ -54,13 +55,34 @@ presentation for [the open-source track](https://nlposs.github.io/2020/index.htm
 i have some theories about why people love typing.
 they can wait.
 
-- **typewriter** - nobody liked using typewriters for fun.
-- **magnetic typewriter** - 1969
-- [add engelbart]
+- **typewriter** 
+  - underwood no 5 - 1920s
+  - nobody liked using typewriters for fun.
+    - looks like a torture device
+    - punctuation
+    - 1 key is missing - hammers were overcrowded - 35-40
+- **magnetic typewriter** 
+  - IBM selectric 1969
+- **insert key**
+- [formal-spam]
+- [typewriter-computer] timeline
+  - letter-writing and corresspondance
+  - computers existed for doing math on numbers
+  - they both used keyboards
+
+- **add engelbart**
   we remark at how many features it has,
   but not at how little things have changed in 50 years since.
-  - apollo 8
   - herman miller
+  - 1963-1968 - 6 years
+  - DARPA money - US military
+    - mouse, display, light-pen
+    - SDS 940 - 60 of the machines were sold.
+    - 
+  - apollo 8  - launched at the same time
+  - borman/lovell/anders
+
+- **SDS 940**
 
 -we still don't have chorded, cockpit desk, or sub-document linking.
 
@@ -86,6 +108,11 @@ they can wait.
 
 - **Question - write data**
 - **wikipedia**
+    -[wp as bookshelf] 
+      - desipite being inscrutible, people are doing it
+      - we have a lot of text. users are trying to collaborate.
+    -[visual editor]
+      - there has never been an effective wswyg editor
 - **Question 2 - markup lang** - how can a user write data?
 - **Escaping**
 - **Newline morse**
@@ -98,7 +125,7 @@ they can wait.
 
 - **spreadsheet -> text**
   a 2d grid of characters
-- **insert key**
+
 - **word-wrap**
 
   a text-editor is not a 2D grid of characters
@@ -132,3 +159,4 @@ we can't turn text into data.
 ---
 
 [steno]
+

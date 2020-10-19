@@ -8,6 +8,8 @@
   import NowCLI from './NowCLI.svelte'
   import Typewriter from './Typewriter.svelte'
   import TypewriterMag from './TypewriterMag.svelte'
+  import Insert from './Insert.svelte'
+  import FormalNote from './FormalNote.svelte'
   import Engelbart from './Engelbart.svelte'
   import EngelbartApollo from './EngelbartApollo.svelte'
   import EngelbartMiller from './EngelbartMiller.svelte'
@@ -17,6 +19,8 @@
     NowCLI,
     Typewriter,
     TypewriterMag,
+    Insert,
+    FormalNote,
     Engelbart,
     EngelbartMiller,
     EngelbartApollo

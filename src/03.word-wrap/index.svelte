@@ -10,7 +10,6 @@
   import SpreadsheetNo from './SpreadsheetNo.svelte'
   import Wrap from './Wrap.svelte'
   import VariableWidth from './VariableWidth.svelte'
-  import Insert from './Insert.svelte'
   import Crdt from './Crdt.svelte'
   import XiEditor from './XiEditor.svelte'
 
@@ -18,7 +17,6 @@
     Spreadsheet,
     Wrap,
     SpreadsheetSelect,
-    Insert,
     VariableWidth,
     SpreadsheetNo,
     Newline,
