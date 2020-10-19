@@ -14,7 +14,8 @@
   import KeyAsterix from './KeyAsterix.svelte'
   import KeyBrackets from './KeyBrackets.svelte'
   import Tomlinson from './Tomlinson.svelte'
-  import Timeline from './Timeline.svelte'
+  import Escaping from './Escaping.svelte'
+  // import Timeline from './Timeline.svelte'
 
   let steps = [
     // Keyboard1,
@@ -23,11 +24,12 @@
     KeyTilde,
     KeyTilde2,
     KeyAt,
+    Tomlinson,
     KeyHash,
     KeyAsterix,
     KeyBrackets,
-    Timeline,
-    Tomlinson
+    Escaping
+    // Timeline,
   ]
   let i = 0
   // come from backward

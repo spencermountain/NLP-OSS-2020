@@ -10,6 +10,7 @@
   import TypewriterMag from './TypewriterMag.svelte'
   import Insert from './Insert.svelte'
   import FormalNote from './FormalNote.svelte'
+  import ProseTimeline from './ProseTimeline.svelte'
   import Engelbart from './Engelbart.svelte'
   import EngelbartApollo from './EngelbartApollo.svelte'
   import EngelbartMiller from './EngelbartMiller.svelte'
@@ -26,6 +27,7 @@
     Insert,
     FormalNote,
     SplitHistory,
+    ProseTimeline,
     Engelbart,
     EngelbartMiller,
     EngelbartApollo,

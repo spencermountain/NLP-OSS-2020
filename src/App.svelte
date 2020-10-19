@@ -3,8 +3,8 @@
   setContext('size', { width: 1280, height: 720 })
   import Start from './Start.svelte'
   import Intro from './00.intro/index.svelte'
-  import Keyboards from './01.keyboards/index.svelte'
-  import Typing from './01.typing/index.svelte'
+  import Keyboards from './01.00.keyboards/index.svelte'
+  import Typing from './01.02.typing/index.svelte'
   import Punctuation from './01.punctuation/index.svelte'
   import Markup from './02.markup/index.svelte'
   import Wrapping from './03.word-wrap/index.svelte'

@@ -61,7 +61,7 @@
 
 <div class="notes">
   <li>attention for mouse, but choosing a typewriter input is notable</li>
-  <li>we're stuck with this</li>
+  <li>children learning keyboarding in school</li>
   <li>we're maxed for keys (dexterity of hands)</li>
   <li>just english!</li>
 </div>

@@ -4,8 +4,9 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import Newline from './Newline.svelte'
+  import Monospace from './Monospace.svelte'
   import Spreadsheet from './Spreadsheet.svelte'
+  import Newline from './Newline.svelte'
   import SpreadsheetSelect from './SpreadsheetSelect.svelte'
   import SpreadsheetNo from './SpreadsheetNo.svelte'
   import Wrap from './Wrap.svelte'
@@ -14,6 +15,7 @@
   import XiEditor from './XiEditor.svelte'
 
   let steps = [
+    Monospace,
     Spreadsheet,
     Wrap,
     SpreadsheetSelect,

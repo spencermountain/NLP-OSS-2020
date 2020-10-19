@@ -36,7 +36,7 @@
       <div class="square">
         <img
           style="height:320px;"
-          src="./src/02.markup/assets/injection.jpg"
+          src="./src/01.punctuation/assets/injection.jpg"
           alt="" />
       </div>
     </div>

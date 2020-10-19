@@ -39,18 +39,20 @@
         <Column>
           <Label
             start="January 1 1900"
-            end="Feb 20 1965"
+            end="December 1968"
             color="pink"
             label="Typewriters" />
           <Label
-            start="January 1 1965"
-            end="Feb 20 1984"
+            start="January 1945"
+            end="December 1968"
             color="blue"
-            label="Command-line" />
+            label="Command-line"
+            dodge="50px" />
           <Label
-            start="March 1 1984"
+            start="December 1968"
             end="June 20 2020"
             color="red"
+            dodge="50px"
             label="Prose" />
         </Column>
       </Timeline>

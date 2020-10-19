@@ -108,11 +108,6 @@ they can wait.
 
 - **Question - write data**
 - **wikipedia**
-    -[wp as bookshelf] 
-      - desipite being inscrutible, people are doing it
-      - we have a lot of text. users are trying to collaborate.
-    -[visual editor]
-      - there has never been an effective wswyg editor
 - **Question 2 - markup lang** - how can a user write data?
 - **Escaping**
 - **Newline morse**
@@ -160,3 +155,8 @@ we can't turn text into data.
 
 [steno]
 
+    -[wp as bookshelf] 
+      - desipite being inscrutible, people are doing it
+      - we have a lot of text. users are trying to collaborate.
+    -[visual editor]
+      - there has never been an effective wswyg editor

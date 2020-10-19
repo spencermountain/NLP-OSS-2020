@@ -6,7 +6,6 @@
   // pages
   import Question from './Question.svelte'
   import Wikipedia from './Wikipedia.svelte'
-  import Escaping from './Escaping.svelte'
   // import Newline from './Newline.svelte'
   import MarkupQuestion from './MarkupQuestion.svelte'
   import Margin from './Margin.svelte'
@@ -21,7 +20,7 @@
     Question,
     Wikipedia,
     MarkupQuestion,
-    Escaping,
+    // Escaping,
     // Newline,
     Margin,
     ArchieML,

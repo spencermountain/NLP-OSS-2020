@@ -1,7 +1,7 @@
 <script>
   import Image from '../Components/Image.svelte'
   let image = {
-    src: './src/02.markup/assets/injection.jpg'
+    src: './src/01.punctuation/assets/injection.jpg'
   }
 </script>
 
