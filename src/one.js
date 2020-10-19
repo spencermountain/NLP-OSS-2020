@@ -8,10 +8,10 @@
 // import App from './03.word-wrap/Spreadsheet2.svelte'
 // import App from './03.word-wrap/SpreadsheetSelect.svelte'
 // import App from './demos/Browser.svelte'
-// import App from './demos/Demo.svelte'
+import App from './demos/Demo.svelte'
 // import App from './demos/UI.svelte'
 // import App from './demos/Monospace.svelte'
-import App from './demos/Sentences.svelte'
+// import App from './demos/Sentences.svelte'
 
 var app = new App({
   target: document.body,

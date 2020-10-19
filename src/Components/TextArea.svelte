@@ -9,7 +9,7 @@
   })
   export let width = '60%'
   export let height = '162px'
-  export let size = '2rem'
+  export let size = '2.2rem'
   const callback = function(e) {
     cb(e.target.value)
   }
@@ -23,8 +23,7 @@
     margin: 0.3em 0.6em 0.3rem 5px;
     width: 60%;
     max-width: 50rem;
-    font-size: 2rem;
-    line-height: 1.5;
+    /* line-height: 2; */
     outline: 0;
     border: 0;
     border-radius: 0.4rem;
