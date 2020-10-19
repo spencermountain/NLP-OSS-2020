@@ -15,13 +15,14 @@
   import Loop from './Loop.svelte'
   import LoopPink from './LoopPink.svelte'
   import LoopNLP from './LoopNLP.svelte'
+  import Newline from './Newline.svelte'
 
   let steps = [
     Question,
     Wikipedia,
     MarkupQuestion,
     // Escaping,
-    // Newline,
+    Newline,
     Margin,
     ArchieML,
     Glimpse,

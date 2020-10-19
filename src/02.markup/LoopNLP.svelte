@@ -27,15 +27,6 @@
     line-height: 35px;
     opacity: 0.7;
   }
-  .onleft {
-    position: absolute;
-    left: 7%;
-    top: 25%;
-    text-align: left;
-    font-size: 1.8rem;
-    line-height: 3.5rem;
-    color: #e6b3bc;
-  }
 </style>
 
 <div class="box" style="position:relative; width:100%;">

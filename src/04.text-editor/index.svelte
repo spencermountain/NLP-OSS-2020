@@ -6,8 +6,9 @@
   // pages
   import Drake from './Drake.svelte'
   import Timeline from './Timeline.svelte'
+  import Menu from './Menu.svelte'
 
-  let steps = [Drake, Timeline]
+  let steps = [Drake, Timeline, Menu]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

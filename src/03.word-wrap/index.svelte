@@ -6,11 +6,11 @@
   // pages
   import Monospace from './Monospace.svelte'
   import Spreadsheet from './Spreadsheet.svelte'
-  import Newline from './Newline.svelte'
   import SpreadsheetSelect from './SpreadsheetSelect.svelte'
-  import SpreadsheetNo from './SpreadsheetNo.svelte'
   import Wrap from './Wrap.svelte'
   import VariableWidth from './VariableWidth.svelte'
+  import NotSpreadsheet from './NotSpreadsheet.svelte'
+  import SplayTree from './SplayTree.svelte'
   import Crdt from './Crdt.svelte'
   import XiEditor from './XiEditor.svelte'
 
@@ -20,8 +20,8 @@
     Wrap,
     SpreadsheetSelect,
     VariableWidth,
-    SpreadsheetNo,
-    Newline,
+    NotSpreadsheet,
+    SplayTree,
     Crdt,
     XiEditor
   ]
