@@ -2,9 +2,10 @@
   import Video from '../Components/Video.svelte'
   import wait from '../Components/wait'
   let video = {
-    src: './src/01.typing/assets/now-cli.mp4',
-    title: 'Now CLI',
-    sub: 'by Guillermo Rauch'
+    src: './src/01.00.keyboards/assets/oscars-talk.mp4',
+    title: 'Taika Waititi',
+    sub: 'at the 2020 Oscars',
+    mute: false
   }
 </script>
 

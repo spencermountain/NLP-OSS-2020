@@ -28,11 +28,11 @@
     <div class="row">
       <img
         style="height:350px;"
-        src="./src/01.keyboards/assets/tony-1.png"
+        src="./src/01.00.keyboards/assets/tony-1.png"
         alt="" />
       <img
         style="height:350px;"
-        src="./src/01.keyboards/assets/tony-3.png"
+        src="./src/01.00.keyboards/assets/tony-3.png"
         alt="" />
     </div>
   </div>

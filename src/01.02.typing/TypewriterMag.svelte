@@ -17,25 +17,15 @@
 <div class="box">
   <div class="row">
     <div class="">
-      <img
-        src="./src/01.keyboards/assets/wolfram-desk.jpg"
-        alt=""
-        width="500px;" />
+      <img src="./src/01.02.typing/assets/mag-type.png" alt="" width="450px;" />
     </div>
     <div style="width:300px; font-size:1.4rem;" class="">
-      “after minor modifications,
-      <br />
-      I discovered that I could
-      <br />
-      walk and type
-      <br />
-      perfectly well with it,
-      <br />
-      even for a couple of hours.”
+      “i used to get nervous at the end of the page”
     </div>
   </div>
 </div>
 <div class="notes">
-  <li>Wolfram</li>
-  <li>there are now several $1T computer manufacturers</li>
+  <li>IBM Selectric Magnetic tape</li>
+  <li>almost 'word processing'</li>
+  <li>re-played a page like a player-piano</li>
 </div>

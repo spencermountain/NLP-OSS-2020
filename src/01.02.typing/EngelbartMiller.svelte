@@ -21,32 +21,26 @@
   img {
     border: none !important;
   }
-  .label {
-    position: absolute;
-    bottom: 100px;
-    left: 40%;
-    font-size: 2rem;
-  }
 </style>
 
 <div class="box m2">
   <div class="row">
     <div class="square">
       <img
-        src="./src/01.typing/assets/engelbart/engelbart-3.png"
+        src="./src/01.02.typing/assets/engelbart/engelbart-3.png"
         alt=""
         style="width:450px" />
     </div>
     <div class="square">
       <img
-        src="./src/01.typing/assets/apollo8.jpg"
+        src="./src/01.02.typing/assets/herman-miller.jpg"
         alt=""
-        style="width:440px" />
+        style="width:360px" />
     </div>
   </div>
-  <div class="label">December 9, 1968</div>
 </div>
 <div class="notes">
-  <li>first manned-mission of Saturn V</li>
-  <li>debates about the greatest machine ever built</li>
+  <li>Herman miller</li>
+  <li>"walls, desks, surfaces, everything"</li>
+  <li>6 years</li>
 </div>

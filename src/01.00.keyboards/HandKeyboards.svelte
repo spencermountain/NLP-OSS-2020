@@ -28,7 +28,7 @@
     <div class="row">
       <video
         style="margin-bottom:0px; "
-        src="./src/01.keyboards/assets/hand-computer.mp4"
+        src="./src/01.00.keyboards/assets/hand-computer.mp4"
         loop="true"
         autoplay
         muted>
@@ -36,7 +36,7 @@
       </video>
       <img
         style="height:300px;"
-        src="./src/01.keyboards/assets/septambic.jpg"
+        src="./src/01.00.keyboards/assets/septambic.jpg"
         alt="" />
     </div>
   </div>

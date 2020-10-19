@@ -30,7 +30,7 @@
       <div class="square">
         <img
           style="width:450px;"
-          src="./src/01.keyboards/assets/wolfram-desk.jpg"
+          src="./src/01.00.keyboards/assets/wolfram-desk.jpg"
           alt="" />
       </div>
       <div class="square">

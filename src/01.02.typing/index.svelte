@@ -15,6 +15,8 @@
   import EngelbartMiller from './EngelbartMiller.svelte'
   import SplitHistory from './SplitHistory.svelte'
   import Sds940 from './SDS940.svelte'
+  import Keyboard1 from './Keyboard.1.svelte'
+  import LightPen from './LightPen.svelte'
 
   let steps = [
     LoveTyping,
@@ -25,9 +27,11 @@
     FormalNote,
     SplitHistory,
     Engelbart,
-    EngelbartApollo,
     EngelbartMiller,
-    Sds940
+    EngelbartApollo,
+    Sds940,
+    Keyboard1,
+    LightPen
   ]
   let i = 0
   // come from backward

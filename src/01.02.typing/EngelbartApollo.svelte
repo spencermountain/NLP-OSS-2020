@@ -21,39 +21,32 @@
   img {
     border: none !important;
   }
+  .label {
+    position: absolute;
+    bottom: 100px;
+    left: 40%;
+    font-size: 2rem;
+  }
 </style>
 
 <div class="box m2">
   <div class="row">
     <div class="square">
       <img
-        src="./src/01.typing/assets/engelbart/engelbart-1.png"
+        src="./src/01.02.typing/assets/engelbart/engelbart-3.png"
         alt=""
         style="width:450px" />
     </div>
     <div class="square">
       <img
-        src="./src/01.typing/assets/engelbart/engelbart-2.png"
+        src="./src/01.02.typing/assets/apollo8.jpg"
         alt=""
-        style="width:450px" />
+        style="width:440px" />
     </div>
   </div>
-
-  <div class="row">
-    <div class="square">
-      <img
-        src="./src/01.typing/assets/engelbart/engelbart-3.png"
-        alt=""
-        style="width:450px" />
-    </div>
-    <div class="square f2">
-      Mother of all Demos
-      <div class="f1 grey">1968</div>
-    </div>
-  </div>
+  <div class="label">December 9, 1968</div>
 </div>
 <div class="notes">
-  <li>douglas engelbart - 1968</li>
-  <li>invented the cursor</li>
-  <li>herman miller</li>
+  <li>first manned-mission of Saturn V</li>
+  <li>debates about the greatest machine ever built</li>
 </div>

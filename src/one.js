@@ -3,7 +3,7 @@
 // import App from './01.punctuation/KeyTilde2.svelte'
 // import App from './02.markup/Newline.svelte'
 // import App from './02.markup/LoopNLP.svelte'
-import App from './01.typing/FormalNote.svelte'
+import App from './01.02.typing/Keyboard.1.svelte'
 // import App from './04.word-wrap/Wrap.svelte'
 // import App from './03.word-wrap/Spreadsheet2.svelte'
 // import App from './03.word-wrap/SpreadsheetSelect.svelte'

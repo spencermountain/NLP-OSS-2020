@@ -1,7 +1,7 @@
 <script>
   import Image from '../Components/Image.svelte'
   let image = {
-    src: './src/01.typing/assets/split-history.png'
+    src: './src/01.02.typing/assets/split-history.png'
   }
 </script>
 

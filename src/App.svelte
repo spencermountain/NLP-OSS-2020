@@ -25,6 +25,7 @@
     Focus,
     End
   ]
+  $: step = steps[i]
   let doEnd = false
   function prev() {
     if (i > 0) {
@@ -43,6 +44,7 @@
   }
   function changeIt(e) {
     i = parseInt(e.target.value, 10)
+    console.log(i, e.target.value)
 
     e.preventDefault()
   }
@@ -59,14 +61,15 @@
     on:click={e => e.preventDefault()}
     on:change={changeIt}
     on:blur={() => {}}>
-    <option value="0">intro</option>
-    <option value="1">keyboards</option>
-    <option value="2">typing</option>
-    <option value="3">punctuation</option>
-    <option value="4">markup</option>
-    <option value="5">wrapping</option>
-    <option value="6">text-editor</option>
-    <option value="7">focus</option>
+    <option value="0">start</option>
+    <option value="1">compromise</option>
+    <option value="2">keyboards</option>
+    <option value="3">typing</option>
+    <option value="4">punctuation</option>
+    <option value="5">markup</option>
+    <option value="6">wrapping</option>
+    <option value="7">text-editor</option>
+    <option value="8">focus</option>
   </select>
 </div>
-<svelte:component this={steps[i]} {done} {prev} {doEnd} />
+<svelte:component this={step} {done} {prev} {doEnd} />

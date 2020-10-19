@@ -45,7 +45,7 @@
     <div>
       <img
         style="width:400px;"
-        src="./src/01.typing/assets/secretary.jpg"
+        src="./src/01.02.typing/assets/secretary.jpg"
         alt="" />
     </div>
     <div class="letter">

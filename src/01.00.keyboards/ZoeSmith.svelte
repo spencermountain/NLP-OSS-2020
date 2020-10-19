@@ -28,11 +28,11 @@
     <div class="row">
       <img
         style="height:500px;"
-        src="./src/01.keyboards/assets/zoe-smith.jpg"
+        src="./src/01.00.keyboards/assets/zoe-smith.jpg"
         alt="" />
       <img
         style="height:450px;"
-        src="./src/01.keyboards/assets/zoe-2.jpeg"
+        src="./src/01.00.keyboards/assets/zoe-2.jpeg"
         alt="" />
     </div>
   </div>

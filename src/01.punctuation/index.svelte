@@ -4,7 +4,7 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import Keyboard1 from './Keyboard.1.svelte'
+  // import Keyboard1 from './Keyboard.1.svelte'
   import Keyboard2 from './Keyboard.2.svelte'
   import Keyboard3 from './Keyboard.3.svelte'
   import KeyTilde from './KeyTilde.svelte'
@@ -17,7 +17,7 @@
   import Timeline from './Timeline.svelte'
 
   let steps = [
-    Keyboard1,
+    // Keyboard1,
     Keyboard2,
     Keyboard3,
     KeyTilde,
