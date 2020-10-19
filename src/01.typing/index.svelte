@@ -13,6 +13,8 @@
   import Engelbart from './Engelbart.svelte'
   import EngelbartApollo from './EngelbartApollo.svelte'
   import EngelbartMiller from './EngelbartMiller.svelte'
+  import SplitHistory from './SplitHistory.svelte'
+  import Sds940 from './SDS940.svelte'
 
   let steps = [
     LoveTyping,
@@ -21,9 +23,11 @@
     TypewriterMag,
     Insert,
     FormalNote,
+    SplitHistory,
     Engelbart,
+    EngelbartApollo,
     EngelbartMiller,
-    EngelbartApollo
+    Sds940
   ]
   let i = 0
   // come from backward
