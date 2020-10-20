@@ -4,20 +4,12 @@
     Column,
     Line,
     Label,
+    Horizontal,
     Axis
   } from '/Users/spencer/mountain/somehow-timeline/src'
 </script>
 
 <style>
-  .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    align-self: stretch;
-  }
   .row {
     display: flex;
     flex-direction: row;
@@ -33,6 +25,8 @@
   <div class="row">
     <div style="width:400px">
       <Timeline start="Jan 1 1900" end="Dec 30 2020" height="600">
+        <Horizontal date="December 1968" left="30%" color="red" width="60%" />
+
         <Column>
           <Axis />
         </Column>
@@ -49,11 +43,11 @@
             label="Command-line"
             dodge="50px" />
           <Label
-            start="December 1968"
+            start="Aug 1969"
             end="June 20 2020"
             color="red"
             dodge="50px"
-            label="Prose" />
+            label="Prose in computers" />
         </Column>
       </Timeline>
     </div>

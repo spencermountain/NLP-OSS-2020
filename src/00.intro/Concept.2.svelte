@@ -4,7 +4,8 @@
   let video = {
     src: './src/00.intro/assets/desktop-neo.mp4',
     title: 'Desktop Neo',
-    sub: 'by Lennart Ziburski'
+    sub: 'by Lennart Ziburski',
+    loop: true
   }
   // {
   //   src: './src/00.intro/assets/vr-os.mp4',

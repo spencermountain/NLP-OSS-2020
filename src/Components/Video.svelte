@@ -3,11 +3,10 @@
   export let title = ''
   export let sub = ''
   export let loop = false
+  export let mute = true
 </script>
 
 <style>
-  video {
-  }
   .caption {
     position: absolute;
     top: 80%;
@@ -49,7 +48,7 @@
   </div>
 {/if}
 <div class="m3">
-  <video class="vid" {src} {loop} autoplay muted>
+  <video class="vid" {src} {loop} autoplay muted={mute}>
     <track kind="captions" />
   </video>
 </div>

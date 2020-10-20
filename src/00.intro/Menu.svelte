@@ -38,16 +38,15 @@
         </div>
         <div class="f2">
           <span class="num pink">2)</span>
-          Markup languages
+          <span style="color:#AB5850;">Markup languages</span>
         </div>
         <div class="f2">
           <span class="num rose">3)</span>
-          Word Processing
+          <span style="color:#8BA3A2;">Word Processing</span>
         </div>
-        <!-- <div class="f2">4) Data structure</div> -->
         <div class="f2 rouge">
           <span class="num">4)</span>
-          Novel interactions
+          <span style="color:#d8b3e6;">Novel interaction</span>
         </div>
       </div>
     </div>

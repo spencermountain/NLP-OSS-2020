@@ -13,7 +13,7 @@ presentation for [the open-source track](https://nlposs.github.io/2020/index.htm
 ### Intro
 
 - **compromise**
-  - **timeline**
+  - **timeline** - 100 contributors
   - **accuracy**
   - **filesize**
   - **latency**

@@ -3,19 +3,19 @@
 </script>
 
 <style>
-  .dark {
-    background-color: #333333;
-  }
   .main {
-    color: #fbfbfb;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.2); */
+    /* background-color: #333333; */
+    /* color: #fbfbfb; */
+    color: #6699cc;
     font-size: 45px;
-    width: 100%;
     padding-top: 100px;
     align-items: flex-start;
     justify-content: flex-start;
   }
   .todo {
-    height: 120px;
+    height: 110px;
   }
   .nope {
     font-style: italic;
@@ -24,7 +24,7 @@
   }
 </style>
 
-<div class="box dark">
+<div class="box">
   <div class="main">
     <div class="todo nope">◻️ - go to germany</div>
     <div class="todo nope">◻️ - start swimming at the Ymca</div>
