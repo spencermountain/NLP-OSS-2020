@@ -5,6 +5,7 @@
   export let doEnd = false
   // pages
   import Compromise from './Compromise.svelte'
+  import PastTenseDemo from './PastTenseDemo.svelte'
   import History from './Compromise-history.svelte'
   import Size from './Compromise-size.svelte'
   import Latency from './Compromise-latency.svelte'
@@ -24,6 +25,7 @@
   let steps = [
     // Splash,
     Compromise,
+    PastTenseDemo,
     History,
     Accuracy,
     Size,
