@@ -2,6 +2,7 @@ import svelte from 'rollup-plugin-svelte'
 import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import livereload from 'rollup-plugin-livereload'
+import json from '@rollup/plugin-json'
 
 let input = `./src/index.js`
 if (process.argv[4] === 'one') {
@@ -49,6 +50,7 @@ export default {
       browser: true,
       dedupe: ['svelte'],
     }),
+    json(),
     commonjs(),
     serve(),
     livereload('.'),

@@ -9,13 +9,14 @@
     "svelte": "^3.24.0"
   },
   "devDependencies": {
-    "svelte-check": "^1.0.0",
     "@rollup/plugin-commonjs": "13.0.0",
+    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "8.1.0",
     "rollup": "2.18.1",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "6.1.0",
-    "serve": "^11.3.0"
+    "serve": "^11.3.0",
+    "svelte-check": "^1.0.0"
   }
 }
