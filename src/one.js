@@ -14,7 +14,7 @@
 // import App from './demos/flip.svelte'
 // import App from './demos/UI.svelte'
 // import App from './demos/Monospace.svelte'
-import App from './demos/Sentences.svelte'
+import App from './demos/Poe.svelte'
 
 var app = new App({
   target: document.body,

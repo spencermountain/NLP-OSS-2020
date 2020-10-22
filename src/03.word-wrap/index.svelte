@@ -8,6 +8,7 @@
   import Spreadsheet from './Spreadsheet.svelte'
   import SpreadsheetSelect from './SpreadsheetSelect.svelte'
   import Wrap from './Wrap.svelte'
+  import Poe from './Poe.svelte'
   import VariableWidth from './VariableWidth.svelte'
   import NotSpreadsheet from './NotSpreadsheet.svelte'
   import SplayTree from './SplayTree.svelte'
@@ -18,6 +19,7 @@
     Monospace,
     Spreadsheet,
     Wrap,
+    Poe,
     SpreadsheetSelect,
     VariableWidth,
     NotSpreadsheet,
