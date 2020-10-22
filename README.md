@@ -1,13 +1,8 @@
 presentation for [the open-source track](https://nlposs.github.io/2020/index.html) of [EMNLP 2020](https://2020.emnlp.org/).
 
 ### todo:
-
-- [compromise pastTense demo]
-- [forsinth, xi editor slide]
-- keyboard focus illustration
-- browser focus illustration
-- code->prose timeline
-
+- poe as plaintext
+- add demos
 ---
 
 ### Intro
@@ -70,7 +65,7 @@ they can wait.
   - computers existed for doing math on numbers
   - they both used keyboards
 
-- **add engelbart**
+- **engelbart**
   we remark at how many features it has,
   but not at how little things have changed in 50 years since.
   - herman miller
@@ -83,8 +78,9 @@ they can wait.
   - borman/lovell/anders
 
 - **SDS 940**
-
--we still don't have chorded, cockpit desk, or sub-document linking.
+- **keyboard**
+- **lightpen**
+  -we still don't have chorded, cockpit desk, or sub-document linking.
 
 ### Punctuation
 
@@ -102,7 +98,6 @@ they can wait.
   - symbol collision is a real problem
   - DNA sequences were renamed to avoid being classified as a date in ms excel.
 
-- **code-prose timeline**
 
 ### Markup
 

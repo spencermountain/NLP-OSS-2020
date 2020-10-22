@@ -7,8 +7,12 @@
   import Drake from './Drake.svelte'
   import Timeline from './Timeline.svelte'
   import Menu from './Menu.svelte'
+  import Anaphor from './Anaphor.svelte'
+  import Dates from './Dates.svelte'
+  import Modal from './Modal.svelte'
+  import Numbers from './Numbers.svelte'
 
-  let steps = [Drake, Timeline, Menu]
+  let steps = [Drake, Timeline, Menu, Anaphor, Numbers, Dates, Modal]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

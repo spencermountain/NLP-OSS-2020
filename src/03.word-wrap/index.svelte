@@ -22,8 +22,8 @@
     VariableWidth,
     NotSpreadsheet,
     SplayTree,
-    Crdt,
-    XiEditor
+    XiEditor,
+    Crdt
   ]
   let i = 0
   // come from backward
