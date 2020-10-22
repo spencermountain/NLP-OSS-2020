@@ -13,7 +13,7 @@
   import Numbers from './Numbers.svelte'
   import Sentences from './Sentences.svelte'
 
-  let steps = [Drake, Timeline, Menu, Anaphor, Sentences, Numbers, Modal, Dates]
+  let steps = [Drake, Timeline, Menu, Anaphor, Sentences, Numbers, Dates, Modal]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

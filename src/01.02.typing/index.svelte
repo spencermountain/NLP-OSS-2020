@@ -28,10 +28,11 @@
     FormalNote,
     SplitHistory,
     ProseTimeline,
+    //
     Engelbart,
+    Sds940,
     EngelbartMiller,
     EngelbartApollo,
-    Sds940,
     Keyboard1,
     LightPen
   ]

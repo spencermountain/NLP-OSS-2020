@@ -1,7 +1,7 @@
 <script>
   import Video from '../Components/Video.svelte'
   import wait from '../Components/wait'
-  let src = './src/04.text-editor/assets/poe.mp4'
+  let src = './src/03.word-wrap/assets/poe.mp4'
 </script>
 
 <style>

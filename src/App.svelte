@@ -54,6 +54,7 @@
 
 </style>
 
+<!-- 
 <div>part: {i}</div>
 <div>
   <select
@@ -71,5 +72,5 @@
     <option value="7">text-editor</option>
     <option value="8">focus</option>
   </select>
-</div>
+</div> -->
 <svelte:component this={step} {done} {prev} {doEnd} />

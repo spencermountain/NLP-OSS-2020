@@ -34,7 +34,7 @@ body {
   max-height: 720px;
   overflow: none;
   margin: 20px;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
 }
 .notes {
   color: #8c8c88;
