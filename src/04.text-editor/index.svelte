@@ -11,8 +11,9 @@
   import Dates from './Dates.svelte'
   import Modal from './Modal.svelte'
   import Numbers from './Numbers.svelte'
+  import Sentences from './Sentences.svelte'
 
-  let steps = [Drake, Timeline, Menu, Anaphor, Numbers, Dates, Modal]
+  let steps = [Drake, Timeline, Menu, Anaphor, Sentences, Numbers, Modal, Dates]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

@@ -7,14 +7,14 @@
 // import App from './04.word-wrap/Wrap.svelte'
 // import App from './03.word-wrap/Spreadsheet2.svelte'
 // import App from './03.word-wrap/SpreadsheetSelect.svelte'
-import App from './04.text-editor/Dates.svelte'
+// import App from './04.text-editor/Dates.svelte'
 // import App from './demos/Browser.svelte'
 // import App from './demos/Anaphor.svelte'
 // import App from './demos/Modal.svelte'
 // import App from './demos/flip.svelte'
 // import App from './demos/UI.svelte'
 // import App from './demos/Monospace.svelte'
-// import App from './demos/Sentences.svelte'
+import App from './demos/Sentences.svelte'
 
 var app = new App({
   target: document.body,
