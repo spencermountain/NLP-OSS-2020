@@ -10,8 +10,9 @@
   import CanonCat from './Canon-cat.svelte'
   import Spicer from './Spicer.svelte'
   import Quake from './Quake.svelte'
+  import Conclusion from './Conclusion.svelte'
 
-  let steps = [Focus, Spicer, Zelda, Browser, CanonCat, Quake]
+  let steps = [Focus, Spicer, Zelda, Browser, CanonCat, Quake, Conclusion]
   let i = 0
   // come from backward
   i = doEnd === true ? steps.length - 1 : i

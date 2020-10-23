@@ -37,6 +37,7 @@ body {
   /* border: 1px solid grey; */
 }
 .notes {
+  display: none;
   color: #8c8c88;
   font-size: 26px;
   line-height: 2rem;

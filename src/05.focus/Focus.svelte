@@ -11,5 +11,6 @@
 </style>
 
 <div class="box">
+  <div style="align-self:flex-start">keyboard focus:</div>
   <Video {...video} />
 </div>

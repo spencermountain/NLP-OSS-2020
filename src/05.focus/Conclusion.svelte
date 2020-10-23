@@ -37,23 +37,25 @@
   .btn {
     width: 50px;
   }
+  .arrow {
+    font-size: 3rem;
+  }
 </style>
 
-<button class="btn" id="view-fullscreen" on:click={fullScreen}>^</button>
-<svelte:body on:keydown={done} on:click={done} />
 <div class="box">
   <div class="container">
     <div class="row">
       <div class="square">
         <img
-          style="width:450px;"
-          src="./src/01.00.keyboards/assets/wolfram-desk.jpg"
+          style="width:350px;"
+          src="./src/01.02.typing/assets/engelbart/engelbart-3.png"
           alt="" />
       </div>
+      <div class="arrow">➔</div>
       <div class="square">
         <img
-          style="height:320px;"
-          src="./src/01.punctuation/assets/injection.jpg"
+          style="height:220px; box-shadow: none;"
+          src="./src/05.focus/assets/keyboard.png"
           alt="" />
       </div>
     </div>
@@ -61,16 +63,16 @@
     <div class="row">
       <div class="square">
         <img
-          style="width:450px;"
-          src="./src/00.intro/assets/splash.png"
+          style="width:300px; margin-top:4rem; box-shadow: none;"
+          src="./src/05.focus/assets/loop.png"
           alt="" />
       </div>
-      <div class="square f4">
-        On typing
-        <div class="f1">
-          NLP-OSS 2020
-          <span class="blue ">@spencermountain</span>
-        </div>
+      <div class="arrow">➔</div>
+      <div class="square">
+        <img
+          style="width:450px; box-shadow: none;"
+          src="./src/05.focus/assets/cursor.png"
+          alt="" />
       </div>
     </div>
   </div>

@@ -39,7 +39,7 @@
   }
 </style>
 
-<button class="btn" id="view-fullscreen" on:click={fullScreen}>^</button>
+<!-- <button class="btn" id="view-fullscreen" on:click={fullScreen}>^</button> -->
 <svelte:body on:keydown={done} on:click={done} />
 <div class="box">
   <div class="container">
