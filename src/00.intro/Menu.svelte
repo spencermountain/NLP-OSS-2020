@@ -33,20 +33,24 @@
     <div>
       <div style="text-align:left;" class="ml3">
         <div class="f2">
-          <span class="num red">1)</span>
+          <span class="num red">↓</span>
           Keyboards
         </div>
         <div class="f2">
-          <span class="num pink">2)</span>
-          <span style="color:#AB5850;">Markup languages</span>
+          <span class="num pink">↓</span>
+          <span style="color:#AB5850;">Punctuation</span>
         </div>
         <div class="f2">
-          <span class="num rose">3)</span>
-          <span style="color:#8BA3A2;">Word Processing</span>
+          <span class="num blue">↓</span>
+          <span style="color:#6699cc;">Markup languages</span>
+        </div>
+        <div class="f2">
+          <span class="num rose">↓</span>
+          <span style="color:#8BA3A2;">Data structures</span>
         </div>
         <div class="f2 rouge">
-          <span class="num">4)</span>
-          <span style="color:#d8b3e6;">Novel interaction</span>
+          <span class="num">↓</span>
+          <span style="color:#d8b3e6;">NLP interface</span>
         </div>
       </div>
     </div>

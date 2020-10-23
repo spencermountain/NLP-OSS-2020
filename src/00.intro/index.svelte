@@ -4,7 +4,7 @@
   export let prev = () => {}
   export let doEnd = false
   // pages
-  import Start from './Start.svelte'
+  // import Start from './Start.svelte'
   import Compromise from './Compromise.svelte'
   import PastTenseDemo from './PastTenseDemo.svelte'
   import History from './Compromise-history.svelte'
@@ -24,7 +24,7 @@
   import So2020 from './2020.svelte'
 
   let steps = [
-    Start,
+    // Start,
     Compromise,
     PastTenseDemo,
     History,
